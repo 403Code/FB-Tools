@@ -1,5 +1,5 @@
 <h1 align="center">
-  Facebook Tools
+  Facebook Tools V1.0
 </h1>
 <h4 align="center">
   Simple Facebook Tools
