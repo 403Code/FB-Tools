@@ -65,6 +65,13 @@ cd $HOME/FB-Tools
 python run.py
 ```
 
+## Updating tool
+```
+cd $HOME/FB-Tools
+git pull
+python setup.py
+```
+
 ## Contact
 1. Facebook [here](https://www.facebook.com/mynameisnanta).
 2. Telegram [here](https://t.me/folhe1tz666).
