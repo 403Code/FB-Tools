@@ -46,6 +46,7 @@
 ### v1.0 :
 #### Changelog :
 * Add Tools
+* [5 Aug 2022] - Fix module name error
 
 ## Install script on Termux
 ```
