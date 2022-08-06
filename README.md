@@ -47,6 +47,7 @@
 #### Changelog :
 * Add Tools
 * [5 Aug 2022] - Fix module name error
+* [6 Aug 2022] - Fix countdown
 
 ## Install script on Termux
 ```
