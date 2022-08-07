@@ -80,3 +80,4 @@ python setup.py
 ## Donation
 1. [Trakteer](https://trakteer.id/d.izzy)
 2. [Saweria](https://saweria.co/zeryuu)
+3. [Nyawer](https://nyawer.co/zeryuu)
