@@ -48,6 +48,7 @@
 * Add Tools
 * [5 Aug 2022] - Fix module name error
 * [6 Aug 2022] - Fix countdown
+* [17 Aug 2022] - Add Logout (clear session) & Bot Share
 
 ## Install script on Termux
 ```
