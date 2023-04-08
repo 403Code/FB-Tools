@@ -3,5 +3,4 @@ requests
 BeautifulSoup4
 inquirer
 rich
-pycryptodome
 bs4
