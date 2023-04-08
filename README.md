@@ -40,9 +40,9 @@
 * Auto Groups Takeover Checker
 * Profile Picture Guard
 * Mass Post Remover
-* Mass Unblock People
-* Bot Share<div><img src="https://raw.githubusercontent.com/MieRebus47/MieRebus47/main/picture/new.gif" alt="new"/></div>
-* FB Video Downloader<div><img src="https://raw.githubusercontent.com/MieRebus47/MieRebus47/main/picture/new.gif" alt="new"/></div>
+* Mass Unblock People 
+* Bot Share ![new](https://raw.githubusercontent.com/MieRebus47/MieRebus47/main/picture/new.gif)
+* FB Video Downloader ![new](https://raw.githubusercontent.com/MieRebus47/MieRebus47/main/picture/new.gif)
 
 ## Version
 ### v1.0 :
