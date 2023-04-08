@@ -81,8 +81,9 @@ git pull
 python setup.py
 ```
 
-# Request / Ask something?
+## Request / Ask something?
 - Discuss [here](https://github.com/MieRebus47/FB-Tools/discussions/1)!
+
 ## Contact
 - Facebook [here](https://www.facebook.com/your.nanta).
 
