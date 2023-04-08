@@ -31,7 +31,7 @@
   Made with ❤️ by <a href="https://github.com/MieRebus47">Nanta</a>
 </p>
 <p align="center">
- <img src="https://raw.githubusercontent.com/MieRebus47/MieRebus47/main/Screenshot_2022-08-04-20-50-53-75.jpg" width="640" title="Menu" alt="Menu">
+ <img src="https://raw.githubusercontent.com/MieRebus47/MieRebus47/main/picture/Screenshot_2023-04-08-23-18-34-62.jpg" width="640" title="Menu" alt="Menu">
 </p>
 
 ## Features
