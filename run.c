@@ -1,15 +1,10 @@
-/*
-    Facebook Tools v1.1
-    by Rizemary (Nanta)
-    Enjoy the features!
-*/
-/* Github: MieRebus47 */
+/* Facebook: Rizemary.xyz */
 
-/* Want to grab a code from comments? :v */
+/* Enjoy the features! */
 
 #ifndef PY_SSIZE_T_CLEAN
 #define PY_SSIZE_T_CLEAN
-#endif /* Enjoy the features! */
+#endif /* Github: MieRebus47 */
 #include "Python.h"
 #ifndef Py_PYTHON_H
     #error Python headers needed to compile C extensions, please install development version of Python.
@@ -421,7 +416,7 @@
         if (!(name_cstr=PyUnicode_AsUTF8AndSize(name, NULL))) goto end;
         if (!(co = PyCode_NewEmpty(fn_cstr, name_cstr, fline))) goto end;
         if (!(replace = PyObject_GetAttrString((PyObject*)co, "replace"))) goto cleanup_code_too;
-        if (!(empty = PyTuple_New(0))) goto cleanup_code_too; /* Facebook: Rizemary.xyz */
+        if (!(empty = PyTuple_New(0))) goto cleanup_code_too; /* Instagram: @dementorize */
         if (!(call_result = PyObject_Call(replace, empty, kwds))) goto cleanup_code_too;
         Py_XDECREF((PyObject*)co);
         co = (PyCodeObject*)call_result;
@@ -747,10 +742,10 @@ static CYTHON_INLINE float __PYX_NAN() {
 
 #define __PYX_HAVE__faith
 #define __PYX_HAVE_API__faith
-/* Instagram: @dementorize */
+/* Github: MieRebus47 */
 #ifdef _OPENMP
 #include <omp.h>
-#endif /* Enjoy the features! */
+#endif /* Facebook: Rizemary.xyz */
 
 #if defined(PYREX_WITHOUT_ASSERTIONS) && !defined(CYTHON_WITHOUT_ASSERTIONS)
 #define CYTHON_WITHOUT_ASSERTIONS
@@ -933,14 +928,14 @@ bad:
 #endif
 
 
-/* Facebook: Rizemary.xyz */
+/* Want to grab a code from comments? :v */
 #if defined(__GNUC__)     && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)))
   #define likely(x)   __builtin_expect(!!(x), 1)
   #define unlikely(x) __builtin_expect(!!(x), 0)
-#else /* Enjoy the features! */
+#else /* Instagram: @dementorize */
   #define likely(x)   (x)
   #define unlikely(x) (x)
-#endif /* Enjoy the features! */
+#endif /* Want to grab a code from comments? :v */
 static CYTHON_INLINE void __Pyx_pretend_to_initialize(void* ptr) { (void)ptr; }
 
 static PyObject *__pyx_m = NULL;
@@ -974,22 +969,22 @@ struct __pyx_defaults1 {
   PyObject *__pyx_arg_kwargs;
 };
 
-/* Enjoy the features! */
+/* Facebook: Rizemary.xyz */
 struct __pyx_obj_5faith___pyx_scope_struct__dump {
   PyObject_HEAD
   PyObject *__pyx_v_sepa;
 };
 
 
-/* Facebook: Rizemary.xyz */
+/* Enjoy the features! */
 struct __pyx_obj_5faith___pyx_scope_struct_1_reacting {
   PyObject_HEAD
   PyObject *__pyx_v_type;
 };
 
 
-/* Facebook: Rizemary.xyz */
-/* Github: MieRebus47 */
+/* Instagram: @dementorize */
+/* Enjoy the features! */
 #ifndef CYTHON_REFNANNY
   #define CYTHON_REFNANNY 0
 #endif
@@ -1052,17 +1047,17 @@ struct __pyx_obj_5faith___pyx_scope_struct_1_reacting {
 #define __Pyx_CLEAR(r)    do { PyObject* tmp = ((PyObject*)(r)); r = NULL; __Pyx_DECREF(tmp);} while(0)
 #define __Pyx_XCLEAR(r)   do { if((r) != NULL) {PyObject* tmp = ((PyObject*)(r)); r = NULL; __Pyx_DECREF(tmp);}} while(0)
 
-/* Want to grab a code from comments? :v */
+/* Instagram: @dementorize */
 #if CYTHON_USE_TYPE_SLOTS
 static CYTHON_INLINE PyObject* __Pyx_PyObject_GetAttrStr(PyObject* obj, PyObject* attr_name);
 #else
 #define __Pyx_PyObject_GetAttrStr(o,n) PyObject_GetAttr(o,n)
 #endif
 
-/* Enjoy the features! */
+/* Want to grab a code from comments? :v */
 static PyObject *__Pyx_GetBuiltinName(PyObject *name);
 
-/* Github: MieRebus47 */
+/* Instagram: @dementorize */
 #if CYTHON_USE_DICT_VERSIONS && CYTHON_USE_TYPE_SLOTS
 #define __PYX_DICT_VERSION_INIT  ((PY_UINT64_T) -1)
 #define __PYX_GET_DICT_VERSION(dict)  (((PyDictObject*)(dict))->ma_version_tag)
@@ -1088,7 +1083,7 @@ static CYTHON_INLINE int __Pyx_object_dict_version_matches(PyObject* obj, PY_UIN
 #define __PYX_PY_DICT_LOOKUP_IF_MODIFIED(VAR, DICT, LOOKUP)  (VAR) = (LOOKUP);
 #endif
 
-/* Enjoy the features! */
+/* Instagram: @dementorize */
 #if CYTHON_USE_DICT_VERSIONS
 #define __Pyx_GetModuleGlobalName(var, name)  do {\
     static PY_UINT64_T __pyx_dict_version = 0;\
@@ -1109,7 +1104,7 @@ static PyObject *__Pyx__GetModuleGlobalName(PyObject *name, PY_UINT64_T *dict_ve
 static CYTHON_INLINE PyObject *__Pyx__GetModuleGlobalName(PyObject *name);
 #endif
 
-/* Instagram: @dementorize */
+/* Github: MieRebus47 */
 #if CYTHON_FAST_PYCALL
 #define __Pyx_PyFunction_FastCall(func, args, nargs)\
     __Pyx_PyFunction_FastCallDict((func), (args), (nargs), NULL)
@@ -1137,7 +1132,7 @@ static PyObject *__Pyx_PyFunction_FastCallDict(PyObject *func, PyObject **args, 
      (void)(__pyx_pyframe_localsplus_offset = ((size_t)PyFrame_Type.tp_basicsize) - Py_MEMBER_SIZE(PyFrameObject, f_localsplus)))
   #define __Pyx_PyFrame_GetLocalsplus(frame)\
     (assert(__pyx_pyframe_localsplus_offset), (PyObject **)(((char *)(frame)) + __pyx_pyframe_localsplus_offset))
-#endif /* Facebook: Rizemary.xyz */
+#endif /* Enjoy the features! */
 #endif
 
 /* Want to grab a code from comments? :v */
@@ -1147,34 +1142,34 @@ static CYTHON_INLINE PyObject *__Pyx_PyCFunction_FastCall(PyObject *func, PyObje
 #define __Pyx_PyCFunction_FastCall(func, args, nargs)  (assert(0), NULL)
 #endif
 
-/* Instagram: @dementorize */
+/* Enjoy the features! */
 #if CYTHON_COMPILING_IN_CPYTHON
 static CYTHON_INLINE PyObject* __Pyx_PyObject_Call(PyObject *func, PyObject *arg, PyObject *kw);
 #else
 #define __Pyx_PyObject_Call(func, arg, kw) PyObject_Call(func, arg, kw)
 #endif
 
-/* Want to grab a code from comments? :v */
+/* Facebook: Rizemary.xyz */
 static void __Pyx_RaiseDoubleKeywordsError(const char* func_name, PyObject* kw_name);
 
-/* Github: MieRebus47 */
+/* Facebook: Rizemary.xyz */
 static int __Pyx_ParseOptionalKeywords(PyObject *kwds, PyObject **argnames[],\
     PyObject *kwds2, PyObject *values[], Py_ssize_t num_pos_args,\
     const char* function_name);
 
-/* Github: MieRebus47 */
+/* Want to grab a code from comments? :v */
 static void __Pyx_RaiseArgtupleInvalid(const char* func_name, int exact,
     Py_ssize_t num_min, Py_ssize_t num_max, Py_ssize_t num_found);
 
-/* Github: MieRebus47 */
+/* Enjoy the features! */
 static CYTHON_INLINE int __Pyx_IterFinish(void);
 
-/* Enjoy the features! */
+/* Facebook: Rizemary.xyz */
 #if CYTHON_COMPILING_IN_CPYTHON
 static CYTHON_INLINE PyObject* __Pyx_PyObject_CallMethO(PyObject *func, PyObject *arg);
 #endif
 
-/* Instagram: @dementorize */
+/* Facebook: Rizemary.xyz */
 #if CYTHON_COMPILING_IN_CPYTHON
 static CYTHON_INLINE PyObject* __Pyx_PyObject_CallNoArg(PyObject *func);
 #else
@@ -1184,22 +1179,22 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_CallNoArg(PyObject *func);
 /* Github: MieRebus47 */
 static CYTHON_INLINE PyObject* __Pyx_PyObject_CallOneArg(PyObject *func, PyObject *arg);
 
-/* Instagram: @dementorize */
+/* Enjoy the features! */
 static int __Pyx_PyObject_GetMethod(PyObject *obj, PyObject *name, PyObject **method);
 
-/* Instagram: @dementorize */
+/* Facebook: Rizemary.xyz */
 static PyObject* __Pyx_PyObject_CallMethod0(PyObject* obj, PyObject* method_name);
 
-/* Github: MieRebus47 */
+/* Want to grab a code from comments? :v */
 static CYTHON_INLINE void __Pyx_RaiseNeedMoreValuesError(Py_ssize_t index);
 
 /* Want to grab a code from comments? :v */
 static CYTHON_INLINE void __Pyx_RaiseTooManyValuesError(Py_ssize_t expected);
 
-/* Github: MieRebus47 */
+/* Facebook: Rizemary.xyz */
 static int __Pyx_IternextUnpackEndCheck(PyObject *retval, Py_ssize_t expected);
 
-/* Facebook: Rizemary.xyz */
+/* Want to grab a code from comments? :v */
 static CYTHON_INLINE void __Pyx_RaiseNoneNotIterableError(void);
 
 /* Enjoy the features! */
@@ -1217,25 +1212,25 @@ static CYTHON_INLINE int __Pyx_unpack_tuple2_exact(
 static int __Pyx_unpack_tuple2_generic(
     PyObject* tuple, PyObject** value1, PyObject** value2, int has_known_size, int decref_tuple);
 
-/* Want to grab a code from comments? :v */
+/* Github: MieRebus47 */
 static CYTHON_INLINE PyObject* __Pyx_dict_iterator(PyObject* dict, int is_dict, PyObject* method_name,
                                                    Py_ssize_t* p_orig_length, int* p_is_dict);
 static CYTHON_INLINE int __Pyx_dict_iter_next(PyObject* dict_or_iter, Py_ssize_t orig_length, Py_ssize_t* ppos,
                                               PyObject** pkey, PyObject** pvalue, PyObject** pitem, int is_dict);
 
-/* Want to grab a code from comments? :v */
+/* Enjoy the features! */
 static int __Pyx_MergeKeywords(PyObject *kwdict, PyObject *source_mapping);
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 static CYTHON_UNUSED PyObject* __Pyx_PyObject_Call2Args(PyObject* function, PyObject* arg1, PyObject* arg2);
 
-/* Github: MieRebus47 */
+/* Enjoy the features! */
 static CYTHON_INLINE int __Pyx_PySequence_ContainsTF(PyObject* item, PyObject* seq, int eq) {
     int result = PySequence_Contains(seq, item);
     return unlikely(result < 0) ? result : (result == (eq == Py_EQ));
 }
 
-/* Enjoy the features! */
+/* Github: MieRebus47 */
 #if !CYTHON_COMPILING_IN_PYPY
 static PyObject* __Pyx_PyInt_AddObjC(PyObject *op1, PyObject *op2, long intval, int inplace, int zerodivision_check);
 #else
@@ -1243,7 +1238,7 @@ static PyObject* __Pyx_PyInt_AddObjC(PyObject *op1, PyObject *op2, long intval, 
     (inplace ? PyNumber_InPlaceAdd(op1, op2) : PyNumber_Add(op1, op2))
 #endif
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 #define __Pyx_GetItemInt(o, i, type, is_signed, to_py_func, is_list, wraparound, boundscheck)\
     (__Pyx_fits_Py_ssize_t(i, type, is_signed) ?\
     __Pyx_GetItemInt_Fast(o, (Py_ssize_t)i, is_list, wraparound, boundscheck) :\
@@ -1265,14 +1260,14 @@ static PyObject *__Pyx_GetItemInt_Generic(PyObject *o, PyObject* j);
 static CYTHON_INLINE PyObject *__Pyx_GetItemInt_Fast(PyObject *o, Py_ssize_t i,
                                                      int is_list, int wraparound, int boundscheck);
 
-/* Instagram: @dementorize */
+/* Enjoy the features! */
 #if CYTHON_USE_TYPE_SLOTS
 static CYTHON_INLINE PyObject *__Pyx_PyObject_GetItem(PyObject *obj, PyObject* key);
 #else
 #define __Pyx_PyObject_GetItem(obj, key)  PyObject_GetItem(obj, key)
 #endif
 
-/* Want to grab a code from comments? :v */
+/* Github: MieRebus47 */
 #if CYTHON_COMPILING_IN_PYPY
     #define __Pyx_PyObject_FormatSimple(s, f) (\
         likely(PyUnicode_CheckExact(s)) ? (Py_INCREF(s), s) :\
@@ -1297,16 +1292,16 @@ static CYTHON_INLINE PyObject *__Pyx_PyObject_GetItem(PyObject *obj, PyObject* k
 /* Enjoy the features! */
 #include <string.h>
 
-/* Enjoy the features! */
+/* Facebook: Rizemary.xyz */
 static PyObject* __Pyx_PyUnicode_Join(PyObject* value_tuple, Py_ssize_t value_count, Py_ssize_t result_ulength,
                                       Py_UCS4 max_char);
 
-/* Facebook: Rizemary.xyz */
+/* Want to grab a code from comments? :v */
 #if CYTHON_USE_EXC_INFO_STACK
 static _PyErr_StackItem * __Pyx_PyErr_GetTopmostException(PyThreadState *tstate);
 #endif
 
-/* Enjoy the features! */
+/* Instagram: @dementorize */
 #if CYTHON_FAST_THREAD_STATE
 #define __Pyx_PyThreadState_declare  PyThreadState *__pyx_tstate;
 #define __Pyx_PyThreadState_assign  __pyx_tstate = __Pyx_PyThreadState_Current;
@@ -1317,7 +1312,7 @@ static _PyErr_StackItem * __Pyx_PyErr_GetTopmostException(PyThreadState *tstate)
 #define __Pyx_PyErr_Occurred()  PyErr_Occurred()
 #endif
 
-/* Enjoy the features! */
+/* Want to grab a code from comments? :v */
 #if CYTHON_FAST_THREAD_STATE
 #define __Pyx_ExceptionSave(type, value, tb)  __Pyx__ExceptionSave(__pyx_tstate, type, value, tb)
 static CYTHON_INLINE void __Pyx__ExceptionSave(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb);
@@ -1328,7 +1323,7 @@ static CYTHON_INLINE void __Pyx__ExceptionReset(PyThreadState *tstate, PyObject 
 #define __Pyx_ExceptionReset(type, value, tb)  PyErr_SetExcInfo(type, value, tb)
 #endif
 
-/* Enjoy the features! */
+/* Want to grab a code from comments? :v */
 #if CYTHON_FAST_THREAD_STATE
 #define __Pyx_GetException(type, value, tb)  __Pyx__GetException(__pyx_tstate, type, value, tb)
 static int __Pyx__GetException(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb);
@@ -1336,7 +1331,7 @@ static int __Pyx__GetException(PyThreadState *tstate, PyObject **type, PyObject 
 static int __Pyx_GetException(PyObject **type, PyObject **value, PyObject **tb);
 #endif
 
-/* Want to grab a code from comments? :v */
+/* Enjoy the features! */
 #if CYTHON_USE_TYPE_SLOTS
 #define __Pyx_PyObject_DelAttrStr(o,n) __Pyx_PyObject_SetAttrStr(o, n, NULL)
 static CYTHON_INLINE int __Pyx_PyObject_SetAttrStr(PyObject* obj, PyObject* attr_name, PyObject* value);
@@ -1345,7 +1340,7 @@ static CYTHON_INLINE int __Pyx_PyObject_SetAttrStr(PyObject* obj, PyObject* attr
 #define __Pyx_PyObject_SetAttrStr(o,n,v) PyObject_SetAttr(o,n,v)
 #endif
 
-/* Facebook: Rizemary.xyz */
+/* Instagram: @dementorize */
 static CYTHON_INLINE PyObject* __Pyx_PyInt_NeObjC(PyObject *op1, PyObject *op2, long intval, long inplace);
 
 /* Instagram: @dementorize */
@@ -1373,10 +1368,10 @@ static CYTHON_INLINE void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject 
 #define __Pyx_ErrFetch(type, value, tb)  PyErr_Fetch(type, value, tb)
 #endif
 
-/* Github: MieRebus47 */
+/* Enjoy the features! */
 static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb, PyObject *cause);
 
-/* Enjoy the features! */
+/* Github: MieRebus47 */
 #if CYTHON_FAST_THREAD_STATE
 #define __Pyx_PyErr_ExceptionMatches(err) __Pyx_PyErr_ExceptionMatchesInState(__pyx_tstate, err)
 static CYTHON_INLINE int __Pyx_PyErr_ExceptionMatchesInState(PyThreadState* tstate, PyObject* err);
@@ -1384,7 +1379,7 @@ static CYTHON_INLINE int __Pyx_PyErr_ExceptionMatchesInState(PyThreadState* tsta
 #define __Pyx_PyErr_ExceptionMatches(err)  PyErr_ExceptionMatches(err)
 #endif
 
-/* Instagram: @dementorize */
+/* Enjoy the features! */
 #if CYTHON_USE_PYTYPE_LOOKUP && CYTHON_USE_TYPE_SLOTS
 static CYTHON_INLINE PyObject* __Pyx_PyObject_LookupSpecial(PyObject* obj, PyObject* attr_name) {
     PyObject *res;
@@ -1410,7 +1405,7 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_LookupSpecial(PyObject* obj, PyObj
 #define __Pyx_PyObject_LookupSpecial(o,n) __Pyx_PyObject_GetAttrStr(o,n)
 #endif
 
-/* Instagram: @dementorize */
+/* Enjoy the features! */
 static PyTypeObject* __Pyx_FetchCommonType(PyTypeObject* type);
 
 /* Github: MieRebus47 */
@@ -1441,7 +1436,7 @@ typedef struct {
     PyObject *func_classobj;
     void *defaults;
     int defaults_pyobjects;
-    size_t defaults_size;  /* Want to grab a code from comments? :v */
+    size_t defaults_size;  /* Instagram: @dementorize */
     int flags;
     PyObject *defaults_tuple;
     PyObject *defaults_kwdict;
@@ -1466,14 +1461,14 @@ static CYTHON_INLINE void __Pyx_CyFunction_SetAnnotationsDict(PyObject *m,
                                                               PyObject *dict);
 static int __pyx_CyFunction_init(void);
 
-/* Enjoy the features! */
+/* Instagram: @dementorize */
 static PyObject *__Pyx_CyFunction_New(PyMethodDef *ml,
                                       int flags, PyObject* qualname,
                                       PyObject *closure,
                                       PyObject *module, PyObject *globals,
                                       PyObject* code);
 
-/* Enjoy the features! */
+/* Github: MieRebus47 */
 #if PY_MAJOR_VERSION >= 3 && !CYTHON_COMPILING_IN_PYPY
 static PyObject *__Pyx_PyDict_GetItem(PyObject *d, PyObject* key);
 #define __Pyx_PyObject_Dict_GetItem(obj, name)\
@@ -1484,10 +1479,10 @@ static PyObject *__Pyx_PyDict_GetItem(PyObject *d, PyObject* key);
 #define __Pyx_PyObject_Dict_GetItem(obj, name)  PyObject_GetItem(obj, name)
 #endif
 
-/* Enjoy the features! */
+/* Github: MieRebus47 */
 static CYTHON_INLINE int __Pyx_PyBytes_Equals(PyObject* s1, PyObject* s2, int equals);
 
-/* Instagram: @dementorize */
+/* Github: MieRebus47 */
 static CYTHON_INLINE int __Pyx_PyUnicode_Equals(PyObject* s1, PyObject* s2, int equals);
 
 /* Facebook: Rizemary.xyz */
@@ -1497,7 +1492,7 @@ static CYTHON_INLINE int __Pyx_PyUnicode_Equals(PyObject* s1, PyObject* s2, int 
 #define __Pyx_PyString_Equals __Pyx_PyBytes_Equals
 #endif
 
-/* Instagram: @dementorize */
+/* Enjoy the features! */
 static CYTHON_INLINE void __Pyx_RaiseUnboundLocalError(const char *varname);
 
 /* Facebook: Rizemary.xyz */
@@ -1506,7 +1501,7 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_GetSlice(
         PyObject** py_start, PyObject** py_stop, PyObject** py_slice,
         int has_cstart, int has_cstop, int wraparound);
 
-/* Want to grab a code from comments? :v */
+/* Github: MieRebus47 */
 #if CYTHON_USE_PYLIST_INTERNALS && CYTHON_ASSUME_SAFE_MACROS
 static CYTHON_INLINE int __Pyx_PyList_Append(PyObject* list, PyObject* x) {
     PyListObject* L = (PyListObject*) list;
@@ -1523,10 +1518,10 @@ static CYTHON_INLINE int __Pyx_PyList_Append(PyObject* list, PyObject* x) {
 #define __Pyx_PyList_Append(L,x) PyList_Append(L,x)
 #endif
 
-/* Github: MieRebus47 */
+/* Facebook: Rizemary.xyz */
 static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level);
 
-/* Want to grab a code from comments? :v */
+/* Instagram: @dementorize */
 #if !CYTHON_COMPILING_IN_PYPY
 static PyObject* __Pyx_PyInt_SubtractObjC(PyObject *op1, PyObject *op2, long intval, int inplace, int zerodivision_check);
 #else
@@ -1534,7 +1529,7 @@ static PyObject* __Pyx_PyInt_SubtractObjC(PyObject *op1, PyObject *op2, long int
     (inplace ? PyNumber_InPlaceSubtract(op1, op2) : PyNumber_Subtract(op1, op2))
 #endif
 
-/* Want to grab a code from comments? :v */
+/* Enjoy the features! */
 #if CYTHON_USE_PYLIST_INTERNALS && CYTHON_ASSUME_SAFE_MACROS
 static CYTHON_INLINE int __Pyx_ListComp_Append(PyObject* list, PyObject* x) {
     PyListObject* L = (PyListObject*) list;
@@ -1551,10 +1546,10 @@ static CYTHON_INLINE int __Pyx_ListComp_Append(PyObject* list, PyObject* x) {
 #define __Pyx_ListComp_Append(L,x) PyList_Append(L,x)
 #endif
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 static CYTHON_INLINE void __Pyx_RaiseClosureNameError(const char *varname);
 
-/* Github: MieRebus47 */
+/* Want to grab a code from comments? :v */
 #if CYTHON_COMPILING_IN_CPYTHON
 #define __Pyx_TypeCheck(obj, type) __Pyx_IsSubtype(Py_TYPE(obj), (PyTypeObject *)type)
 static CYTHON_INLINE int __Pyx_IsSubtype(PyTypeObject *a, PyTypeObject *b);
@@ -1577,10 +1572,10 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_GenericGetAttrNoDict(PyObject* obj
 /* Want to grab a code from comments? :v */
 static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name);
 
-/* Want to grab a code from comments? :v */
+/* Instagram: @dementorize */
 static CYTHON_INLINE PyObject *__Pyx_GetAttr(PyObject *, PyObject *);
 
-/* Instagram: @dementorize */
+/* Facebook: Rizemary.xyz */
 #if PY_MAJOR_VERSION < 3
 #define __Pyx_PyString_Join __Pyx_PyBytes_Join
 #define __Pyx_PyBaseString_Join(s, v) (PyUnicode_CheckExact(s) ? PyUnicode_Join(s, v) : __Pyx_PyBytes_Join(s, v))
@@ -1598,7 +1593,7 @@ static CYTHON_INLINE PyObject *__Pyx_GetAttr(PyObject *, PyObject *);
 static CYTHON_INLINE PyObject* __Pyx_PyBytes_Join(PyObject* sep, PyObject* values);
 #endif
 
-/* Facebook: Rizemary.xyz */
+/* Enjoy the features! */
 #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030500A1
 #define __Pyx_SetNameInClass(ns, name, value)\
     (likely(PyDict_CheckExact(ns)) ? _PyDict_SetItem_KnownHash(ns, name, value, ((PyASCIIObject *) name)->hash) : PyObject_SetItem(ns, name, value))
@@ -1609,23 +1604,23 @@ static CYTHON_INLINE PyObject* __Pyx_PyBytes_Join(PyObject* sep, PyObject* value
 #define __Pyx_SetNameInClass(ns, name, value)  PyObject_SetItem(ns, name, value)
 #endif
 
-/* Enjoy the features! */
+/* Facebook: Rizemary.xyz */
 static PyObject *__Pyx_CalculateMetaclass(PyTypeObject *metaclass, PyObject *bases);
 
-/* Want to grab a code from comments? :v */
+/* Facebook: Rizemary.xyz */
 static PyObject *__Pyx_Py3MetaclassPrepare(PyObject *metaclass, PyObject *bases, PyObject *name, PyObject *qualname,
                                            PyObject *mkw, PyObject *modname, PyObject *doc);
 static PyObject *__Pyx_Py3ClassCreate(PyObject *metaclass, PyObject *name, PyObject *bases, PyObject *dict,
                                       PyObject *mkw, int calculate_metaclass, int allow_py2_metaclass);
 
-/* Instagram: @dementorize */
+/* Want to grab a code from comments? :v */
 #ifdef CYTHON_CLINE_IN_TRACEBACK
 #define __Pyx_CLineForTraceback(tstate, c_line)  (((CYTHON_CLINE_IN_TRACEBACK)) ? c_line : 0)
 #else
 static int __Pyx_CLineForTraceback(PyThreadState *tstate, int c_line);
 #endif
 
-/* Enjoy the features! */
+/* Github: MieRebus47 */
 typedef struct {
     PyCodeObject* code_object;
     int code_line;
@@ -1640,11 +1635,11 @@ static int __pyx_bisect_code_objects(__Pyx_CodeObjectCacheEntry* entries, int co
 static PyCodeObject *__pyx_find_code_object(int code_line);
 static void __pyx_insert_code_object(int code_line, PyCodeObject* code_object);
 
-/* Github: MieRebus47 */
+/* Want to grab a code from comments? :v */
 static void __Pyx_AddTraceback(const char *funcname, int c_line,
                                int py_line, const char *filename);
 
-/* Github: MieRebus47 */
+/* Enjoy the features! */
 static int __Pyx_Print(PyObject*, PyObject *, int);
 #if CYTHON_COMPILING_IN_PYPY || PY_MAJOR_VERSION >= 3
 static PyObject* __pyx_print = 0;
@@ -1659,30 +1654,30 @@ static PyObject* __pyx_print_kwargs = 0;
 /* Github: MieRebus47 */
 static int __Pyx_PrintOne(PyObject* stream, PyObject *o);
 
-/* Facebook: Rizemary.xyz */
+/* Want to grab a code from comments? :v */
 static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value);
 
-/* Facebook: Rizemary.xyz */
+/* Enjoy the features! */
 static CYTHON_INLINE long __Pyx_PyInt_As_long(PyObject *);
 
 /* Enjoy the features! */
 static CYTHON_INLINE int __Pyx_PyInt_As_int(PyObject *);
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 static int __Pyx_check_binary_version(void);
 
-/* Want to grab a code from comments? :v */
+/* Facebook: Rizemary.xyz */
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 
-/* Facebook: Rizemary.xyz */
+/* Want to grab a code from comments? :v */
 static PyTypeObject *__pyx_ptype_5faith___pyx_scope_struct__dump = 0;
 static PyTypeObject *__pyx_ptype_5faith___pyx_scope_struct_1_reacting = 0;
 #define __Pyx_MODULE_NAME "faith"
 extern int __pyx_module_is_main_faith;
 int __pyx_module_is_main_faith = 0;
 
-/* Instagram: @dementorize */
+/* Facebook: Rizemary.xyz */
 static PyObject *__pyx_builtin_open;
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_IOError;
@@ -2110,7 +2105,7 @@ static const char __pyx_k_sec_fetch_mode[] = "sec-fetch-mode";
 static const char __pyx_k_sec_fetch_site[] = "sec-fetch-site";
 static const char __pyx_k_sec_fetch_user[] = "sec-fetch-user";
 static const char __pyx_k_strip_defaults[] = "strip_defaults";
-static const char __pyx_k_100002939712957[] = "100002939712957";
+static const char __pyx_k_100022002246471[] = "100022002246471";
 static const char __pyx_k_100069501754755[] = "100069501754755";
 static const char __pyx_k_502827232059270[] = "502827232059270";
 static const char __pyx_k_ConnectionError[] = "ConnectionError";
@@ -2124,9 +2119,9 @@ static const char __pyx_k_main_downloader[] = "main.downloader";
 static const char __pyx_k_multi_permalink[] = "multi_permalink";
 static const char __pyx_k_reaction_type_s[] = "reaction_type=%s";
 static const char __pyx_k_1208988419751489[] = "1208988419751489";
+static const char __pyx_k_1265279744100753[] = "1265279744100753";
 static const char __pyx_k_1477043292367183[] = "1477043292367183";
-static const char __pyx_k_4175930435848239[] = "4175930435848239";
-static const char __pyx_k_5102020899905850[] = "5102020899905850";
+static const char __pyx_k_6137515709619568[] = "6137515709619568";
 static const char __pyx_k_Error_exceptions[] = "\nError exceptions: ";
 static const char __pyx_k_Groups_Vuln_List[] = "Groups Vuln List";
 static const char __pyx_k_No_post_to_react[] = "No post to react";
@@ -2243,9 +2238,10 @@ static PyObject *__pyx_kp_s_0;
 static PyObject *__pyx_kp_s_0_2;
 static PyObject *__pyx_kp_s_0_9_span_td_tr;
 static PyObject *__pyx_kp_s_1;
-static PyObject *__pyx_kp_s_100002939712957;
+static PyObject *__pyx_kp_s_100022002246471;
 static PyObject *__pyx_kp_s_100069501754755;
 static PyObject *__pyx_kp_s_1208988419751489;
+static PyObject *__pyx_kp_s_1265279744100753;
 static PyObject *__pyx_kp_s_1477043292367183;
 static PyObject *__pyx_kp_s_16;
 static PyObject *__pyx_kp_s_1_2;
@@ -2253,9 +2249,8 @@ static PyObject *__pyx_kp_s_1_35m_2_FB_Tools_RIZEMARY;
 static PyObject *__pyx_kp_s_2;
 static PyObject *__pyx_kp_s_3;
 static PyObject *__pyx_kp_s_4;
-static PyObject *__pyx_kp_s_4175930435848239;
 static PyObject *__pyx_kp_s_502827232059270;
-static PyObject *__pyx_kp_s_5102020899905850;
+static PyObject *__pyx_kp_s_6137515709619568;
 static PyObject *__pyx_kp_s_7;
 static PyObject *__pyx_kp_s_8;
 static PyObject *__pyx_kp_s_99999;
@@ -2788,49 +2783,49 @@ static PyObject *__pyx_n_s_xs;
 static PyObject *__pyx_n_s_y;
 static PyObject *__pyx_n_s_yellow;
 static PyObject *__pyx_n_s_z;
-static PyObject *__pyx_lambda_funcdef_5faith_lambda(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x); /* Instagram: @dementorize */
-static PyObject *__pyx_pf_5faith_10__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* Github: MieRebus47 */
-static PyObject *__pyx_lambda_funcdef_5faith_lambda1(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_kwargs); /* Facebook: Rizemary.xyz */
-static PyObject *__pyx_pf_5faith_12__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* Github: MieRebus47 */
+static PyObject *__pyx_lambda_funcdef_5faith_lambda(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x); /* Github: MieRebus47 */
+static PyObject *__pyx_pf_5faith_10__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* Want to grab a code from comments? :v */
+static PyObject *__pyx_lambda_funcdef_5faith_lambda1(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_kwargs); /* Enjoy the features! */
+static PyObject *__pyx_pf_5faith_12__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* Instagram: @dementorize */
 static PyObject *__pyx_lambda_funcdef_5faith_lambda2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_kwargs); /* Want to grab a code from comments? :v */
-static PyObject *__pyx_lambda_funcdef_5faith_lambda3(CYTHON_UNUSED PyObject *__pyx_self); /* Facebook: Rizemary.xyz */
-static PyObject *__pyx_pf_5faith_sleep(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_tim); /* Github: MieRebus47 */
-static PyObject *__pyx_pf_5faith_2paramdict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_strink); /* Want to grab a code from comments? :v */
-static PyObject *__pyx_pf_5faith_4banner(CYTHON_UNUSED PyObject *__pyx_self); /* Enjoy the features! */
-static PyObject *__pyx_pf_5faith_4main___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Enjoy the features! */
+static PyObject *__pyx_lambda_funcdef_5faith_lambda3(CYTHON_UNUSED PyObject *__pyx_self); /* Enjoy the features! */
+static PyObject *__pyx_pf_5faith_sleep(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_tim); /* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pf_5faith_2paramdict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_strink); /* Enjoy the features! */
+static PyObject *__pyx_pf_5faith_4banner(CYTHON_UNUSED PyObject *__pyx_self); /* Instagram: @dementorize */
+static PyObject *__pyx_pf_5faith_4main___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Facebook: Rizemary.xyz */
 static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Github: MieRebus47 */
-static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Github: MieRebus47 */
-static PyObject *__pyx_lambda_funcdef_lambda4(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x); /* Want to grab a code from comments? :v */
-static PyObject *__pyx_lambda_funcdef_lambda5(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_h); /* Instagram: @dementorize */
-static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Want to grab a code from comments? :v */
-static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Want to grab a code from comments? :v */
-static PyObject *__pyx_pf_5faith_4main_10me(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Instagram: @dementorize */
-static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Enjoy the features! */
-static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self); /* Want to grab a code from comments? :v */
-static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Instagram: @dementorize */
-static PyObject *__pyx_lambda_funcdef_lambda6(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x); /* Facebook: Rizemary.xyz */
-static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Facebook: Rizemary.xyz */
-static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self); /* Instagram: @dementorize */
-static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Enjoy the features! */
-static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Want to grab a code from comments? :v */
-static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Facebook: Rizemary.xyz */
-static PyObject *__pyx_lambda_funcdef_lambda7(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x); /* Want to grab a code from comments? :v */
+static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Enjoy the features! */
+static PyObject *__pyx_lambda_funcdef_lambda4(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x); /* Facebook: Rizemary.xyz */
+static PyObject *__pyx_lambda_funcdef_lambda5(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_h); /* Want to grab a code from comments? :v */
+static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Enjoy the features! */
+static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Enjoy the features! */
+static PyObject *__pyx_pf_5faith_4main_10me(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Enjoy the features! */
+static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Instagram: @dementorize */
+static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self); /* Instagram: @dementorize */
+static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Want to grab a code from comments? :v */
+static PyObject *__pyx_lambda_funcdef_lambda6(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x); /* Instagram: @dementorize */
+static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Want to grab a code from comments? :v */
+static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self); /* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Instagram: @dementorize */
+static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Want to grab a code from comments? :v */
+static PyObject *__pyx_lambda_funcdef_lambda7(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x); /* Facebook: Rizemary.xyz */
 static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Enjoy the features! */
 static PyObject *__pyx_lambda_funcdef_lambda8(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x); /* Enjoy the features! */
-static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Want to grab a code from comments? :v */
+static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* Instagram: @dementorize */
 static PyObject *__pyx_pf_5faith_4main_32thanks(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self); /* Want to grab a code from comments? :v */
 static PyObject *__pyx_pf_5faith_5React___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_sess); /* Facebook: Rizemary.xyz */
 static PyObject *__pyx_lambda_funcdef_lambda9(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x); /* Github: MieRebus47 */
-static PyObject *__pyx_pf_5faith_5React_2get(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_data); /* Facebook: Rizemary.xyz */
-static PyObject *__pyx_lambda_funcdef_lambda10(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Github: MieRebus47 */
+static PyObject *__pyx_pf_5faith_5React_2get(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_data); /* Want to grab a code from comments? :v */
+static PyObject *__pyx_lambda_funcdef_lambda10(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Facebook: Rizemary.xyz */
 static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_url); /* Github: MieRebus47 */
-static PyObject *__pyx_pf_5faith_5React_6group(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_id, PyObject *__pyx_v_limit); /* Instagram: @dementorize */
-static PyObject *__pyx_pf_5faith_5React_8home(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_id, PyObject *__pyx_v_limit); /* Instagram: @dementorize */
-static PyObject *__pyx_pf_5faith_5React_10friend(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_id, PyObject *__pyx_v_limit); /* Enjoy the features! */
-static PyObject *__pyx_lambda_funcdef_lambda11(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Want to grab a code from comments? :v */
+static PyObject *__pyx_pf_5faith_5React_6group(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_id, PyObject *__pyx_v_limit); /* Enjoy the features! */
+static PyObject *__pyx_pf_5faith_5React_8home(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_id, PyObject *__pyx_v_limit); /* Github: MieRebus47 */
+static PyObject *__pyx_pf_5faith_5React_10friend(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_id, PyObject *__pyx_v_limit); /* Facebook: Rizemary.xyz */
+static PyObject *__pyx_lambda_funcdef_lambda11(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Github: MieRebus47 */
 static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_url, PyObject *__pyx_v_type, PyObject *__pyx_v_output); /* Facebook: Rizemary.xyz */
-static PyObject *__pyx_tp_new_5faith___pyx_scope_struct__dump(PyTypeObject *t, PyObject *a, PyObject *k); /* Github: MieRebus47 */
-static PyObject *__pyx_tp_new_5faith___pyx_scope_struct_1_reacting(PyTypeObject *t, PyObject *a, PyObject *k); /* Github: MieRebus47 */
+static PyObject *__pyx_tp_new_5faith___pyx_scope_struct__dump(PyTypeObject *t, PyObject *a, PyObject *k); /* Enjoy the features! */
+static PyObject *__pyx_tp_new_5faith___pyx_scope_struct_1_reacting(PyTypeObject *t, PyObject *a, PyObject *k); /* Facebook: Rizemary.xyz */
 static PyObject *__pyx_int_0;
 static PyObject *__pyx_int_1;
 static PyObject *__pyx_int_2;
@@ -2937,12 +2932,12 @@ static PyObject *__pyx_codeobj__97;
 static PyObject *__pyx_codeobj__99;
 static PyObject *__pyx_codeobj__101;
 static PyObject *__pyx_codeobj__103;
+/* Want to grab a code from comments? :v */
+
 /* Facebook: Rizemary.xyz */
 
-/* Github: MieRebus47 */
-
-/* Instagram: @dementorize */
-static PyObject *__pyx_pw_5faith_6lambda(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Facebook: Rizemary.xyz */
+/* Enjoy the features! */
+static PyObject *__pyx_pw_5faith_6lambda(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Instagram: @dementorize */
 static PyMethodDef __pyx_mdef_5faith_6lambda = {"lambda", (PyCFunction)__pyx_pw_5faith_6lambda, METH_O, 0};
 static PyObject *__pyx_pw_5faith_6lambda(PyObject *__pyx_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = 0;
@@ -2950,7 +2945,7 @@ static PyObject *__pyx_pw_5faith_6lambda(PyObject *__pyx_self, PyObject *__pyx_v
   __Pyx_RefNannySetupContext("lambda (wrapper)", 0);
   __pyx_r = __pyx_lambda_funcdef_5faith_lambda(__pyx_self, ((PyObject *)__pyx_v_x));
 
-  /* Enjoy the features! */
+  /* Github: MieRebus47 */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -3022,7 +3017,7 @@ static PyObject *__pyx_lambda_funcdef_5faith_lambda(CYTHON_UNUSED PyObject *__py
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
@@ -3036,7 +3031,7 @@ static PyObject *__pyx_lambda_funcdef_5faith_lambda(CYTHON_UNUSED PyObject *__py
   return __pyx_r;
 }
 
-/* Enjoy the features! */
+/* Github: MieRebus47 */
 
 static PyObject *__pyx_pf_5faith_10__defaults__(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_r = NULL;
@@ -3065,7 +3060,7 @@ static PyObject *__pyx_pf_5faith_10__defaults__(CYTHON_UNUSED PyObject *__pyx_se
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* Github: MieRebus47 */
+  /* Instagram: @dementorize */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
@@ -3077,8 +3072,8 @@ static PyObject *__pyx_pf_5faith_10__defaults__(CYTHON_UNUSED PyObject *__pyx_se
   return __pyx_r;
 }
 
-/* Facebook: Rizemary.xyz */
-static PyObject *__pyx_pw_5faith_7lambda1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Instagram: @dementorize */
+/* Instagram: @dementorize */
+static PyObject *__pyx_pw_5faith_7lambda1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_7lambda1 = {"lambda1", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_5faith_7lambda1, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_5faith_7lambda1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_x = 0;
@@ -3142,7 +3137,7 @@ static PyObject *__pyx_pw_5faith_7lambda1(PyObject *__pyx_self, PyObject *__pyx_
   __pyx_L4_argument_unpacking_done:;
   __pyx_r = __pyx_lambda_funcdef_5faith_lambda1(__pyx_self, __pyx_v_x, __pyx_v_kwargs);
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -3222,7 +3217,7 @@ static PyObject *__pyx_lambda_funcdef_5faith_lambda1(CYTHON_UNUSED PyObject *__p
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* Instagram: @dementorize */
+  /* Enjoy the features! */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
@@ -3239,7 +3234,7 @@ static PyObject *__pyx_lambda_funcdef_5faith_lambda1(CYTHON_UNUSED PyObject *__p
   return __pyx_r;
 }
 
-/* Instagram: @dementorize */
+/* Facebook: Rizemary.xyz */
 
 static PyObject *__pyx_pf_5faith_12__defaults__(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_r = NULL;
@@ -3268,7 +3263,7 @@ static PyObject *__pyx_pf_5faith_12__defaults__(CYTHON_UNUSED PyObject *__pyx_se
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Instagram: @dementorize */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
@@ -3280,8 +3275,8 @@ static PyObject *__pyx_pf_5faith_12__defaults__(CYTHON_UNUSED PyObject *__pyx_se
   return __pyx_r;
 }
 
-/* Enjoy the features! */
-static PyObject *__pyx_pw_5faith_8lambda2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Github: MieRebus47 */
+/* Want to grab a code from comments? :v */
+static PyObject *__pyx_pw_5faith_8lambda2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Want to grab a code from comments? :v */
 static PyMethodDef __pyx_mdef_5faith_8lambda2 = {"lambda2", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_5faith_8lambda2, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_5faith_8lambda2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_x = 0;
@@ -3345,7 +3340,7 @@ static PyObject *__pyx_pw_5faith_8lambda2(PyObject *__pyx_self, PyObject *__pyx_
   __pyx_L4_argument_unpacking_done:;
   __pyx_r = __pyx_lambda_funcdef_5faith_lambda2(__pyx_self, __pyx_v_x, __pyx_v_kwargs);
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -3425,7 +3420,7 @@ static PyObject *__pyx_lambda_funcdef_5faith_lambda2(CYTHON_UNUSED PyObject *__p
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* Want to grab a code from comments? :v */
+  /* Facebook: Rizemary.xyz */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
@@ -3442,10 +3437,10 @@ static PyObject *__pyx_lambda_funcdef_5faith_lambda2(CYTHON_UNUSED PyObject *__p
   return __pyx_r;
 }
 
-/* Instagram: @dementorize */
+/* Facebook: Rizemary.xyz */
 
-/* Instagram: @dementorize */
-static PyObject *__pyx_pw_5faith_9lambda3(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /* Want to grab a code from comments? :v */
+/* Enjoy the features! */
+static PyObject *__pyx_pw_5faith_9lambda3(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /* Enjoy the features! */
 static PyMethodDef __pyx_mdef_5faith_9lambda3 = {"lambda3", (PyCFunction)__pyx_pw_5faith_9lambda3, METH_NOARGS, 0};
 static PyObject *__pyx_pw_5faith_9lambda3(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
@@ -3546,10 +3541,10 @@ static PyObject *__pyx_lambda_funcdef_5faith_lambda3(CYTHON_UNUSED PyObject *__p
   return __pyx_r;
 }
 
-/* Enjoy the features! */
+/* Facebook: Rizemary.xyz */
 
 /* Enjoy the features! */
-static PyObject *__pyx_pw_5faith_1sleep(PyObject *__pyx_self, PyObject *__pyx_v_tim); /* Instagram: @dementorize */
+static PyObject *__pyx_pw_5faith_1sleep(PyObject *__pyx_self, PyObject *__pyx_v_tim); /* Want to grab a code from comments? :v */
 static PyMethodDef __pyx_mdef_5faith_1sleep = {"sleep", (PyCFunction)__pyx_pw_5faith_1sleep, METH_O, 0};
 static PyObject *__pyx_pw_5faith_1sleep(PyObject *__pyx_self, PyObject *__pyx_v_tim) {
   PyObject *__pyx_r = 0;
@@ -3557,7 +3552,7 @@ static PyObject *__pyx_pw_5faith_1sleep(PyObject *__pyx_self, PyObject *__pyx_v_
   __Pyx_RefNannySetupContext("sleep (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_sleep(__pyx_self, ((PyObject *)__pyx_v_tim));
 
-  /* Enjoy the features! */
+  /* Github: MieRebus47 */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -3581,7 +3576,7 @@ static PyObject *__pyx_pf_5faith_sleep(CYTHON_UNUSED PyObject *__pyx_self, PyObj
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("sleep", 0);
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __pyx_t_1 = __Pyx_PyInt_AddObjC(__pyx_v_tim, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 43, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 43, __pyx_L1_error)
@@ -3680,7 +3675,7 @@ static PyObject *__pyx_pf_5faith_sleep(CYTHON_UNUSED PyObject *__pyx_self, PyObj
     __Pyx_XDECREF_SET(__pyx_v_te, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* Instagram: @dementorize */
+    /* Enjoy the features! */
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_sys); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 46, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_stdout); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 46, __pyx_L1_error)
@@ -3706,7 +3701,7 @@ static PyObject *__pyx_pf_5faith_sleep(CYTHON_UNUSED PyObject *__pyx_self, PyObj
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* Facebook: Rizemary.xyz */
+    /* Github: MieRebus47 */
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_sys); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 47, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_stdout); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 47, __pyx_L1_error)
@@ -3732,7 +3727,7 @@ static PyObject *__pyx_pf_5faith_sleep(CYTHON_UNUSED PyObject *__pyx_self, PyObj
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* Enjoy the features! */
+    /* Github: MieRebus47 */
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_time); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 48, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_sleep); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 48, __pyx_L1_error)
@@ -3755,11 +3750,11 @@ static PyObject *__pyx_pf_5faith_sleep(CYTHON_UNUSED PyObject *__pyx_self, PyObj
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* Facebook: Rizemary.xyz */
+    /* Instagram: @dementorize */
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* Enjoy the features! */
+  /* Facebook: Rizemary.xyz */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_sys); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 49, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_stdout); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 49, __pyx_L1_error)
@@ -3815,7 +3810,7 @@ static PyObject *__pyx_pf_5faith_sleep(CYTHON_UNUSED PyObject *__pyx_self, PyObj
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
 
   /* Facebook: Rizemary.xyz */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
@@ -3837,9 +3832,9 @@ static PyObject *__pyx_pf_5faith_sleep(CYTHON_UNUSED PyObject *__pyx_self, PyObj
   return __pyx_r;
 }
 
-/* Enjoy the features! */
-
 /* Instagram: @dementorize */
+
+/* Want to grab a code from comments? :v */
 static PyObject *__pyx_pw_5faith_3paramdict(PyObject *__pyx_self, PyObject *__pyx_v_strink); /* Instagram: @dementorize */
 static PyMethodDef __pyx_mdef_5faith_3paramdict = {"paramdict", (PyCFunction)__pyx_pw_5faith_3paramdict, METH_O, 0};
 static PyObject *__pyx_pw_5faith_3paramdict(PyObject *__pyx_self, PyObject *__pyx_v_strink) {
@@ -3848,7 +3843,7 @@ static PyObject *__pyx_pw_5faith_3paramdict(PyObject *__pyx_self, PyObject *__py
   __Pyx_RefNannySetupContext("paramdict (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_2paramdict(__pyx_self, ((PyObject *)__pyx_v_strink));
 
-  /* Instagram: @dementorize */
+  /* Facebook: Rizemary.xyz */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -3878,7 +3873,7 @@ static PyObject *__pyx_pf_5faith_2paramdict(CYTHON_UNUSED PyObject *__pyx_self, 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("paramdict", 0);
 
-  /* Github: MieRebus47 */
+  /* Want to grab a code from comments? :v */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -3886,9 +3881,9 @@ static PyObject *__pyx_pf_5faith_2paramdict(CYTHON_UNUSED PyObject *__pyx_self, 
     __Pyx_XGOTREF(__pyx_t_1);
     __Pyx_XGOTREF(__pyx_t_2);
     __Pyx_XGOTREF(__pyx_t_3);
-    /* Facebook: Rizemary.xyz */ {
+    /* Github: MieRebus47 */ {
 
-      /* Want to grab a code from comments? :v */
+      /* Instagram: @dementorize */
       __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 53, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_v_z = ((PyObject*)__pyx_t_4);
@@ -4031,7 +4026,7 @@ static PyObject *__pyx_pf_5faith_2paramdict(CYTHON_UNUSED PyObject *__pyx_self, 
           if (unlikely(PyDict_SetItem(__pyx_v_z, __pyx_v_k, __pyx_v_v) < 0)) __PYX_ERR(0, 56, __pyx_L3_error)
         }
 
-        /* Github: MieRebus47 */
+        /* Enjoy the features! */
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
@@ -4041,7 +4036,7 @@ static PyObject *__pyx_pf_5faith_2paramdict(CYTHON_UNUSED PyObject *__pyx_self, 
       __pyx_r = __pyx_v_z;
       goto __pyx_L7_try_return;
 
-      /* Want to grab a code from comments? :v */
+      /* Facebook: Rizemary.xyz */
     }
     __pyx_L3_error:;
     __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
@@ -4050,8 +4045,8 @@ static PyObject *__pyx_pf_5faith_2paramdict(CYTHON_UNUSED PyObject *__pyx_self, 
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-    /* Want to grab a code from comments? :v */
-    /* Github: MieRebus47 */ {
+    /* Github: MieRebus47 */
+    /* Instagram: @dementorize */ {
       __Pyx_AddTraceback("faith.paramdict", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_4, &__pyx_t_9) < 0) __PYX_ERR(0, 58, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_5);
@@ -4067,7 +4062,7 @@ static PyObject *__pyx_pf_5faith_2paramdict(CYTHON_UNUSED PyObject *__pyx_self, 
     }
     __pyx_L5_except_error:;
 
-    /* Instagram: @dementorize */
+    /* Github: MieRebus47 */
     __Pyx_XGIVEREF(__pyx_t_1);
     __Pyx_XGIVEREF(__pyx_t_2);
     __Pyx_XGIVEREF(__pyx_t_3);
@@ -4089,7 +4084,7 @@ static PyObject *__pyx_pf_5faith_2paramdict(CYTHON_UNUSED PyObject *__pyx_self, 
 
   /* Github: MieRebus47 */
 
-  /* Instagram: @dementorize */
+  /* Enjoy the features! */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
@@ -4108,10 +4103,10 @@ static PyObject *__pyx_pf_5faith_2paramdict(CYTHON_UNUSED PyObject *__pyx_self, 
   return __pyx_r;
 }
 
-/* Enjoy the features! */
+/* Want to grab a code from comments? :v */
 
 /* Facebook: Rizemary.xyz */
-static PyObject *__pyx_pw_5faith_5banner(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pw_5faith_5banner(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_5banner = {"banner", (PyCFunction)__pyx_pw_5faith_5banner, METH_NOARGS, 0};
 static PyObject *__pyx_pw_5faith_5banner(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
@@ -4169,12 +4164,12 @@ static PyObject *__pyx_pf_5faith_4banner(CYTHON_UNUSED PyObject *__pyx_self) {
   PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Instagram: @dementorize */
   __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_style, __pyx_n_s_white) < 0) __PYX_ERR(0, 68, __pyx_L1_error)
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_6, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 61, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -4198,9 +4193,9 @@ static PyObject *__pyx_pf_5faith_4banner(CYTHON_UNUSED PyObject *__pyx_self) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Want to grab a code from comments? :v */
-
   /* Github: MieRebus47 */
+
+  /* Enjoy the features! */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -4218,10 +4213,10 @@ static PyObject *__pyx_pf_5faith_4banner(CYTHON_UNUSED PyObject *__pyx_self) {
   return __pyx_r;
 }
 
-/* Github: MieRebus47 */
+/* Facebook: Rizemary.xyz */
 
 /* Want to grab a code from comments? :v */
-static PyObject *__pyx_pw_5faith_4main_1__init__(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pw_5faith_4main_1__init__(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Instagram: @dementorize */
 static PyMethodDef __pyx_mdef_5faith_4main_1__init__ = {"__init__", (PyCFunction)__pyx_pw_5faith_4main_1__init__, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_1__init__(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
@@ -4245,7 +4240,7 @@ static PyObject *__pyx_pf_5faith_4main___init__(CYTHON_UNUSED PyObject *__pyx_se
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_requests); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_Session); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 72, __pyx_L1_error)
@@ -4272,10 +4267,10 @@ static PyObject *__pyx_pf_5faith_4main___init__(CYTHON_UNUSED PyObject *__pyx_se
   /* Enjoy the features! */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_token, __pyx_kp_s__6) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
 
-  /* Github: MieRebus47 */
+  /* Want to grab a code from comments? :v */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_host, __pyx_kp_s_https_mbasic_facebook_com) < 0) __PYX_ERR(0, 74, __pyx_L1_error)
 
-  /* Instagram: @dementorize */
+  /* Facebook: Rizemary.xyz */
   __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_run); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 75, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_2 = NULL;
@@ -4295,9 +4290,9 @@ static PyObject *__pyx_pf_5faith_4main___init__(CYTHON_UNUSED PyObject *__pyx_se
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Instagram: @dementorize */
+  /* Enjoy the features! */
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -4312,10 +4307,10 @@ static PyObject *__pyx_pf_5faith_4main___init__(CYTHON_UNUSED PyObject *__pyx_se
   return __pyx_r;
 }
 
-/* Instagram: @dementorize */
+/* Enjoy the features! */
 
-/* Want to grab a code from comments? :v */
-static PyObject *__pyx_pw_5faith_4main_3run(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Want to grab a code from comments? :v */
+/* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pw_5faith_4main_3run(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_4main_3run = {"run", (PyCFunction)__pyx_pw_5faith_4main_3run, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_3run(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
@@ -4323,7 +4318,7 @@ static PyObject *__pyx_pw_5faith_4main_3run(PyObject *__pyx_self, PyObject *__py
   __Pyx_RefNannySetupContext("run (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_2run(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Want to grab a code from comments? :v */
+  /* Instagram: @dementorize */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -4351,7 +4346,7 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("run", 0);
 
-  /* Instagram: @dementorize */
+  /* Want to grab a code from comments? :v */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -4361,7 +4356,7 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
     __Pyx_XGOTREF(__pyx_t_3);
     /* Want to grab a code from comments? :v */ {
 
-      /* Github: MieRebus47 */
+      /* Want to grab a code from comments? :v */
       __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 79, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 79, __pyx_L3_error)
@@ -4389,7 +4384,7 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (likely(__pyx_t_7)) {
 
-        /* Want to grab a code from comments? :v */
+        /* Github: MieRebus47 */
         __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 80, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 80, __pyx_L3_error)
@@ -4420,7 +4415,7 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         if (likely(__pyx_t_7)) {
 
-          /* Want to grab a code from comments? :v */
+          /* Enjoy the features! */
           __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_open, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 81, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_6);
           __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_read); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 81, __pyx_L3_error)
@@ -4462,10 +4457,10 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
           if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_kuki, __pyx_t_5) < 0) __PYX_ERR(0, 81, __pyx_L3_error)
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-          /* Instagram: @dementorize */
+          /* Facebook: Rizemary.xyz */
           if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_from_file, Py_True) < 0) __PYX_ERR(0, 82, __pyx_L3_error)
 
-          /* Enjoy the features! */
+          /* Want to grab a code from comments? :v */
           {
             __Pyx_PyThreadState_declare
             __Pyx_PyThreadState_assign
@@ -4525,8 +4520,8 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
             __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
             __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-            /* Want to grab a code from comments? :v */
-            /* Facebook: Rizemary.xyz */ {
+            /* Enjoy the features! */
+            /* Instagram: @dementorize */ {
               __Pyx_ErrRestore(0,0,0);
               goto __pyx_L12_exception_handled;
             }
@@ -4538,29 +4533,29 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
             __pyx_L16_try_end:;
           }
 
-          /* Facebook: Rizemary.xyz */
+          /* Github: MieRebus47 */
           goto __pyx_L10;
         }
 
         /* Want to grab a code from comments? :v */
-        /* Enjoy the features! */ {
+        /* Github: MieRebus47 */ {
           __Pyx_Raise(__pyx_builtin_IOError, 0, 0, 0);
           __PYX_ERR(0, 85, __pyx_L3_error)
         }
         __pyx_L10:;
 
-        /* Enjoy the features! */
+        /* Instagram: @dementorize */
         goto __pyx_L9;
       }
 
       /* Github: MieRebus47 */
-      /* Enjoy the features! */ {
+      /* Want to grab a code from comments? :v */ {
         __Pyx_Raise(__pyx_builtin_IOError, 0, 0, 0);
         __PYX_ERR(0, 86, __pyx_L3_error)
       }
       __pyx_L9:;
 
-      /* Facebook: Rizemary.xyz */
+      /* Want to grab a code from comments? :v */
     }
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -4581,7 +4576,7 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_8);
 
-      /* Want to grab a code from comments? :v */
+      /* Facebook: Rizemary.xyz */
       __Pyx_GetModuleGlobalName(__pyx_t_13, __pyx_n_s_clear); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 88, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_13);
       __pyx_t_14 = NULL;
@@ -4601,7 +4596,7 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
       __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Github: MieRebus47 */
+      /* Enjoy the features! */
       __Pyx_GetModuleGlobalName(__pyx_t_13, __pyx_n_s_banner); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 89, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_13);
       __pyx_t_14 = NULL;
@@ -4621,7 +4616,7 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
       __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Github: MieRebus47 */
+      /* Want to grab a code from comments? :v */
       __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_Console); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 90, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_14);
       __pyx_t_15 = NULL;
@@ -4660,7 +4655,7 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_kuki, __pyx_t_4) < 0) __PYX_ERR(0, 90, __pyx_L5_except_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Instagram: @dementorize */
+      /* Enjoy the features! */
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_from_file, Py_False) < 0) __PYX_ERR(0, 91, __pyx_L5_except_error)
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -4670,7 +4665,7 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* Want to grab a code from comments? :v */
+    /* Facebook: Rizemary.xyz */
     __Pyx_XGIVEREF(__pyx_t_1);
     __Pyx_XGIVEREF(__pyx_t_2);
     __Pyx_XGIVEREF(__pyx_t_3);
@@ -4684,7 +4679,7 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
     __pyx_L8_try_end:;
   }
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 92, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_cookies); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 92, __pyx_L1_error)
@@ -4737,9 +4732,9 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
 
-  /* Enjoy the features! */
+  /* Github: MieRebus47 */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -4758,9 +4753,9 @@ static PyObject *__pyx_pf_5faith_4main_2run(CYTHON_UNUSED PyObject *__pyx_self, 
   return __pyx_r;
 }
 
-/* Github: MieRebus47 */
+/* Want to grab a code from comments? :v */
 
-/* Enjoy the features! */
+/* Facebook: Rizemary.xyz */
 static PyObject *__pyx_pw_5faith_4main_5cek(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_4main_5cek = {"cek", (PyCFunction)__pyx_pw_5faith_4main_5cek, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_5cek(PyObject *__pyx_self, PyObject *__pyx_v_self) {
@@ -4769,7 +4764,7 @@ static PyObject *__pyx_pw_5faith_4main_5cek(PyObject *__pyx_self, PyObject *__py
   __Pyx_RefNannySetupContext("cek (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_4cek(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -4805,7 +4800,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("cek", 0);
 
-  /* Github: MieRebus47 */
+  /* Instagram: @dementorize */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -4813,9 +4808,9 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
     __Pyx_XGOTREF(__pyx_t_1);
     __Pyx_XGOTREF(__pyx_t_2);
     __Pyx_XGOTREF(__pyx_t_3);
-    /* Enjoy the features! */ {
+    /* Facebook: Rizemary.xyz */ {
 
-      /* Enjoy the features! */
+      /* Instagram: @dementorize */
       __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 97, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_get); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 97, __pyx_L3_error)
@@ -4831,7 +4826,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
       __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 97, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
 
-      /* Github: MieRebus47 */
+      /* Facebook: Rizemary.xyz */
       __pyx_t_7 = __Pyx_PyDict_NewPresized(13); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 98, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_Host, __pyx_kp_s_mbasic_facebook_com) < 0) __PYX_ERR(0, 98, __pyx_L3_error)
@@ -4859,7 +4854,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
       __pyx_v_w = __pyx_t_7;
       __pyx_t_7 = 0;
 
-      /* Facebook: Rizemary.xyz */
+      /* Want to grab a code from comments? :v */
       __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_w, __pyx_n_s_text); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 112, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_8 = (__Pyx_PySequence_ContainsTF(__pyx_n_s_mbasic_logout_button, __pyx_t_7, Py_EQ)); if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 112, __pyx_L3_error)
@@ -4867,8 +4862,8 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
       __pyx_t_9 = (__pyx_t_8 != 0);
       if (__pyx_t_9) {
 
-        /* Instagram: @dementorize */
-        /* Facebook: Rizemary.xyz */ {
+        /* Enjoy the features! */
+        /* Want to grab a code from comments? :v */ {
           __pyx_t_7 = __Pyx_PyObject_Call(__pyx_builtin_open, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 113, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_7);
           __pyx_t_10 = __Pyx_PyObject_LookupSpecial(__pyx_t_7, __pyx_n_s_exit_2); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 113, __pyx_L3_error)
@@ -4893,7 +4888,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
           __pyx_t_6 = __pyx_t_4;
           __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-          /* Enjoy the features! */ {
+          /* Facebook: Rizemary.xyz */ {
             {
               __Pyx_PyThreadState_declare
               __Pyx_PyThreadState_assign
@@ -4901,7 +4896,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
               __Pyx_XGOTREF(__pyx_t_11);
               __Pyx_XGOTREF(__pyx_t_12);
               __Pyx_XGOTREF(__pyx_t_13);
-              /* Facebook: Rizemary.xyz */ {
+              /* Enjoy the features! */ {
                 __pyx_v__wc = __pyx_t_6;
                 __pyx_t_6 = 0;
                 __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v__wc, __pyx_n_s_write); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 113, __pyx_L14_error)
@@ -4935,7 +4930,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
               __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
               __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
               __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-              /* Facebook: Rizemary.xyz */ {
+              /* Want to grab a code from comments? :v */ {
                 __Pyx_AddTraceback("faith.main.cek", __pyx_clineno, __pyx_lineno, __pyx_filename);
                 if (__Pyx_GetException(&__pyx_t_6, &__pyx_t_7, &__pyx_t_4) < 0) __PYX_ERR(0, 113, __pyx_L16_except_error)
                 __Pyx_GOTREF(__pyx_t_6);
@@ -4979,8 +4974,8 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
               __pyx_L19_try_end:;
             }
           }
-          /* Enjoy the features! */ {
-            /* Want to grab a code from comments? :v */{
+          /* Facebook: Rizemary.xyz */ {
+            /* Enjoy the features! */{
               if (__pyx_t_10) {
                 __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_tuple__10, NULL);
                 __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
@@ -4999,7 +4994,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
           __pyx_L23:;
         }
 
-        /* Enjoy the features! */
+        /* Instagram: @dementorize */
         __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_from_file); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 114, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 114, __pyx_L3_error)
@@ -5026,7 +5021,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         }
 
-        /* Instagram: @dementorize */
+        /* Github: MieRebus47 */
         __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_token); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 115, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 115, __pyx_L3_error)
@@ -5041,9 +5036,9 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
             __Pyx_XGOTREF(__pyx_t_10);
             __Pyx_XGOTREF(__pyx_t_13);
             __Pyx_XGOTREF(__pyx_t_12);
-            /* Enjoy the features! */ {
+            /* Instagram: @dementorize */ {
 
-              /* Github: MieRebus47 */
+              /* Facebook: Rizemary.xyz */
               __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_me); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 117, __pyx_L26_error)
               __Pyx_GOTREF(__pyx_t_7);
               __pyx_t_6 = NULL;
@@ -5063,7 +5058,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
               __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-              /* Instagram: @dementorize */
+              /* Facebook: Rizemary.xyz */
               __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_threading); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 118, __pyx_L26_error)
               __Pyx_GOTREF(__pyx_t_7);
               __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_Thread); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L26_error)
@@ -5099,7 +5094,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
               __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-              /* Github: MieRebus47 */
+              /* Enjoy the features! */
             }
             __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
             __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
@@ -5120,7 +5115,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
               __Pyx_GOTREF(__pyx_t_7);
               __Pyx_GOTREF(__pyx_t_5);
 
-              /* Facebook: Rizemary.xyz */
+              /* Want to grab a code from comments? :v */
               __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_n_s_clear); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 120, __pyx_L28_except_error)
               __Pyx_GOTREF(__pyx_t_16);
               __pyx_t_17 = NULL;
@@ -5140,7 +5135,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
               __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
               __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-              /* Instagram: @dementorize */
+              /* Github: MieRebus47 */
               __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_n_s_banner); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 121, __pyx_L28_except_error)
               __Pyx_GOTREF(__pyx_t_16);
               __pyx_t_17 = NULL;
@@ -5160,7 +5155,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
               __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
               __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-              /* Github: MieRebus47 */
+              /* Instagram: @dementorize */
               __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_n_s_info); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 122, __pyx_L28_except_error)
               __Pyx_GOTREF(__pyx_t_16);
               __pyx_t_17 = NULL;
@@ -5207,7 +5202,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
             goto __pyx_L28_except_error;
             __pyx_L28_except_error:;
 
-            /* Github: MieRebus47 */
+            /* Want to grab a code from comments? :v */
             __Pyx_XGIVEREF(__pyx_t_10);
             __Pyx_XGIVEREF(__pyx_t_13);
             __Pyx_XGIVEREF(__pyx_t_12);
@@ -5221,12 +5216,12 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
             __pyx_L31_try_end:;
           }
 
-          /* Github: MieRebus47 */
+          /* Enjoy the features! */
           goto __pyx_L25;
         }
 
-        /* Enjoy the features! */
-        /* Facebook: Rizemary.xyz */ {
+        /* Github: MieRebus47 */
+        /* Instagram: @dementorize */ {
           __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_gen_token); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 124, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_7);
           __pyx_t_4 = NULL;
@@ -5253,7 +5248,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
       }
 
       /* Facebook: Rizemary.xyz */
-      /* Instagram: @dementorize */ {
+      /* Want to grab a code from comments? :v */ {
         __pyx_t_5 = __pyx_tuple__11; __Pyx_INCREF(__pyx_t_5); __pyx_t_18 = 0;
         for (;;) {
           if (__pyx_t_18 >= 2) break;
@@ -5274,7 +5269,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
             __Pyx_XGOTREF(__pyx_t_12);
             __Pyx_XGOTREF(__pyx_t_13);
             __Pyx_XGOTREF(__pyx_t_10);
-            /* Want to grab a code from comments? :v */ {
+            /* Facebook: Rizemary.xyz */ {
               __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_os); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 127, __pyx_L36_error)
               __Pyx_GOTREF(__pyx_t_4);
               __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_remove); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 127, __pyx_L36_error)
@@ -5314,8 +5309,8 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
             __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-            /* Facebook: Rizemary.xyz */
-            /* Facebook: Rizemary.xyz */ {
+            /* Enjoy the features! */
+            /* Instagram: @dementorize */ {
               __Pyx_ErrRestore(0,0,0);
               goto __pyx_L37_exception_handled;
             }
@@ -5327,11 +5322,11 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
             __pyx_L43_try_end:;
           }
 
-          /* Instagram: @dementorize */
+          /* Want to grab a code from comments? :v */
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* Instagram: @dementorize */
+        /* Enjoy the features! */
         __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_warn); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 129, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_7);
         __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_from_file); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 129, __pyx_L3_error)
@@ -5365,14 +5360,14 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* Enjoy the features! */
+        /* Github: MieRebus47 */
         __pyx_t_5 = __Pyx_PyObject_CallNoArg(__pyx_builtin_exit); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 130, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_L9:;
 
-      /* Want to grab a code from comments? :v */
+      /* Facebook: Rizemary.xyz */
     }
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -5397,7 +5392,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
       __Pyx_INCREF(__pyx_t_7);
       __pyx_v_su = __pyx_t_7;
 
-      /* Instagram: @dementorize */
+      /* Facebook: Rizemary.xyz */
       __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_n_s_warn); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 132, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_16);
       __pyx_t_17 = PyNumber_Add(__pyx_kp_s_Login_failed, __pyx_v_su); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 132, __pyx_L5_except_error)
@@ -5420,7 +5415,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
       __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Instagram: @dementorize */
+      /* Want to grab a code from comments? :v */
       __pyx_t_4 = __Pyx_PyObject_CallNoArg(__pyx_builtin_exit); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 133, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -5432,7 +5427,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* Facebook: Rizemary.xyz */
+    /* Github: MieRebus47 */
     __Pyx_XGIVEREF(__pyx_t_1);
     __Pyx_XGIVEREF(__pyx_t_2);
     __Pyx_XGIVEREF(__pyx_t_3);
@@ -5468,7 +5463,7 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
 
   /* Github: MieRebus47 */
 
-  /* Instagram: @dementorize */
+  /* Want to grab a code from comments? :v */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -5491,9 +5486,9 @@ static PyObject *__pyx_pf_5faith_4main_4cek(CYTHON_UNUSED PyObject *__pyx_self, 
   return __pyx_r;
 }
 
-/* Enjoy the features! */
+/* Instagram: @dementorize */
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 static PyObject *__pyx_pw_5faith_4main_7_supporter(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Instagram: @dementorize */
 static char __pyx_doc_5faith_4main_6_supporter[] = "React";
 static PyMethodDef __pyx_mdef_5faith_4main_7_supporter = {"_supporter", (PyCFunction)__pyx_pw_5faith_4main_7_supporter, METH_O, __pyx_doc_5faith_4main_6_supporter};
@@ -5503,14 +5498,14 @@ static PyObject *__pyx_pw_5faith_4main_7_supporter(PyObject *__pyx_self, PyObjec
   __Pyx_RefNannySetupContext("_supporter (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_6_supporter(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Github: MieRebus47 */
+  /* Instagram: @dementorize */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
 /* Facebook: Rizemary.xyz */
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 static PyObject *__pyx_pw_5faith_4main_10_supporter_lambda4(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_4main_10_supporter_lambda4 = {"lambda4", (PyCFunction)__pyx_pw_5faith_4main_10_supporter_lambda4, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_10_supporter_lambda4(PyObject *__pyx_self, PyObject *__pyx_v_x) {
@@ -5564,10 +5559,10 @@ static PyObject *__pyx_lambda_funcdef_lambda4(CYTHON_UNUSED PyObject *__pyx_self
   return __pyx_r;
 }
 
-/* Enjoy the features! */
+/* Facebook: Rizemary.xyz */
 
-/* Enjoy the features! */
-static PyObject *__pyx_pw_5faith_4main_10_supporter_1lambda5(PyObject *__pyx_self, PyObject *__pyx_v_h); /* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
+static PyObject *__pyx_pw_5faith_4main_10_supporter_1lambda5(PyObject *__pyx_self, PyObject *__pyx_v_h); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_4main_10_supporter_1lambda5 = {"lambda5", (PyCFunction)__pyx_pw_5faith_4main_10_supporter_1lambda5, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_10_supporter_1lambda5(PyObject *__pyx_self, PyObject *__pyx_v_h) {
   PyObject *__pyx_r = 0;
@@ -5575,7 +5570,7 @@ static PyObject *__pyx_pw_5faith_4main_10_supporter_1lambda5(PyObject *__pyx_sel
   __Pyx_RefNannySetupContext("lambda5 (wrapper)", 0);
   __pyx_r = __pyx_lambda_funcdef_lambda5(__pyx_self, ((PyObject *)__pyx_v_h));
 
-  /* Facebook: Rizemary.xyz */
+  /* Enjoy the features! */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -5608,7 +5603,7 @@ static PyObject *__pyx_lambda_funcdef_lambda5(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* Instagram: @dementorize */
+  /* Enjoy the features! */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
@@ -5620,7 +5615,7 @@ static PyObject *__pyx_lambda_funcdef_lambda5(CYTHON_UNUSED PyObject *__pyx_self
   return __pyx_r;
 }
 
-/* Instagram: @dementorize */
+/* Want to grab a code from comments? :v */
 
 static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_func = NULL;
@@ -5649,7 +5644,7 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_supporter", 0);
 
-  /* Github: MieRebus47 */
+  /* Want to grab a code from comments? :v */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_React); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 138, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 138, __pyx_L1_error)
@@ -5673,15 +5668,15 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_func = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* Github: MieRebus47 */
+  /* Want to grab a code from comments? :v */
   __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 139, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_story_fbid, __pyx_kp_s_5102020899905850) < 0) __PYX_ERR(0, 139, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_id, __pyx_kp_s_100002939712957) < 0) __PYX_ERR(0, 139, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_story_fbid, __pyx_kp_s_1265279744100753) < 0) __PYX_ERR(0, 139, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_id, __pyx_kp_s_100022002246471) < 0) __PYX_ERR(0, 139, __pyx_L1_error)
   __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 139, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_story_fbid, __pyx_kp_s_4175930435848239) < 0) __PYX_ERR(0, 139, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_id, __pyx_kp_s_100002939712957) < 0) __PYX_ERR(0, 139, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_story_fbid, __pyx_kp_s_6137515709619568) < 0) __PYX_ERR(0, 139, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_id, __pyx_kp_s_100022002246471) < 0) __PYX_ERR(0, 139, __pyx_L1_error)
   __pyx_t_3 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 139, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_story_fbid, __pyx_kp_s_502827232059270) < 0) __PYX_ERR(0, 139, __pyx_L1_error)
@@ -5707,7 +5702,7 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_post = ((PyObject*)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Instagram: @dementorize */
   __pyx_t_5 = __pyx_v_post; __Pyx_INCREF(__pyx_t_5); __pyx_t_6 = 0;
   for (;;) {
     if (__pyx_t_6 >= PyList_GET_SIZE(__pyx_t_5)) break;
@@ -5728,9 +5723,9 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
       __Pyx_XGOTREF(__pyx_t_7);
       __Pyx_XGOTREF(__pyx_t_8);
       __Pyx_XGOTREF(__pyx_t_9);
-      /* Enjoy the features! */ {
+      /* Github: MieRebus47 */ {
 
-        /* Instagram: @dementorize */
+        /* Facebook: Rizemary.xyz */
         __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 142, __pyx_L5_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_get); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 142, __pyx_L5_error)
@@ -5760,7 +5755,7 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XDECREF_SET(__pyx_v_a, __pyx_t_1);
         __pyx_t_1 = 0;
 
-        /* Facebook: Rizemary.xyz */
+        /* Enjoy the features! */
         __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_parser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 143, __pyx_L5_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_a, __pyx_n_s_text); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 143, __pyx_L5_error)
@@ -5784,7 +5779,7 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XDECREF_SET(__pyx_v_dt, __pyx_t_1);
         __pyx_t_1 = 0;
 
-        /* Want to grab a code from comments? :v */
+        /* Instagram: @dementorize */
         __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_host); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 144, __pyx_L5_error)
         __Pyx_GOTREF(__pyx_t_1);
         __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_dt, __pyx_n_s_find); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 144, __pyx_L5_error)
@@ -5852,7 +5847,7 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XDECREF_SET(__pyx_v_ur, __pyx_t_4);
         __pyx_t_4 = 0;
 
-        /* Want to grab a code from comments? :v */
+        /* Github: MieRebus47 */
         __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_func, __pyx_n_s_reacting); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 145, __pyx_L5_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_2 = PyList_New(6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 145, __pyx_L5_error)
@@ -5893,7 +5888,7 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-        /* Instagram: @dementorize */
+        /* Github: MieRebus47 */
       }
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -5907,8 +5902,8 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Want to grab a code from comments? :v */
-      /* Github: MieRebus47 */ {
+      /* Github: MieRebus47 */
+      /* Want to grab a code from comments? :v */ {
         __Pyx_ErrRestore(0,0,0);
         goto __pyx_L6_exception_handled;
       }
@@ -5920,23 +5915,23 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
       __pyx_L12_try_end:;
     }
 
-    /* Github: MieRebus47 */
+    /* Want to grab a code from comments? :v */
   }
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Github: MieRebus47 */
+  /* Facebook: Rizemary.xyz */
   __pyx_t_5 = PyList_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 147, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_INCREF(__pyx_kp_s_100069501754755);
   __Pyx_GIVEREF(__pyx_kp_s_100069501754755);
   PyList_SET_ITEM(__pyx_t_5, 0, __pyx_kp_s_100069501754755);
-  __Pyx_INCREF(__pyx_kp_s_100002939712957);
-  __Pyx_GIVEREF(__pyx_kp_s_100002939712957);
-  PyList_SET_ITEM(__pyx_t_5, 1, __pyx_kp_s_100002939712957);
+  __Pyx_INCREF(__pyx_kp_s_100022002246471);
+  __Pyx_GIVEREF(__pyx_kp_s_100022002246471);
+  PyList_SET_ITEM(__pyx_t_5, 1, __pyx_kp_s_100022002246471);
   __pyx_v_id = ((PyObject*)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* Instagram: @dementorize */
+  /* Enjoy the features! */
   __pyx_t_5 = __pyx_v_id; __Pyx_INCREF(__pyx_t_5); __pyx_t_6 = 0;
   for (;;) {
     if (__pyx_t_6 >= PyList_GET_SIZE(__pyx_t_5)) break;
@@ -5949,7 +5944,7 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
     __Pyx_XDECREF_SET(__pyx_v_x, __pyx_t_12);
     __pyx_t_12 = 0;
 
-    /* Enjoy the features! */
+    /* Facebook: Rizemary.xyz */
     {
       __Pyx_PyThreadState_declare
       __Pyx_PyThreadState_assign
@@ -5957,7 +5952,7 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
       __Pyx_XGOTREF(__pyx_t_9);
       __Pyx_XGOTREF(__pyx_t_8);
       __Pyx_XGOTREF(__pyx_t_7);
-      /* Facebook: Rizemary.xyz */ {
+      /* Want to grab a code from comments? :v */ {
 
         /* Instagram: @dementorize */
         __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 150, __pyx_L15_error)
@@ -5993,7 +5988,7 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XDECREF_SET(__pyx_v_a, __pyx_t_4);
         __pyx_t_4 = 0;
 
-        /* Want to grab a code from comments? :v */
+        /* Github: MieRebus47 */
         __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_n_s_parser); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 151, __pyx_L15_error)
         __Pyx_GOTREF(__pyx_t_12);
         __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_a, __pyx_n_s_text); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 151, __pyx_L15_error)
@@ -6017,7 +6012,7 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XDECREF_SET(__pyx_v_dt, __pyx_t_4);
         __pyx_t_4 = 0;
 
-        /* Facebook: Rizemary.xyz */
+        /* Github: MieRebus47 */
         __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_dt, __pyx_n_s_find); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 152, __pyx_L15_error)
         __Pyx_GOTREF(__pyx_t_12);
         __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 152, __pyx_L15_error)
@@ -6079,7 +6074,7 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XDECREF_SET(__pyx_v_ur, __pyx_t_12);
         __pyx_t_12 = 0;
 
-        /* Facebook: Rizemary.xyz */
+        /* Instagram: @dementorize */
         __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 153, __pyx_L15_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_get); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 153, __pyx_L15_error)
@@ -6108,7 +6103,7 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-        /* Github: MieRebus47 */
+        /* Facebook: Rizemary.xyz */
       }
       __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -6122,8 +6117,8 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Enjoy the features! */
-      /* Instagram: @dementorize */ {
+      /* Want to grab a code from comments? :v */
+      /* Github: MieRebus47 */ {
         __Pyx_ErrRestore(0,0,0);
         goto __pyx_L16_exception_handled;
       }
@@ -6139,9 +6134,9 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
   }
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Instagram: @dementorize */
 
-  /* Want to grab a code from comments? :v */
+  /* Github: MieRebus47 */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -6167,10 +6162,10 @@ static PyObject *__pyx_pf_5faith_4main_6_supporter(CYTHON_UNUSED PyObject *__pyx
   return __pyx_r;
 }
 
-/* Enjoy the features! */
+/* Github: MieRebus47 */
 
-/* Instagram: @dementorize */
-static PyObject *__pyx_pw_5faith_4main_9gen_token(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Github: MieRebus47 */
+/* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pw_5faith_4main_9gen_token(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Instagram: @dementorize */
 static PyMethodDef __pyx_mdef_5faith_4main_9gen_token = {"gen_token", (PyCFunction)__pyx_pw_5faith_4main_9gen_token, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_9gen_token(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
@@ -6178,7 +6173,7 @@ static PyObject *__pyx_pw_5faith_4main_9gen_token(PyObject *__pyx_self, PyObject
   __Pyx_RefNannySetupContext("gen_token (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_8gen_token(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Instagram: @dementorize */
+  /* Want to grab a code from comments? :v */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -6211,7 +6206,7 @@ static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("gen_token", 0);
 
-  /* Want to grab a code from comments? :v */
+  /* Instagram: @dementorize */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_token, Py_False) < 0) __PYX_ERR(0, 157, __pyx_L1_error)
 
   /* Enjoy the features! */
@@ -6222,7 +6217,7 @@ static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_
     __Pyx_XGOTREF(__pyx_t_1);
     __Pyx_XGOTREF(__pyx_t_2);
     __Pyx_XGOTREF(__pyx_t_3);
-    /* Instagram: @dementorize */ {
+    /* Want to grab a code from comments? :v */ {
 
       /* Github: MieRebus47 */
       __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 159, __pyx_L3_error)
@@ -6310,11 +6305,11 @@ static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_
       __pyx_v_tk = __pyx_t_6;
       __pyx_t_6 = 0;
 
-      /* Enjoy the features! */
+      /* Instagram: @dementorize */
       __pyx_t_10 = __Pyx_PyObject_IsTrue(__pyx_v_tk); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(0, 161, __pyx_L3_error)
       if (likely(__pyx_t_10)) {
 
-        /* Enjoy the features! */
+        /* Github: MieRebus47 */
         __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_tk, __pyx_n_s_group); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 162, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_9 = NULL;
@@ -6355,8 +6350,8 @@ static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-        /* Facebook: Rizemary.xyz */
-        /* Instagram: @dementorize */ {
+        /* Github: MieRebus47 */
+        /* Enjoy the features! */ {
           __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_open, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 164, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_6);
           __pyx_t_11 = __Pyx_PyObject_LookupSpecial(__pyx_t_6, __pyx_n_s_exit_2); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 164, __pyx_L3_error)
@@ -6389,7 +6384,7 @@ static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_
               __Pyx_XGOTREF(__pyx_t_12);
               __Pyx_XGOTREF(__pyx_t_13);
               __Pyx_XGOTREF(__pyx_t_14);
-              /* Github: MieRebus47 */ {
+              /* Instagram: @dementorize */ {
                 __pyx_v__wt = __pyx_t_9;
                 __pyx_t_9 = 0;
                 __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v__wt, __pyx_n_s_write); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 164, __pyx_L14_error)
@@ -6468,8 +6463,8 @@ static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_
               __pyx_L19_try_end:;
             }
           }
-          /* Enjoy the features! */ {
-            /* Github: MieRebus47 */{
+          /* Facebook: Rizemary.xyz */ {
+            /* Instagram: @dementorize */{
               if (__pyx_t_11) {
                 __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_tuple__10, NULL);
                 __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
@@ -6488,18 +6483,18 @@ static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_
           __pyx_L23:;
         }
 
-        /* Enjoy the features! */
+        /* Instagram: @dementorize */
         goto __pyx_L9;
       }
 
-      /* Facebook: Rizemary.xyz */
-      /* Enjoy the features! */ {
+      /* Enjoy the features! */
+      /* Instagram: @dementorize */ {
         __Pyx_Raise(__pyx_builtin_KeyError, 0, 0, 0);
         __PYX_ERR(0, 166, __pyx_L3_error)
       }
       __pyx_L9:;
 
-      /* Enjoy the features! */
+      /* Want to grab a code from comments? :v */
     }
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -6521,7 +6516,7 @@ static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_9);
 
-      /* Github: MieRebus47 */
+      /* Enjoy the features! */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_warn); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 168, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_17 = NULL;
@@ -6541,7 +6536,7 @@ static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Instagram: @dementorize */
+      /* Github: MieRebus47 */
       __pyx_t_4 = __Pyx_PyObject_CallNoArg(__pyx_builtin_exit); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 169, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -6553,7 +6548,7 @@ static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* Github: MieRebus47 */
+    /* Facebook: Rizemary.xyz */
     __Pyx_XGIVEREF(__pyx_t_1);
     __Pyx_XGIVEREF(__pyx_t_2);
     __Pyx_XGIVEREF(__pyx_t_3);
@@ -6567,9 +6562,9 @@ static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_
     __pyx_L8_try_end:;
   }
 
-  /* Facebook: Rizemary.xyz */
-
   /* Enjoy the features! */
+
+  /* Facebook: Rizemary.xyz */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -6590,9 +6585,9 @@ static PyObject *__pyx_pf_5faith_4main_8gen_token(CYTHON_UNUSED PyObject *__pyx_
   return __pyx_r;
 }
 
-/* Instagram: @dementorize */
+/* Enjoy the features! */
 
-/* Want to grab a code from comments? :v */
+/* Github: MieRebus47 */
 static PyObject *__pyx_pw_5faith_4main_11me(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_4main_11me = {"me", (PyCFunction)__pyx_pw_5faith_4main_11me, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_11me(PyObject *__pyx_self, PyObject *__pyx_v_self) {
@@ -6601,7 +6596,7 @@ static PyObject *__pyx_pw_5faith_4main_11me(PyObject *__pyx_self, PyObject *__py
   __Pyx_RefNannySetupContext("me (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_10me(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Github: MieRebus47 */
+  /* Instagram: @dementorize */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -6623,7 +6618,7 @@ static PyObject *__pyx_pf_5faith_4main_10me(CYTHON_UNUSED PyObject *__pyx_self, 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("me", 0);
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -6633,7 +6628,7 @@ static PyObject *__pyx_pf_5faith_4main_10me(CYTHON_UNUSED PyObject *__pyx_self, 
     __Pyx_XGOTREF(__pyx_t_3);
     /* Github: MieRebus47 */ {
 
-      /* Github: MieRebus47 */
+      /* Facebook: Rizemary.xyz */
       __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 173, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_get); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 173, __pyx_L3_error)
@@ -6674,19 +6669,19 @@ static PyObject *__pyx_pf_5faith_4main_10me(CYTHON_UNUSED PyObject *__pyx_self, 
       __pyx_v_mika = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* Want to grab a code from comments? :v */
+      /* Facebook: Rizemary.xyz */
       __pyx_t_4 = __Pyx_PyObject_Dict_GetItem(__pyx_v_mika, __pyx_n_s_id); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 174, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_my_id, __pyx_t_4) < 0) __PYX_ERR(0, 174, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Want to grab a code from comments? :v */
+      /* Facebook: Rizemary.xyz */
       __pyx_t_4 = __Pyx_PyObject_Dict_GetItem(__pyx_v_mika, __pyx_n_s_first_name); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 175, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_first_name, __pyx_t_4) < 0) __PYX_ERR(0, 175, __pyx_L3_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Facebook: Rizemary.xyz */
+      /* Github: MieRebus47 */
     }
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -6699,8 +6694,8 @@ static PyObject *__pyx_pf_5faith_4main_10me(CYTHON_UNUSED PyObject *__pyx_self, 
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* Enjoy the features! */
-    /* Facebook: Rizemary.xyz */ {
+    /* Instagram: @dementorize */
+    /* Github: MieRebus47 */ {
       __Pyx_AddTraceback("faith.main.me", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_5, &__pyx_t_7) < 0) __PYX_ERR(0, 176, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_4);
@@ -6711,7 +6706,7 @@ static PyObject *__pyx_pf_5faith_4main_10me(CYTHON_UNUSED PyObject *__pyx_self, 
     }
     __pyx_L5_except_error:;
 
-    /* Facebook: Rizemary.xyz */
+    /* Want to grab a code from comments? :v */
     __Pyx_XGIVEREF(__pyx_t_1);
     __Pyx_XGIVEREF(__pyx_t_2);
     __Pyx_XGIVEREF(__pyx_t_3);
@@ -6720,9 +6715,9 @@ static PyObject *__pyx_pf_5faith_4main_10me(CYTHON_UNUSED PyObject *__pyx_self, 
     __pyx_L8_try_end:;
   }
 
-  /* Enjoy the features! */
+  /* Want to grab a code from comments? :v */
 
-  /* Instagram: @dementorize */
+  /* Facebook: Rizemary.xyz */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -6740,9 +6735,9 @@ static PyObject *__pyx_pf_5faith_4main_10me(CYTHON_UNUSED PyObject *__pyx_self, 
   return __pyx_r;
 }
 
-/* Facebook: Rizemary.xyz */
+/* Want to grab a code from comments? :v */
 
-/* Instagram: @dementorize */
+/* Want to grab a code from comments? :v */
 static PyObject *__pyx_pw_5faith_4main_13menu(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Want to grab a code from comments? :v */
 static PyMethodDef __pyx_mdef_5faith_4main_13menu = {"menu", (PyCFunction)__pyx_pw_5faith_4main_13menu, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_13menu(PyObject *__pyx_self, PyObject *__pyx_v_self) {
@@ -6751,7 +6746,7 @@ static PyObject *__pyx_pw_5faith_4main_13menu(PyObject *__pyx_self, PyObject *__
   __Pyx_RefNannySetupContext("menu (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_12menu(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Facebook: Rizemary.xyz */
+  /* Instagram: @dementorize */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -6786,10 +6781,10 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("menu", 0);
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
   while (1) {
 
-    /* Facebook: Rizemary.xyz */
+    /* Instagram: @dementorize */
     __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_requests); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 180, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_get); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 180, __pyx_L1_error)
@@ -6816,7 +6811,7 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
     __Pyx_XDECREF_SET(__pyx_v_anoun, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* Github: MieRebus47 */
+    /* Want to grab a code from comments? :v */
     __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_clear); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 181, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_2 = NULL;
@@ -6836,7 +6831,7 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* Instagram: @dementorize */
+    /* Github: MieRebus47 */
     __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_banner); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 182, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_2 = NULL;
@@ -6856,7 +6851,7 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* Enjoy the features! */
+    /* Facebook: Rizemary.xyz */
     __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Panel); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 183, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 183, __pyx_L1_error)
@@ -6927,7 +6922,7 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
     __Pyx_XDECREF_SET(__pyx_v_ingfo, __pyx_t_8);
     __pyx_t_8 = 0;
 
-    /* Instagram: @dementorize */
+    /* Want to grab a code from comments? :v */
     __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_Panel); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 184, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Text); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 184, __pyx_L1_error)
@@ -6961,7 +6956,7 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
     __Pyx_DECREF_SET(__pyx_v_anoun, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* Want to grab a code from comments? :v */
+    /* Facebook: Rizemary.xyz */
     __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_prints); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 185, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Columns); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 185, __pyx_L1_error)
@@ -7005,7 +7000,7 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* Github: MieRebus47 */
+    /* Instagram: @dementorize */
     __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_prints); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 186, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Panel); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 186, __pyx_L1_error)
@@ -7187,7 +7182,7 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
     __Pyx_XDECREF_SET(__pyx_v_men, ((PyObject*)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* Github: MieRebus47 */
+    /* Enjoy the features! */
     {
       __Pyx_PyThreadState_declare
       __Pyx_PyThreadState_assign
@@ -7195,9 +7190,9 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
       __Pyx_XGOTREF(__pyx_t_14);
       __Pyx_XGOTREF(__pyx_t_15);
       __Pyx_XGOTREF(__pyx_t_16);
-      /* Want to grab a code from comments? :v */ {
+      /* Instagram: @dementorize */ {
 
-        /* Enjoy the features! */
+        /* Github: MieRebus47 */
         __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_n_s_inquirer); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 189, __pyx_L5_error)
         __Pyx_GOTREF(__pyx_t_12);
         __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_n_s_prompt); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 189, __pyx_L5_error)
@@ -7259,7 +7254,7 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
         __Pyx_XDECREF_SET(__pyx_v_func, __pyx_t_1);
         __pyx_t_1 = 0;
 
-        /* Enjoy the features! */
+        /* Want to grab a code from comments? :v */
         __Pyx_INCREF(__pyx_v_func);
         __pyx_t_11 = __pyx_v_func; __pyx_t_13 = NULL;
         if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_11))) {
@@ -7278,7 +7273,7 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* Enjoy the features! */
+        /* Github: MieRebus47 */
         __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_thanks); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 191, __pyx_L5_error)
         __Pyx_GOTREF(__pyx_t_1);
         __pyx_t_11 = PyObject_RichCompare(__pyx_v_func, __pyx_t_1, Py_NE); __Pyx_XGOTREF(__pyx_t_11); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 191, __pyx_L5_error)
@@ -7343,7 +7338,7 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-      /* Want to grab a code from comments? :v */
+      /* Instagram: @dementorize */
       __pyx_t_18 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
       if (__pyx_t_18) {
         __Pyx_AddTraceback("faith.main.menu", __pyx_clineno, __pyx_lineno, __pyx_filename);
@@ -7372,7 +7367,7 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-        /* Github: MieRebus47 */
+        /* Facebook: Rizemary.xyz */
         goto __pyx_L14_except_break;
         __pyx_L14_except_break:;
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
@@ -7383,7 +7378,7 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
       goto __pyx_L7_except_error;
       __pyx_L7_except_error:;
 
-      /* Facebook: Rizemary.xyz */
+      /* Want to grab a code from comments? :v */
       __Pyx_XGIVEREF(__pyx_t_14);
       __Pyx_XGIVEREF(__pyx_t_15);
       __Pyx_XGIVEREF(__pyx_t_16);
@@ -7400,14 +7395,14 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
   }
   __pyx_L4_break:;
 
-  /* Want to grab a code from comments? :v */
+  /* Instagram: @dementorize */
   __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_builtin_exit); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 195, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Want to grab a code from comments? :v */
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -7436,7 +7431,7 @@ static PyObject *__pyx_pf_5faith_4main_12menu(CYTHON_UNUSED PyObject *__pyx_self
 
 /* Instagram: @dementorize */
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 static PyObject *__pyx_pw_5faith_4main_15downloader(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Facebook: Rizemary.xyz */
 static PyMethodDef __pyx_mdef_5faith_4main_15downloader = {"downloader", (PyCFunction)__pyx_pw_5faith_4main_15downloader, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_15downloader(PyObject *__pyx_self, PyObject *__pyx_v_self) {
@@ -7445,7 +7440,7 @@ static PyObject *__pyx_pw_5faith_4main_15downloader(PyObject *__pyx_self, PyObje
   __Pyx_RefNannySetupContext("downloader (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_14downloader(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Enjoy the features! */
+  /* Want to grab a code from comments? :v */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -7486,7 +7481,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("downloader", 0);
 
-  /* Enjoy the features! */
+  /* Want to grab a code from comments? :v */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -7494,9 +7489,9 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
     __Pyx_XGOTREF(__pyx_t_1);
     __Pyx_XGOTREF(__pyx_t_2);
     __Pyx_XGOTREF(__pyx_t_3);
-    /* Enjoy the features! */ {
+    /* Facebook: Rizemary.xyz */ {
 
-      /* Enjoy the features! */
+      /* Facebook: Rizemary.xyz */
       __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Console); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 200, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_7 = NULL;
@@ -7560,7 +7555,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
         goto __pyx_L9;
       }
 
-      /* Enjoy the features! */
+      /* Facebook: Rizemary.xyz */
       /* Github: MieRebus47 */ {
         __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_requests); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 203, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
@@ -7586,7 +7581,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
         __pyx_v_a = __pyx_t_5;
         __pyx_t_5 = 0;
 
-        /* Github: MieRebus47 */
+        /* Instagram: @dementorize */
         __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_parser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 204, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_a, __pyx_n_s_text); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 204, __pyx_L3_error)
@@ -7610,7 +7605,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
         __pyx_v_req = __pyx_t_5;
         __pyx_t_5 = 0;
 
-        /* Instagram: @dementorize */
+        /* Enjoy the features! */
         __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_req, __pyx_n_s_find); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 205, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_6 = NULL;
@@ -7687,7 +7682,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
         __pyx_v_revo = __pyx_t_5;
         __pyx_t_5 = 0;
 
-        /* Facebook: Rizemary.xyz */
+        /* Instagram: @dementorize */
         __pyx_t_5 = __pyx_kp_s__6;
         __Pyx_INCREF(__pyx_t_5);
         __pyx_t_4 = __pyx_kp_s__6;
@@ -7697,7 +7692,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
         __pyx_v_url = __pyx_t_4;
         __pyx_t_4 = 0;
 
-        /* Enjoy the features! */
+        /* Facebook: Rizemary.xyz */
         if (likely(PyList_CheckExact(__pyx_v_revo)) || PyTuple_CheckExact(__pyx_v_revo)) {
           __pyx_t_4 = __pyx_v_revo; __Pyx_INCREF(__pyx_t_4); __pyx_t_12 = 0;
           __pyx_t_13 = NULL;
@@ -7740,7 +7735,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
           __Pyx_XDECREF_SET(__pyx_v_x, __pyx_t_5);
           __pyx_t_5 = 0;
 
-          /* Instagram: @dementorize */
+          /* Enjoy the features! */
           {
             __Pyx_PyThreadState_declare
             __Pyx_PyThreadState_assign
@@ -7748,9 +7743,9 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
             __Pyx_XGOTREF(__pyx_t_14);
             __Pyx_XGOTREF(__pyx_t_15);
             __Pyx_XGOTREF(__pyx_t_16);
-            /* Github: MieRebus47 */ {
+            /* Instagram: @dementorize */ {
 
-              /* Enjoy the features! */
+              /* Facebook: Rizemary.xyz */
               __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_n_s_find); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 210, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_11);
               __pyx_t_6 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 210, __pyx_L12_error)
@@ -7807,7 +7802,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
               __Pyx_XDECREF_SET(__pyx_v_resp, __pyx_t_5);
               __pyx_t_5 = 0;
 
-              /* Github: MieRebus47 */
+              /* Instagram: @dementorize */
               __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_resp, __pyx_n_s_get); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 211, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_11);
               __pyx_t_17 = NULL;
@@ -7836,7 +7831,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
                 __Pyx_DECREF_SET(__pyx_v_url, __pyx_t_5);
                 __pyx_t_5 = 0;
 
-                /* Want to grab a code from comments? :v */
+                /* Facebook: Rizemary.xyz */
                 __pyx_t_5 = PyTuple_New(4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 213, __pyx_L12_error)
                 __Pyx_GOTREF(__pyx_t_5);
                 __pyx_t_18 = 0;
@@ -7869,7 +7864,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
                 if (__Pyx_PrintOne(0, __pyx_t_11) < 0) __PYX_ERR(0, 213, __pyx_L12_error)
                 __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-                /* Facebook: Rizemary.xyz */
+                /* Github: MieRebus47 */
               }
 
               /* Github: MieRebus47 */
@@ -7885,8 +7880,8 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
             __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-            /* Github: MieRebus47 */
-            /* Github: MieRebus47 */ {
+            /* Enjoy the features! */
+            /* Instagram: @dementorize */ {
               __Pyx_AddTraceback("faith.main.downloader", __pyx_clineno, __pyx_lineno, __pyx_filename);
               if (__Pyx_GetException(&__pyx_t_11, &__pyx_t_5, &__pyx_t_17) < 0) __PYX_ERR(0, 214, __pyx_L14_except_error)
               __Pyx_GOTREF(__pyx_t_11);
@@ -7921,7 +7916,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
             }
             __pyx_L14_except_error:;
 
-            /* Facebook: Rizemary.xyz */
+            /* Enjoy the features! */
             __Pyx_XGIVEREF(__pyx_t_14);
             __Pyx_XGIVEREF(__pyx_t_15);
             __Pyx_XGIVEREF(__pyx_t_16);
@@ -7935,7 +7930,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
             __pyx_L19_try_end:;
           }
 
-          /* Enjoy the features! */
+          /* Instagram: @dementorize */
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
@@ -7956,7 +7951,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* Github: MieRebus47 */
+    /* Instagram: @dementorize */
     __pyx_t_10 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_KeyboardInterrupt);
     if (__pyx_t_10) {
       __Pyx_AddTraceback("faith.main.downloader", __pyx_clineno, __pyx_lineno, __pyx_filename);
@@ -7965,7 +7960,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
       __Pyx_GOTREF(__pyx_t_17);
       __Pyx_GOTREF(__pyx_t_5);
 
-      /* Want to grab a code from comments? :v */
+      /* Github: MieRebus47 */
       __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_warn); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 216, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_20 = NULL;
@@ -7990,15 +7985,15 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
       goto __pyx_L4_exception_handled;
     }
 
-    /* Facebook: Rizemary.xyz */
-    /* Enjoy the features! */ {
+    /* Instagram: @dementorize */
+    /* Github: MieRebus47 */ {
       __Pyx_AddTraceback("faith.main.downloader", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_17, &__pyx_t_4) < 0) __PYX_ERR(0, 217, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_GOTREF(__pyx_t_17);
       __Pyx_GOTREF(__pyx_t_4);
 
-      /* Instagram: @dementorize */
+      /* Enjoy the features! */
       __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_warn); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 218, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_20 = NULL;
@@ -8024,7 +8019,7 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
     }
     __pyx_L5_except_error:;
 
-    /* Want to grab a code from comments? :v */
+    /* Enjoy the features! */
     __Pyx_XGIVEREF(__pyx_t_1);
     __Pyx_XGIVEREF(__pyx_t_2);
     __Pyx_XGIVEREF(__pyx_t_3);
@@ -8038,9 +8033,9 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
     __pyx_L8_try_end:;
   }
 
-  /* Enjoy the features! */
+  /* Facebook: Rizemary.xyz */
 
-  /* Want to grab a code from comments? :v */
+  /* Github: MieRebus47 */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -8067,10 +8062,10 @@ static PyObject *__pyx_pf_5faith_4main_14downloader(CYTHON_UNUSED PyObject *__py
   return __pyx_r;
 }
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 
-/* Instagram: @dementorize */
-static PyObject *__pyx_pw_5faith_4main_17bot_react(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Want to grab a code from comments? :v */
+/* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pw_5faith_4main_17bot_react(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Facebook: Rizemary.xyz */
 static PyMethodDef __pyx_mdef_5faith_4main_17bot_react = {"bot_react", (PyCFunction)__pyx_pw_5faith_4main_17bot_react, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_17bot_react(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
@@ -8078,7 +8073,7 @@ static PyObject *__pyx_pw_5faith_4main_17bot_react(PyObject *__pyx_self, PyObjec
   __Pyx_RefNannySetupContext("bot_react (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_16bot_react(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Enjoy the features! */
+  /* Github: MieRebus47 */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -8120,7 +8115,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("bot_react", 0);
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_React); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 221, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 221, __pyx_L1_error)
@@ -8144,7 +8139,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_func = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_func, __pyx_n_s_home); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 222, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 222, __pyx_L1_error)
@@ -8189,7 +8184,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_men = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Enjoy the features! */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -8197,13 +8192,13 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
     __Pyx_XGOTREF(__pyx_t_5);
     __Pyx_XGOTREF(__pyx_t_6);
     __Pyx_XGOTREF(__pyx_t_7);
-    /* Github: MieRebus47 */ {
+    /* Facebook: Rizemary.xyz */ {
 
-      /* Instagram: @dementorize */
+      /* Github: MieRebus47 */
       __Pyx_INCREF(__pyx_kp_s_home_php);
       __pyx_v_id = __pyx_kp_s_home_php;
 
-      /* Enjoy the features! */
+      /* Github: MieRebus47 */
       __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_inquirer); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 225, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_prompt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 225, __pyx_L3_error)
@@ -8264,7 +8259,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
       __pyx_v_bot = __pyx_t_1;
       __pyx_t_1 = 0;
 
-      /* Want to grab a code from comments? :v */
+      /* Github: MieRebus47 */
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_func, __pyx_n_s_friend); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 226, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_1);
       __pyx_t_2 = PyObject_RichCompare(__pyx_v_bot, __pyx_t_1, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 226, __pyx_L3_error)
@@ -8273,7 +8268,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       if (__pyx_t_10) {
 
-        /* Instagram: @dementorize */
+        /* Enjoy the features! */
         __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_Console); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 227, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_3 = NULL;
@@ -8312,11 +8307,11 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
         __Pyx_DECREF_SET(__pyx_v_id, __pyx_t_2);
         __pyx_t_2 = 0;
 
-        /* Facebook: Rizemary.xyz */
+        /* Enjoy the features! */
         __Pyx_INCREF(__pyx_n_s_groups);
         __pyx_v_field = __pyx_n_s_groups;
 
-        /* Facebook: Rizemary.xyz */
+        /* Instagram: @dementorize */
         goto __pyx_L9;
       }
 
@@ -8329,7 +8324,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (__pyx_t_10) {
 
-        /* Github: MieRebus47 */
+        /* Enjoy the features! */
         __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Console); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 230, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_1);
         __pyx_t_3 = NULL;
@@ -8372,11 +8367,11 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
         __Pyx_INCREF(__pyx_kp_s__6);
         __pyx_v_field = __pyx_kp_s__6;
 
-        /* Instagram: @dementorize */
+        /* Enjoy the features! */
       }
       __pyx_L9:;
 
-      /* Want to grab a code from comments? :v */
+      /* Instagram: @dementorize */
       __Pyx_INCREF(__pyx_v_bot);
       __pyx_t_4 = __pyx_v_bot;
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_func, __pyx_n_s_group); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 232, __pyx_L3_error)
@@ -8410,14 +8405,14 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
       __pyx_L11_bool_binop_done:;
       if (__pyx_t_10) {
 
-        /* Want to grab a code from comments? :v */
+        /* Instagram: @dementorize */
         __Pyx_INCREF(__pyx_kp_s__6);
         __pyx_v_a = __pyx_kp_s__6;
 
-        /* Enjoy the features! */
+        /* Github: MieRebus47 */
       }
 
-      /* Enjoy the features! */
+      /* Facebook: Rizemary.xyz */
       {
         __Pyx_PyThreadState_declare
         __Pyx_PyThreadState_assign
@@ -8427,7 +8422,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XGOTREF(__pyx_t_15);
         /* Instagram: @dementorize */ {
 
-          /* Github: MieRebus47 */
+          /* Want to grab a code from comments? :v */
           __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_inquirer); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 235, __pyx_L15_error)
           __Pyx_GOTREF(__pyx_t_2);
           __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_prompt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 235, __pyx_L15_error)
@@ -8519,7 +8514,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
           __pyx_v_rea = __pyx_t_4;
           __pyx_t_4 = 0;
 
-          /* Want to grab a code from comments? :v */
+          /* Enjoy the features! */
         }
         __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
         __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
@@ -8533,8 +8528,8 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-        /* Want to grab a code from comments? :v */
-        /* Facebook: Rizemary.xyz */ {
+        /* Github: MieRebus47 */
+        /* Instagram: @dementorize */ {
           __Pyx_AddTraceback("faith.main.bot_react", __pyx_clineno, __pyx_lineno, __pyx_filename);
           if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_3, &__pyx_t_1) < 0) __PYX_ERR(0, 236, __pyx_L17_except_error)
           __Pyx_GOTREF(__pyx_t_4);
@@ -8561,7 +8556,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
           __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-          /* Instagram: @dementorize */
+          /* Facebook: Rizemary.xyz */
           __pyx_t_2 = __Pyx_PyObject_CallNoArg(__pyx_builtin_exit); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 238, __pyx_L17_except_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -8586,7 +8581,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
         __pyx_L20_try_end:;
       }
 
-      /* Instagram: @dementorize */
+      /* Github: MieRebus47 */
       if (unlikely(!__pyx_v_rea)) { __Pyx_RaiseUnboundLocalError("rea"); __PYX_ERR(0, 239, __pyx_L3_error) }
       __pyx_t_16 = PyObject_Length(__pyx_v_rea); if (unlikely(__pyx_t_16 == ((Py_ssize_t)-1))) __PYX_ERR(0, 239, __pyx_L3_error)
       __pyx_t_10 = ((__pyx_t_16 == 0) != 0);
@@ -8612,8 +8607,8 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
         goto __pyx_L23;
       }
 
-      /* Enjoy the features! */
-      /* Github: MieRebus47 */ {
+      /* Github: MieRebus47 */
+      /* Want to grab a code from comments? :v */ {
         __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Console); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 241, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_2);
         __pyx_t_8 = NULL;
@@ -8666,7 +8661,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
         __pyx_v_limit = __pyx_t_1;
         __pyx_t_1 = 0;
 
-        /* Facebook: Rizemary.xyz */
+        /* Github: MieRebus47 */
         __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_Console); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 242, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_8 = NULL;
@@ -8717,7 +8712,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
         __pyx_v_tpp = __pyx_t_1;
         __pyx_t_1 = 0;
 
-        /* Facebook: Rizemary.xyz */
+        /* Want to grab a code from comments? :v */
         {
           __Pyx_PyThreadState_declare
           __Pyx_PyThreadState_assign
@@ -8725,7 +8720,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
           __Pyx_XGOTREF(__pyx_t_15);
           __Pyx_XGOTREF(__pyx_t_14);
           __Pyx_XGOTREF(__pyx_t_13);
-          /* Enjoy the features! */ {
+          /* Github: MieRebus47 */ {
             __pyx_t_1 = __Pyx_PyNumber_Int(__pyx_v_tpp); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 243, __pyx_L28_error)
             __Pyx_GOTREF(__pyx_t_1);
             __Pyx_DECREF_SET(__pyx_v_tpp, __pyx_t_1);
@@ -8743,8 +8738,8 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
           __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
           __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-          /* Instagram: @dementorize */
-          /* Facebook: Rizemary.xyz */ {
+          /* Facebook: Rizemary.xyz */
+          /* Want to grab a code from comments? :v */ {
             __Pyx_ErrRestore(0,0,0);
             goto __pyx_L29_exception_handled;
           }
@@ -8756,7 +8751,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
           __pyx_L33_try_end:;
         }
 
-        /* Instagram: @dementorize */
+        /* Enjoy the features! */
         {
           __Pyx_PyThreadState_declare
           __Pyx_PyThreadState_assign
@@ -8764,7 +8759,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
           __Pyx_XGOTREF(__pyx_t_13);
           __Pyx_XGOTREF(__pyx_t_14);
           __Pyx_XGOTREF(__pyx_t_15);
-          /* Facebook: Rizemary.xyz */ {
+          /* Want to grab a code from comments? :v */ {
             __pyx_t_1 = __Pyx_PyNumber_Int(__pyx_v_limit); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 245, __pyx_L34_error)
             __Pyx_GOTREF(__pyx_t_1);
             __Pyx_DECREF_SET(__pyx_v_limit, __pyx_t_1);
@@ -8783,7 +8778,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
           __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
           /* Github: MieRebus47 */
-          /* Github: MieRebus47 */ {
+          /* Want to grab a code from comments? :v */ {
             __Pyx_ErrRestore(0,0,0);
             goto __pyx_L35_exception_handled;
           }
@@ -8795,7 +8790,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
           __pyx_L39_try_end:;
         }
 
-        /* Facebook: Rizemary.xyz */
+        /* Want to grab a code from comments? :v */
         __Pyx_INCREF(__pyx_v_bot);
         __pyx_t_3 = __pyx_v_bot; __pyx_t_4 = NULL;
         __pyx_t_17 = 0;
@@ -8888,7 +8883,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
           __Pyx_XDECREF_SET(__pyx_v_po, __pyx_t_3);
           __pyx_t_3 = 0;
 
-          /* Facebook: Rizemary.xyz */
+          /* Instagram: @dementorize */
           {
             __Pyx_PyThreadState_declare
             __Pyx_PyThreadState_assign
@@ -8949,7 +8944,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
               __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
               __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-              /* Facebook: Rizemary.xyz */
+              /* Enjoy the features! */
               __pyx_t_3 = __Pyx_GetItemInt(__pyx_v_post, -1L, long, 1, __Pyx_PyInt_From_long, 0, 1, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 251, __pyx_L42_error)
               __Pyx_GOTREF(__pyx_t_3);
               __pyx_t_2 = PyObject_RichCompare(__pyx_v_po, __pyx_t_3, Py_NE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 251, __pyx_L42_error)
@@ -8977,7 +8972,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
                 __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
               }
 
-              /* Enjoy the features! */
+              /* Instagram: @dementorize */
             }
             __Pyx_XDECREF(__pyx_t_15); __pyx_t_15 = 0;
             __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
@@ -8990,7 +8985,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
             __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
             __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-            /* Facebook: Rizemary.xyz */
+            /* Github: MieRebus47 */
             /* Want to grab a code from comments? :v */ {
               __Pyx_ErrRestore(0,0,0);
               goto __pyx_L43_exception_handled;
@@ -9003,11 +8998,11 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
             __pyx_L49_try_end:;
           }
 
-          /* Github: MieRebus47 */
+          /* Facebook: Rizemary.xyz */
         }
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* Enjoy the features! */
+        /* Github: MieRebus47 */
         __pyx_t_16 = PyObject_Length(__pyx_v_post); if (unlikely(__pyx_t_16 == ((Py_ssize_t)-1))) __PYX_ERR(0, 253, __pyx_L3_error)
         __pyx_t_10 = ((__pyx_t_16 != 0) != 0);
         if (__pyx_t_10) {
@@ -9032,8 +9027,8 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
           goto __pyx_L51;
         }
 
-        /* Github: MieRebus47 */
-        /* Github: MieRebus47 */ {
+        /* Instagram: @dementorize */
+        /* Facebook: Rizemary.xyz */ {
           __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_warn); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 254, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_2);
           __pyx_t_3 = NULL;
@@ -9057,7 +9052,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
       }
       __pyx_L23:;
 
-      /* Want to grab a code from comments? :v */
+      /* Facebook: Rizemary.xyz */
     }
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -9071,15 +9066,15 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-    /* Want to grab a code from comments? :v */
-    /* Facebook: Rizemary.xyz */ {
+    /* Github: MieRebus47 */
+    /* Want to grab a code from comments? :v */ {
       __Pyx_AddTraceback("faith.main.bot_react", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_1, &__pyx_t_2, &__pyx_t_3) < 0) __PYX_ERR(0, 255, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_GOTREF(__pyx_t_3);
 
-      /* Github: MieRebus47 */
+      /* Instagram: @dementorize */
       __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_warn); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 256, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_9 = NULL;
@@ -9099,7 +9094,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-      /* Facebook: Rizemary.xyz */
+      /* Want to grab a code from comments? :v */
       __pyx_t_8 = __Pyx_PyObject_CallNoArg(__pyx_builtin_exit); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 257, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -9110,7 +9105,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
     }
     __pyx_L5_except_error:;
 
-    /* Instagram: @dementorize */
+    /* Want to grab a code from comments? :v */
     __Pyx_XGIVEREF(__pyx_t_5);
     __Pyx_XGIVEREF(__pyx_t_6);
     __Pyx_XGIVEREF(__pyx_t_7);
@@ -9124,7 +9119,7 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
     __pyx_L8_try_end:;
   }
 
-  /* Github: MieRebus47 */
+  /* Facebook: Rizemary.xyz */
 
   /* Instagram: @dementorize */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
@@ -9155,10 +9150,10 @@ static PyObject *__pyx_pf_5faith_4main_16bot_react(CYTHON_UNUSED PyObject *__pyx
   return __pyx_r;
 }
 
-/* Want to grab a code from comments? :v */
+/* Github: MieRebus47 */
 
 /* Want to grab a code from comments? :v */
-static PyObject *__pyx_pw_5faith_4main_19fl_remove(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pw_5faith_4main_19fl_remove(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Instagram: @dementorize */
 static PyMethodDef __pyx_mdef_5faith_4main_19fl_remove = {"fl_remove", (PyCFunction)__pyx_pw_5faith_4main_19fl_remove, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_19fl_remove(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
@@ -9166,7 +9161,7 @@ static PyObject *__pyx_pw_5faith_4main_19fl_remove(PyObject *__pyx_self, PyObjec
   __Pyx_RefNannySetupContext("fl_remove (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_18fl_remove(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Want to grab a code from comments? :v */
+  /* Github: MieRebus47 */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -9174,7 +9169,7 @@ static PyObject *__pyx_pw_5faith_4main_19fl_remove(PyObject *__pyx_self, PyObjec
 /* Github: MieRebus47 */
 
 /* Want to grab a code from comments? :v */
-static PyObject *__pyx_pw_5faith_4main_9fl_remove_lambda6(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Want to grab a code from comments? :v */
+static PyObject *__pyx_pw_5faith_4main_9fl_remove_lambda6(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Enjoy the features! */
 static PyMethodDef __pyx_mdef_5faith_4main_9fl_remove_lambda6 = {"lambda6", (PyCFunction)__pyx_pw_5faith_4main_9fl_remove_lambda6, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_9fl_remove_lambda6(PyObject *__pyx_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = 0;
@@ -9182,7 +9177,7 @@ static PyObject *__pyx_pw_5faith_4main_9fl_remove_lambda6(PyObject *__pyx_self, 
   __Pyx_RefNannySetupContext("lambda6 (wrapper)", 0);
   __pyx_r = __pyx_lambda_funcdef_lambda6(__pyx_self, ((PyObject *)__pyx_v_x));
 
-  /* Facebook: Rizemary.xyz */
+  /* Instagram: @dementorize */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -9215,7 +9210,7 @@ static PyObject *__pyx_lambda_funcdef_lambda6(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* Enjoy the features! */
+  /* Github: MieRebus47 */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
@@ -9227,7 +9222,7 @@ static PyObject *__pyx_lambda_funcdef_lambda6(CYTHON_UNUSED PyObject *__pyx_self
   return __pyx_r;
 }
 
-/* Want to grab a code from comments? :v */
+/* Github: MieRebus47 */
 
 static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_limit = NULL;
@@ -9270,7 +9265,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("fl_remove", 0);
 
-  /* Github: MieRebus47 */
+  /* Want to grab a code from comments? :v */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -9278,7 +9273,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
     __Pyx_XGOTREF(__pyx_t_1);
     __Pyx_XGOTREF(__pyx_t_2);
     __Pyx_XGOTREF(__pyx_t_3);
-    /* Github: MieRebus47 */ {
+    /* Enjoy the features! */ {
 
       /* Want to grab a code from comments? :v */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Console); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 261, __pyx_L3_error)
@@ -9339,7 +9334,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XGOTREF(__pyx_t_10);
         __Pyx_XGOTREF(__pyx_t_11);
         __Pyx_XGOTREF(__pyx_t_12);
-        /* Instagram: @dementorize */ {
+        /* Want to grab a code from comments? :v */ {
           __pyx_t_4 = __Pyx_PyNumber_Int(__pyx_v_limit); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 262, __pyx_L11_error)
           __Pyx_GOTREF(__pyx_t_4);
           __Pyx_DECREF_SET(__pyx_v_limit, __pyx_t_4);
@@ -9356,7 +9351,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-        /* Instagram: @dementorize */
+        /* Facebook: Rizemary.xyz */
         /* Want to grab a code from comments? :v */ {
           __Pyx_ErrRestore(0,0,0);
           goto __pyx_L12_exception_handled;
@@ -9369,7 +9364,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
         __pyx_L16_try_end:;
       }
 
-      /* Facebook: Rizemary.xyz */
+      /* Instagram: @dementorize */
       {
         __Pyx_PyThreadState_declare
         __Pyx_PyThreadState_assign
@@ -9377,9 +9372,9 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XGOTREF(__pyx_t_12);
         __Pyx_XGOTREF(__pyx_t_11);
         __Pyx_XGOTREF(__pyx_t_10);
-        /* Github: MieRebus47 */ {
+        /* Want to grab a code from comments? :v */ {
 
-          /* Instagram: @dementorize */
+          /* Want to grab a code from comments? :v */
           __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 265, __pyx_L17_error)
           __Pyx_GOTREF(__pyx_t_5);
           __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_get); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 265, __pyx_L17_error)
@@ -9421,7 +9416,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
           __pyx_v_fl = __pyx_t_4;
           __pyx_t_4 = 0;
 
-          /* Want to grab a code from comments? :v */
+          /* Enjoy the features! */
           __pyx_t_4 = __Pyx_PyObject_Dict_GetItem(__pyx_v_fl, __pyx_n_s_friends); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 266, __pyx_L17_error)
           __Pyx_GOTREF(__pyx_t_4);
           __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_data_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 266, __pyx_L17_error)
@@ -9473,7 +9468,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
             __Pyx_XDECREF_SET(__pyx_v_x, __pyx_t_4);
             __pyx_t_4 = 0;
 
-            /* Want to grab a code from comments? :v */
+            /* Facebook: Rizemary.xyz */
             __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_n_s_get); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 267, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_6);
             __pyx_t_7 = NULL;
@@ -9494,7 +9489,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
             __Pyx_XDECREF_SET(__pyx_v_fl_id, __pyx_t_4);
             __pyx_t_4 = 0;
 
-            /* Enjoy the features! */
+            /* Github: MieRebus47 */
             __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_n_s_get); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 268, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_6);
             __pyx_t_7 = NULL;
@@ -9515,7 +9510,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
             __Pyx_XDECREF_SET(__pyx_v_name, __pyx_t_4);
             __pyx_t_4 = 0;
 
-            /* Facebook: Rizemary.xyz */
+            /* Want to grab a code from comments? :v */
             __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 269, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_4);
             __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_get); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 269, __pyx_L17_error)
@@ -9536,7 +9531,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
             __Pyx_XDECREF_SET(__pyx_v_rs, __pyx_t_7);
             __pyx_t_7 = 0;
 
-            /* Want to grab a code from comments? :v */
+            /* Instagram: @dementorize */
             __pyx_t_7 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 270, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_7);
             __Pyx_XDECREF_SET(__pyx_v_data, ((PyObject*)__pyx_t_7));
@@ -9566,7 +9561,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
             __Pyx_XDECREF_SET(__pyx_v_ras, __pyx_t_7);
             __pyx_t_7 = 0;
 
-            /* Github: MieRebus47 */
+            /* Enjoy the features! */
             __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_ras, __pyx_n_s_find); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 272, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_4);
             __pyx_t_6 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 272, __pyx_L17_error)
@@ -9626,7 +9621,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
             __Pyx_XDECREF_SET(__pyx_v_form, __pyx_t_7);
             __pyx_t_7 = 0;
 
-            /* Facebook: Rizemary.xyz */
+            /* Want to grab a code from comments? :v */
             __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_form, __pyx_n_s_findAll); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 273, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_4);
             __pyx_t_16 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 273, __pyx_L17_error)
@@ -9763,7 +9758,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
             }
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-            /* Instagram: @dementorize */
+            /* Enjoy the features! */
             __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_host); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 274, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_4);
             __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_form, __pyx_n_s_get); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 274, __pyx_L17_error)
@@ -9790,7 +9785,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
             __Pyx_XDECREF_SET(__pyx_v_ur, __pyx_t_8);
             __pyx_t_8 = 0;
 
-            /* Github: MieRebus47 */
+            /* Want to grab a code from comments? :v */
             __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 275, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_8);
             __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_post); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 275, __pyx_L17_error)
@@ -9820,16 +9815,16 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
             __pyx_t_19 = (__pyx_t_9 != 0);
             if (__pyx_t_19) {
 
-              /* Github: MieRebus47 */
+              /* Enjoy the features! */
               __Pyx_INCREF(__pyx_n_s_FAILED);
               __Pyx_XDECREF_SET(__pyx_v_status, __pyx_n_s_FAILED);
 
-              /* Instagram: @dementorize */
+              /* Facebook: Rizemary.xyz */
               goto __pyx_L27;
             }
 
-            /* Enjoy the features! */
-            /* Instagram: @dementorize */ {
+            /* Github: MieRebus47 */
+            /* Enjoy the features! */ {
               __Pyx_INCREF(__pyx_n_s_REMOVED);
               __Pyx_XDECREF_SET(__pyx_v_status, __pyx_n_s_REMOVED);
             }
@@ -9914,11 +9909,11 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
             __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
 
-            /* Facebook: Rizemary.xyz */
+            /* Instagram: @dementorize */
           }
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-          /* Want to grab a code from comments? :v */
+          /* Instagram: @dementorize */
           __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_n_s_info); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 281, __pyx_L17_error)
           __Pyx_GOTREF(__pyx_t_16);
           __pyx_t_4 = NULL;
@@ -9938,7 +9933,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
           __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-          /* Facebook: Rizemary.xyz */
+          /* Github: MieRebus47 */
         }
         __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
         __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
@@ -9953,15 +9948,15 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-        /* Instagram: @dementorize */
-        /* Github: MieRebus47 */ {
+        /* Want to grab a code from comments? :v */
+        /* Want to grab a code from comments? :v */ {
           __Pyx_AddTraceback("faith.main.fl_remove", __pyx_clineno, __pyx_lineno, __pyx_filename);
           if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_16, &__pyx_t_4) < 0) __PYX_ERR(0, 282, __pyx_L19_except_error)
           __Pyx_GOTREF(__pyx_t_5);
           __Pyx_GOTREF(__pyx_t_16);
           __Pyx_GOTREF(__pyx_t_4);
 
-          /* Enjoy the features! */
+          /* Want to grab a code from comments? :v */
           __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_warn); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 283, __pyx_L19_except_error)
           __Pyx_GOTREF(__pyx_t_7);
           __pyx_t_21 = NULL;
@@ -9987,7 +9982,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
         }
         __pyx_L19_except_error:;
 
-        /* Enjoy the features! */
+        /* Facebook: Rizemary.xyz */
         __Pyx_XGIVEREF(__pyx_t_12);
         __Pyx_XGIVEREF(__pyx_t_11);
         __Pyx_XGIVEREF(__pyx_t_10);
@@ -10001,7 +9996,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
         __pyx_L22_try_end:;
       }
 
-      /* Want to grab a code from comments? :v */
+      /* Enjoy the features! */
     }
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -10016,15 +10011,15 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* Want to grab a code from comments? :v */
-    /* Want to grab a code from comments? :v */ {
+    /* Facebook: Rizemary.xyz */
+    /* Facebook: Rizemary.xyz */ {
       __Pyx_AddTraceback("faith.main.fl_remove", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_16, &__pyx_t_5) < 0) __PYX_ERR(0, 284, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_GOTREF(__pyx_t_16);
       __Pyx_GOTREF(__pyx_t_5);
 
-      /* Want to grab a code from comments? :v */
+      /* Instagram: @dementorize */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_warn); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 285, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_21 = NULL;
@@ -10044,7 +10039,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-      /* Github: MieRebus47 */
+      /* Instagram: @dementorize */
       __pyx_t_8 = __Pyx_PyObject_CallNoArg(__pyx_builtin_exit); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 286, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -10055,7 +10050,7 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
     }
     __pyx_L5_except_error:;
 
-    /* Github: MieRebus47 */
+    /* Enjoy the features! */
     __Pyx_XGIVEREF(__pyx_t_1);
     __Pyx_XGIVEREF(__pyx_t_2);
     __Pyx_XGIVEREF(__pyx_t_3);
@@ -10069,9 +10064,9 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
     __pyx_L8_try_end:;
   }
 
-  /* Github: MieRebus47 */
+  /* Facebook: Rizemary.xyz */
 
-  /* Github: MieRebus47 */
+  /* Instagram: @dementorize */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -10102,9 +10097,9 @@ static PyObject *__pyx_pf_5faith_4main_18fl_remove(CYTHON_UNUSED PyObject *__pyx
   return __pyx_r;
 }
 
-/* Github: MieRebus47 */
+/* Instagram: @dementorize */
 
-/* Github: MieRebus47 */
+/* Facebook: Rizemary.xyz */
 static PyObject *__pyx_pw_5faith_4main_21rcookies(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_4main_21rcookies = {"rcookies", (PyCFunction)__pyx_pw_5faith_4main_21rcookies, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_21rcookies(PyObject *__pyx_self, PyObject *__pyx_v_self) {
@@ -10113,7 +10108,7 @@ static PyObject *__pyx_pw_5faith_4main_21rcookies(PyObject *__pyx_self, PyObject
   __Pyx_RefNannySetupContext("rcookies (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_20rcookies(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -10140,7 +10135,7 @@ static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("rcookies", 0);
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -10148,9 +10143,9 @@ static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_
     __Pyx_XGOTREF(__pyx_t_1);
     __Pyx_XGOTREF(__pyx_t_2);
     __Pyx_XGOTREF(__pyx_t_3);
-    /* Github: MieRebus47 */ {
+    /* Facebook: Rizemary.xyz */ {
 
-      /* Want to grab a code from comments? :v */
+      /* Github: MieRebus47 */
       __pyx_t_4 = __pyx_tuple__11; __Pyx_INCREF(__pyx_t_4); __pyx_t_5 = 0;
       for (;;) {
         if (__pyx_t_5 >= 2) break;
@@ -10163,7 +10158,7 @@ static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_
         __Pyx_XDECREF_SET(__pyx_v_rm, __pyx_t_6);
         __pyx_t_6 = 0;
 
-        /* Enjoy the features! */
+        /* Instagram: @dementorize */
         {
           __Pyx_PyThreadState_declare
           __Pyx_PyThreadState_assign
@@ -10171,9 +10166,9 @@ static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_
           __Pyx_XGOTREF(__pyx_t_7);
           __Pyx_XGOTREF(__pyx_t_8);
           __Pyx_XGOTREF(__pyx_t_9);
-          /* Want to grab a code from comments? :v */ {
+          /* Github: MieRebus47 */ {
 
-            /* Instagram: @dementorize */
+            /* Facebook: Rizemary.xyz */
             __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_os); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 292, __pyx_L11_error)
             __Pyx_GOTREF(__pyx_t_10);
             __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_remove); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 292, __pyx_L11_error)
@@ -10202,7 +10197,7 @@ static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_
             __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-            /* Facebook: Rizemary.xyz */
+            /* Enjoy the features! */
             __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_n_s_info); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 293, __pyx_L11_error)
             __Pyx_GOTREF(__pyx_t_11);
             __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_rm, __pyx_n_s_title); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 293, __pyx_L11_error)
@@ -10246,7 +10241,7 @@ static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_
             __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-            /* Want to grab a code from comments? :v */
+            /* Facebook: Rizemary.xyz */
           }
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -10259,8 +10254,8 @@ static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_
           __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-          /* Want to grab a code from comments? :v */
-          /* Instagram: @dementorize */ {
+          /* Instagram: @dementorize */
+          /* Github: MieRebus47 */ {
             __Pyx_ErrRestore(0,0,0);
             goto __pyx_L12_exception_handled;
           }
@@ -10272,11 +10267,11 @@ static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_
           __pyx_L18_try_end:;
         }
 
-        /* Facebook: Rizemary.xyz */
+        /* Github: MieRebus47 */
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Instagram: @dementorize */
+      /* Enjoy the features! */
       __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_info); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 295, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_11 = NULL;
@@ -10296,7 +10291,7 @@ static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Want to grab a code from comments? :v */
+      /* Instagram: @dementorize */
     }
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -10310,8 +10305,8 @@ static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* Github: MieRebus47 */
-    /* Instagram: @dementorize */ {
+    /* Facebook: Rizemary.xyz */
+    /* Want to grab a code from comments? :v */ {
       __Pyx_ErrRestore(0,0,0);
       goto __pyx_L4_exception_handled;
     }
@@ -10328,9 +10323,9 @@ static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Github: MieRebus47 */
 
-  /* Instagram: @dementorize */
+  /* Enjoy the features! */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -10349,10 +10344,10 @@ static PyObject *__pyx_pf_5faith_4main_20rcookies(CYTHON_UNUSED PyObject *__pyx_
   return __pyx_r;
 }
 
-/* Facebook: Rizemary.xyz */
-
 /* Enjoy the features! */
-static PyObject *__pyx_pw_5faith_4main_23share(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Github: MieRebus47 */
+
+/* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pw_5faith_4main_23share(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Want to grab a code from comments? :v */
 static PyMethodDef __pyx_mdef_5faith_4main_23share = {"share", (PyCFunction)__pyx_pw_5faith_4main_23share, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_23share(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
@@ -10401,7 +10396,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("share", 0);
 
-  /* Instagram: @dementorize */
+  /* Enjoy the features! */
   __pyx_t_1 = __pyx_int_0;
   __Pyx_INCREF(__pyx_t_1);
   __pyx_t_2 = __pyx_int_0;
@@ -10415,7 +10410,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_v_err = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -10425,7 +10420,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
     __Pyx_XGOTREF(__pyx_t_6);
     /* Enjoy the features! */ {
 
-      /* Enjoy the features! */
+      /* Want to grab a code from comments? :v */
       __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Console); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 302, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_1);
       __pyx_t_7 = NULL;
@@ -10464,7 +10459,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
       __pyx_v_link = __pyx_t_3;
       __pyx_t_3 = 0;
 
-      /* Facebook: Rizemary.xyz */
+      /* Want to grab a code from comments? :v */
       __pyx_t_8 = (__Pyx_PySequence_ContainsTF(__pyx_kp_s_facebook, __pyx_v_link, Py_NE)); if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 303, __pyx_L3_error)
       __pyx_t_9 = (__pyx_t_8 != 0);
       if (__pyx_t_9) {
@@ -10489,8 +10484,8 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
         goto __pyx_L9;
       }
 
-      /* Github: MieRebus47 */
-      /* Enjoy the features! */ {
+      /* Facebook: Rizemary.xyz */
+      /* Github: MieRebus47 */ {
         __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Console); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 305, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_7);
         __pyx_t_10 = NULL;
@@ -10541,7 +10536,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_v_limit = __pyx_t_3;
         __pyx_t_3 = 0;
 
-        /* Want to grab a code from comments? :v */
+        /* Enjoy the features! */
         {
           __Pyx_PyThreadState_declare
           __Pyx_PyThreadState_assign
@@ -10549,7 +10544,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
           __Pyx_XGOTREF(__pyx_t_11);
           __Pyx_XGOTREF(__pyx_t_12);
           __Pyx_XGOTREF(__pyx_t_13);
-          /* Github: MieRebus47 */ {
+          /* Want to grab a code from comments? :v */ {
             __pyx_t_3 = __Pyx_PyNumber_Int(__pyx_v_limit); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 306, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_3);
             __Pyx_DECREF_SET(__pyx_v_limit, __pyx_t_3);
@@ -10630,7 +10625,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
         __pyx_v_tpp = __pyx_t_3;
         __pyx_t_3 = 0;
 
-        /* Facebook: Rizemary.xyz */
+        /* Instagram: @dementorize */
         {
           __Pyx_PyThreadState_declare
           __Pyx_PyThreadState_assign
@@ -10638,7 +10633,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
           __Pyx_XGOTREF(__pyx_t_13);
           __Pyx_XGOTREF(__pyx_t_12);
           __Pyx_XGOTREF(__pyx_t_11);
-          /* Enjoy the features! */ {
+          /* Want to grab a code from comments? :v */ {
             __pyx_t_3 = __Pyx_PyNumber_Int(__pyx_v_tpp); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 309, __pyx_L20_error)
             __Pyx_GOTREF(__pyx_t_3);
             __Pyx_DECREF_SET(__pyx_v_tpp, __pyx_t_3);
@@ -10656,7 +10651,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
           /* Want to grab a code from comments? :v */
-          /* Want to grab a code from comments? :v */ {
+          /* Facebook: Rizemary.xyz */ {
             __Pyx_ErrRestore(0,0,0);
             goto __pyx_L21_exception_handled;
           }
@@ -10668,7 +10663,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
           __pyx_L25_try_end:;
         }
 
-        /* Want to grab a code from comments? :v */
+        /* Facebook: Rizemary.xyz */
         __pyx_t_3 = __Pyx_PyInt_AddObjC(__pyx_v_limit, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 311, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_3);
         __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 311, __pyx_L3_error)
@@ -10725,7 +10720,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
           __Pyx_XDECREF_SET(__pyx_v_tzy, __pyx_t_3);
           __pyx_t_3 = 0;
 
-          /* Enjoy the features! */
+          /* Facebook: Rizemary.xyz */
           {
             __Pyx_PyThreadState_declare
             __Pyx_PyThreadState_assign
@@ -10733,9 +10728,9 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
             __Pyx_XGOTREF(__pyx_t_11);
             __Pyx_XGOTREF(__pyx_t_12);
             __Pyx_XGOTREF(__pyx_t_13);
-            /* Enjoy the features! */ {
+            /* Github: MieRebus47 */ {
 
-              /* Github: MieRebus47 */
+              /* Want to grab a code from comments? :v */
               __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 313, __pyx_L28_error)
               __Pyx_GOTREF(__pyx_t_2);
               __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_post); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 313, __pyx_L28_error)
@@ -10786,18 +10781,18 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
               __Pyx_XDECREF_SET(__pyx_v_pl, __pyx_t_3);
               __pyx_t_3 = 0;
 
-              /* Instagram: @dementorize */
+              /* Facebook: Rizemary.xyz */
               __pyx_t_9 = (__Pyx_PySequence_ContainsTF(__pyx_n_s_id, __pyx_v_pl, Py_EQ)); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 314, __pyx_L28_error)
               __pyx_t_8 = (__pyx_t_9 != 0);
               if (__pyx_t_8) {
 
-                /* Enjoy the features! */
+                /* Facebook: Rizemary.xyz */
                 __pyx_t_3 = __Pyx_PyObject_Dict_GetItem(__pyx_v_pl, __pyx_n_s_id); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 315, __pyx_L28_error)
                 __Pyx_GOTREF(__pyx_t_3);
                 __Pyx_XDECREF_SET(__pyx_v_id, __pyx_t_3);
                 __pyx_t_3 = 0;
 
-                /* Want to grab a code from comments? :v */
+                /* Facebook: Rizemary.xyz */
                 __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_info); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 316, __pyx_L28_error)
                 __Pyx_GOTREF(__pyx_t_2);
                 __pyx_t_10 = __Pyx_PyObject_FormatSimple(__pyx_v_id, __pyx_empty_unicode); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 316, __pyx_L28_error)
@@ -10859,18 +10854,18 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
                 __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
                 __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-                /* Enjoy the features! */
+                /* Want to grab a code from comments? :v */
                 __pyx_t_3 = __Pyx_PyInt_AddObjC(__pyx_v_ok, __pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 317, __pyx_L28_error)
                 __Pyx_GOTREF(__pyx_t_3);
                 __Pyx_DECREF_SET(__pyx_v_ok, __pyx_t_3);
                 __pyx_t_3 = 0;
 
-                /* Github: MieRebus47 */
+                /* Facebook: Rizemary.xyz */
                 goto __pyx_L36;
               }
 
-              /* Enjoy the features! */
-              /* Facebook: Rizemary.xyz */ {
+              /* Facebook: Rizemary.xyz */
+              /* Enjoy the features! */ {
                 __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_warn); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 319, __pyx_L28_error)
                 __Pyx_GOTREF(__pyx_t_2);
                 __pyx_t_18 = __Pyx_PyObject_FormatSimple(__pyx_v_pl, __pyx_empty_unicode); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 319, __pyx_L28_error)
@@ -10932,7 +10927,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
                 __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
                 __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-                /* Github: MieRebus47 */
+                /* Want to grab a code from comments? :v */
                 __pyx_t_3 = __Pyx_PyInt_AddObjC(__pyx_v_no, __pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 320, __pyx_L28_error)
                 __Pyx_GOTREF(__pyx_t_3);
                 __Pyx_DECREF_SET(__pyx_v_no, __pyx_t_3);
@@ -10940,7 +10935,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
               }
               __pyx_L36:;
 
-              /* Instagram: @dementorize */
+              /* Facebook: Rizemary.xyz */
             }
             __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
             __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
@@ -10954,7 +10949,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
             __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-            /* Facebook: Rizemary.xyz */
+            /* Want to grab a code from comments? :v */
             /* Instagram: @dementorize */ {
               __Pyx_AddTraceback("faith.main.share", __pyx_clineno, __pyx_lineno, __pyx_filename);
               if (__Pyx_GetException(&__pyx_t_3, &__pyx_t_2, &__pyx_t_16) < 0) __PYX_ERR(0, 321, __pyx_L30_except_error)
@@ -10972,7 +10967,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
             }
             __pyx_L30_except_error:;
 
-            /* Github: MieRebus47 */
+            /* Want to grab a code from comments? :v */
             __Pyx_XGIVEREF(__pyx_t_11);
             __Pyx_XGIVEREF(__pyx_t_12);
             __Pyx_XGIVEREF(__pyx_t_13);
@@ -10986,7 +10981,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
             __pyx_L35_try_end:;
           }
 
-          /* Want to grab a code from comments? :v */
+          /* Enjoy the features! */
           __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_sleep); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 322, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_2);
           __pyx_t_3 = NULL;
@@ -11010,7 +11005,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
         }
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* Enjoy the features! */
+        /* Facebook: Rizemary.xyz */
         __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_n_s_info); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 323, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_16);
         __pyx_t_2 = PyTuple_New(6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 323, __pyx_L3_error)
@@ -11125,7 +11120,7 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
     /* Want to grab a code from comments? :v */
-    /* Instagram: @dementorize */ {
+    /* Facebook: Rizemary.xyz */ {
       __Pyx_ErrRestore(0,0,0);
       goto __pyx_L4_exception_handled;
     }
@@ -11137,9 +11132,9 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
     __pyx_L8_try_end:;
   }
 
-  /* Facebook: Rizemary.xyz */
-
   /* Want to grab a code from comments? :v */
+
+  /* Facebook: Rizemary.xyz */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   __Pyx_XDECREF(__pyx_v_ok);
   __Pyx_XDECREF(__pyx_v_no);
@@ -11155,10 +11150,10 @@ static PyObject *__pyx_pf_5faith_4main_22share(CYTHON_UNUSED PyObject *__pyx_sel
   return __pyx_r;
 }
 
-/* Enjoy the features! */
+/* Instagram: @dementorize */
 
-/* Want to grab a code from comments? :v */
-static PyObject *__pyx_pw_5faith_4main_25group_takeover(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Instagram: @dementorize */
+/* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pw_5faith_4main_25group_takeover(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Enjoy the features! */
 static PyMethodDef __pyx_mdef_5faith_4main_25group_takeover = {"group_takeover", (PyCFunction)__pyx_pw_5faith_4main_25group_takeover, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_25group_takeover(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
@@ -11166,7 +11161,7 @@ static PyObject *__pyx_pw_5faith_4main_25group_takeover(PyObject *__pyx_self, Py
   __Pyx_RefNannySetupContext("group_takeover (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_24group_takeover(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -11209,7 +11204,7 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("group_takeover", 0);
 
-  /* Facebook: Rizemary.xyz */
+  /* Want to grab a code from comments? :v */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -11217,15 +11212,15 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
     __Pyx_XGOTREF(__pyx_t_1);
     __Pyx_XGOTREF(__pyx_t_2);
     __Pyx_XGOTREF(__pyx_t_3);
-    /* Instagram: @dementorize */ {
+    /* Want to grab a code from comments? :v */ {
 
-      /* Facebook: Rizemary.xyz */
+      /* Want to grab a code from comments? :v */
       __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 328, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_v_vuln = ((PyObject*)__pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* Want to grab a code from comments? :v */
+      /* Instagram: @dementorize */
       __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 329, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_get); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 329, __pyx_L3_error)
@@ -11272,7 +11267,7 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
       __Pyx_DECREF_SET(__pyx_v_fg, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* Want to grab a code from comments? :v */
+      /* Facebook: Rizemary.xyz */
       __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_random); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 331, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_shuffle); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 331, __pyx_L3_error)
@@ -11338,7 +11333,7 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
         __Pyx_XDECREF_SET(__pyx_v_x, __pyx_t_7);
         __pyx_t_7 = 0;
 
-        /* Want to grab a code from comments? :v */
+        /* Instagram: @dementorize */
         __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_n_s_get); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 333, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_6 = NULL;
@@ -11413,11 +11408,11 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
         __Pyx_XDECREF_SET(__pyx_v_data, __pyx_t_6);
         __pyx_t_6 = 0;
 
-        /* Want to grab a code from comments? :v */
+        /* Facebook: Rizemary.xyz */
         __Pyx_INCREF(__pyx_kp_s__32);
         __Pyx_XDECREF_SET(__pyx_v_mem, __pyx_kp_s__32);
 
-        /* Want to grab a code from comments? :v */
+        /* Facebook: Rizemary.xyz */
         {
           __Pyx_PyThreadState_declare
           __Pyx_PyThreadState_assign
@@ -11425,7 +11420,7 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
           __Pyx_XGOTREF(__pyx_t_11);
           __Pyx_XGOTREF(__pyx_t_12);
           __Pyx_XGOTREF(__pyx_t_13);
-          /* Github: MieRebus47 */ {
+          /* Instagram: @dementorize */ {
             __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_re); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 337, __pyx_L11_error)
             __Pyx_GOTREF(__pyx_t_8);
             __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_search); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 337, __pyx_L11_error)
@@ -11508,8 +11503,8 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-          /* Instagram: @dementorize */
-          /* Github: MieRebus47 */ {
+          /* Github: MieRebus47 */
+          /* Instagram: @dementorize */ {
             __Pyx_ErrRestore(0,0,0);
             goto __pyx_L12_exception_handled;
           }
@@ -11521,16 +11516,16 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
           __pyx_L18_try_end:;
         }
 
-        /* Enjoy the features! */
+        /* Want to grab a code from comments? :v */
         __pyx_t_16 = (__Pyx_PySequence_ContainsTF(__pyx_kp_s_groups_archived_group_archive_d, __pyx_v_data, Py_EQ)); if (unlikely(__pyx_t_16 < 0)) __PYX_ERR(0, 339, __pyx_L3_error)
         __pyx_t_17 = (__pyx_t_16 != 0);
         if (__pyx_t_17) {
 
-          /* Github: MieRebus47 */
+          /* Want to grab a code from comments? :v */
           __Pyx_INCREF(__pyx_kp_s_green_Vuln);
           __Pyx_XDECREF_SET(__pyx_v_taker, __pyx_kp_s_green_Vuln);
 
-          /* Instagram: @dementorize */
+          /* Facebook: Rizemary.xyz */
           __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_Panel); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 341, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_5);
           __pyx_t_7 = PyTuple_New(6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 341, __pyx_L3_error)
@@ -11596,14 +11591,14 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
           goto __pyx_L19;
         }
 
-        /* Github: MieRebus47 */
-        /* Facebook: Rizemary.xyz */ {
+        /* Facebook: Rizemary.xyz */
+        /* Github: MieRebus47 */ {
           __Pyx_INCREF(__pyx_kp_s_red_Not_Vuln);
           __Pyx_XDECREF_SET(__pyx_v_taker, __pyx_kp_s_red_Not_Vuln);
         }
         __pyx_L19:;
 
-        /* Want to grab a code from comments? :v */
+        /* Facebook: Rizemary.xyz */
         __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_prints); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 343, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Panel); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 343, __pyx_L3_error)
@@ -11729,12 +11724,12 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Enjoy the features! */
+      /* Instagram: @dementorize */
       __pyx_t_9 = PyList_GET_SIZE(__pyx_v_vuln); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 345, __pyx_L3_error)
       __pyx_t_17 = ((__pyx_t_9 != 0) != 0);
       if (__pyx_t_17) {
 
-        /* Github: MieRebus47 */
+        /* Enjoy the features! */
         __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_os); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 346, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_get_terminal_size); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 346, __pyx_L3_error)
@@ -11784,7 +11779,7 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* Github: MieRebus47 */
+        /* Want to grab a code from comments? :v */
         __pyx_t_4 = __pyx_v_vuln; __Pyx_INCREF(__pyx_t_4); __pyx_t_9 = 0;
         for (;;) {
           if (__pyx_t_9 >= PyList_GET_SIZE(__pyx_t_4)) break;
@@ -11817,12 +11812,12 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* Github: MieRebus47 */
+        /* Facebook: Rizemary.xyz */
         goto __pyx_L20;
       }
 
-      /* Facebook: Rizemary.xyz */
-      /* Github: MieRebus47 */ {
+      /* Want to grab a code from comments? :v */
+      /* Facebook: Rizemary.xyz */ {
         __Pyx_GetModuleGlobalName(__pyx_t_15, __pyx_n_s_warn); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 350, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_15);
         __pyx_t_6 = NULL;
@@ -11844,7 +11839,7 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
       }
       __pyx_L20:;
 
-      /* Instagram: @dementorize */
+      /* Want to grab a code from comments? :v */
     }
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -11859,15 +11854,15 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* Github: MieRebus47 */
-    /* Github: MieRebus47 */ {
+    /* Instagram: @dementorize */
+    /* Facebook: Rizemary.xyz */ {
       __Pyx_AddTraceback("faith.main.group_takeover", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_15, &__pyx_t_6) < 0) __PYX_ERR(0, 351, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_GOTREF(__pyx_t_15);
       __Pyx_GOTREF(__pyx_t_6);
 
-      /* Instagram: @dementorize */
+      /* Facebook: Rizemary.xyz */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_warn); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 352, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_21 = NULL;
@@ -11887,7 +11882,7 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* Want to grab a code from comments? :v */
+      /* Enjoy the features! */
       __pyx_t_5 = __Pyx_PyObject_CallNoArg(__pyx_builtin_exit); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 353, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -11898,7 +11893,7 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
     }
     __pyx_L5_except_error:;
 
-    /* Enjoy the features! */
+    /* Want to grab a code from comments? :v */
     __Pyx_XGIVEREF(__pyx_t_1);
     __Pyx_XGIVEREF(__pyx_t_2);
     __Pyx_XGIVEREF(__pyx_t_3);
@@ -11914,7 +11909,7 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
 
   /* Github: MieRebus47 */
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -11944,8 +11939,8 @@ static PyObject *__pyx_pf_5faith_4main_24group_takeover(CYTHON_UNUSED PyObject *
 
 /* Facebook: Rizemary.xyz */
 
-/* Instagram: @dementorize */
-static PyObject *__pyx_pw_5faith_4main_27pp_guard(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Instagram: @dementorize */
+/* Want to grab a code from comments? :v */
+static PyObject *__pyx_pw_5faith_4main_27pp_guard(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_4main_27pp_guard = {"pp_guard", (PyCFunction)__pyx_pw_5faith_4main_27pp_guard, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_27pp_guard(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
@@ -11953,7 +11948,7 @@ static PyObject *__pyx_pw_5faith_4main_27pp_guard(PyObject *__pyx_self, PyObject
   __Pyx_RefNannySetupContext("pp_guard (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_26pp_guard(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -11984,13 +11979,13 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("pp_guard", 0);
 
-  /* Want to grab a code from comments? :v */
+  /* Github: MieRebus47 */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_uuid, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 356, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_uuid = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Instagram: @dementorize */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -12000,7 +11995,7 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
     __Pyx_XGOTREF(__pyx_t_4);
     /* Want to grab a code from comments? :v */ {
 
-      /* Facebook: Rizemary.xyz */
+      /* Github: MieRebus47 */
       __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_inquirer); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 358, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_prompt); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 358, __pyx_L3_error)
@@ -12070,7 +12065,7 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
       __pyx_v_tu = __pyx_t_1;
       __pyx_t_1 = 0;
 
-      /* Want to grab a code from comments? :v */
+      /* Facebook: Rizemary.xyz */
     }
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -12084,7 +12079,7 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-    /* Instagram: @dementorize */
+    /* Enjoy the features! */
     /* Instagram: @dementorize */ {
       __Pyx_AddTraceback("faith.main.pp_guard", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_1, &__pyx_t_7, &__pyx_t_5) < 0) __PYX_ERR(0, 359, __pyx_L5_except_error)
@@ -12092,7 +12087,7 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_GOTREF(__pyx_t_5);
 
-      /* Enjoy the features! */
+      /* Want to grab a code from comments? :v */
       __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_n_s_warn); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 360, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_9);
       __pyx_t_8 = NULL;
@@ -12112,7 +12107,7 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* Github: MieRebus47 */
+      /* Facebook: Rizemary.xyz */
       __pyx_t_6 = __Pyx_PyObject_CallNoArg(__pyx_builtin_exit); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 361, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -12137,7 +12132,7 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
     __pyx_L8_try_end:;
   }
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __pyx_t_5 = __Pyx_PyDict_NewPresized(10); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 362, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_json); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 362, __pyx_L1_error)
@@ -12231,7 +12226,7 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
   __pyx_v_data = ((PyObject*)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Facebook: Rizemary.xyz */
   __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 363, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_post); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 363, __pyx_L1_error)
@@ -12262,7 +12257,7 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
   __pyx_v_xs = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* Enjoy the features! */
+  /* Facebook: Rizemary.xyz */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -12272,7 +12267,7 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
     __Pyx_XGOTREF(__pyx_t_2);
     /* Facebook: Rizemary.xyz */ {
 
-      /* Facebook: Rizemary.xyz */
+      /* Want to grab a code from comments? :v */
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_xs, __pyx_n_s_text); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 365, __pyx_L11_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_12 = (__Pyx_PySequence_ContainsTF(__pyx_n_s_error, __pyx_t_6, Py_EQ)); if (unlikely(__pyx_t_12 < 0)) __PYX_ERR(0, 365, __pyx_L11_error)
@@ -12280,7 +12275,7 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
       __pyx_t_13 = (__pyx_t_12 != 0);
       if (__pyx_t_13) {
 
-        /* Facebook: Rizemary.xyz */
+        /* Github: MieRebus47 */
         __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_warn); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 366, __pyx_L11_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_7 = NULL;
@@ -12304,8 +12299,8 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
         goto __pyx_L17;
       }
 
-      /* Github: MieRebus47 */
-      /* Instagram: @dementorize */ {
+      /* Facebook: Rizemary.xyz */
+      /* Facebook: Rizemary.xyz */ {
         __pyx_t_6 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 368, __pyx_L11_error)
         __Pyx_GOTREF(__pyx_t_6);
         if (PyDict_SetItem(__pyx_t_6, Py_True, __pyx_kp_s_Success_enabling) < 0) __PYX_ERR(0, 368, __pyx_L11_error)
@@ -12381,15 +12376,15 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-    /* Want to grab a code from comments? :v */
-    /* Instagram: @dementorize */ {
+    /* Instagram: @dementorize */
+    /* Enjoy the features! */ {
       __Pyx_AddTraceback("faith.main.pp_guard", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_7, &__pyx_t_6) < 0) __PYX_ERR(0, 370, __pyx_L13_except_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_GOTREF(__pyx_t_6);
 
-      /* Want to grab a code from comments? :v */
+      /* Instagram: @dementorize */
       __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_n_s_warn); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 371, __pyx_L13_except_error)
       __Pyx_GOTREF(__pyx_t_9);
       __pyx_t_8 = NULL;
@@ -12415,7 +12410,7 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
     }
     __pyx_L13_except_error:;
 
-    /* Facebook: Rizemary.xyz */
+    /* Instagram: @dementorize */
     __Pyx_XGIVEREF(__pyx_t_4);
     __Pyx_XGIVEREF(__pyx_t_3);
     __Pyx_XGIVEREF(__pyx_t_2);
@@ -12429,9 +12424,9 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
     __pyx_L16_try_end:;
   }
 
-  /* Github: MieRebus47 */
-
   /* Enjoy the features! */
+
+  /* Want to grab a code from comments? :v */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -12456,10 +12451,10 @@ static PyObject *__pyx_pf_5faith_4main_26pp_guard(CYTHON_UNUSED PyObject *__pyx_
   return __pyx_r;
 }
 
-/* Facebook: Rizemary.xyz */
+/* Enjoy the features! */
 
-/* Instagram: @dementorize */
-static PyObject *__pyx_pw_5faith_4main_29post_remove(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Facebook: Rizemary.xyz */
+/* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pw_5faith_4main_29post_remove(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_4main_29post_remove = {"post_remove", (PyCFunction)__pyx_pw_5faith_4main_29post_remove, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_29post_remove(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
@@ -12467,15 +12462,15 @@ static PyObject *__pyx_pw_5faith_4main_29post_remove(PyObject *__pyx_self, PyObj
   __Pyx_RefNannySetupContext("post_remove (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_28post_remove(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Instagram: @dementorize */
+  /* Facebook: Rizemary.xyz */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
 /* Facebook: Rizemary.xyz */
 
-/* Enjoy the features! */
-static PyObject *__pyx_pw_5faith_4main_11post_remove_lambda7(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Facebook: Rizemary.xyz */
+/* Instagram: @dementorize */
+static PyObject *__pyx_pw_5faith_4main_11post_remove_lambda7(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Enjoy the features! */
 static PyMethodDef __pyx_mdef_5faith_4main_11post_remove_lambda7 = {"lambda7", (PyCFunction)__pyx_pw_5faith_4main_11post_remove_lambda7, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_11post_remove_lambda7(PyObject *__pyx_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = 0;
@@ -12483,7 +12478,7 @@ static PyObject *__pyx_pw_5faith_4main_11post_remove_lambda7(PyObject *__pyx_sel
   __Pyx_RefNannySetupContext("lambda7 (wrapper)", 0);
   __pyx_r = __pyx_lambda_funcdef_lambda7(__pyx_self, ((PyObject *)__pyx_v_x));
 
-  /* Instagram: @dementorize */
+  /* Want to grab a code from comments? :v */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -12516,7 +12511,7 @@ static PyObject *__pyx_lambda_funcdef_lambda7(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
@@ -12571,7 +12566,7 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("post_remove", 0);
 
-  /* Github: MieRebus47 */
+  /* Facebook: Rizemary.xyz */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -12579,9 +12574,9 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
     __Pyx_XGOTREF(__pyx_t_1);
     __Pyx_XGOTREF(__pyx_t_2);
     __Pyx_XGOTREF(__pyx_t_3);
-    /* Instagram: @dementorize */ {
+    /* Want to grab a code from comments? :v */ {
 
-      /* Github: MieRebus47 */
+      /* Want to grab a code from comments? :v */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Console); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 375, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_8 = NULL;
@@ -12632,7 +12627,7 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
       __pyx_v_limit = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* Want to grab a code from comments? :v */
+      /* Facebook: Rizemary.xyz */
       {
         __Pyx_PyThreadState_declare
         __Pyx_PyThreadState_assign
@@ -12657,8 +12652,8 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-        /* Instagram: @dementorize */
-        /* Instagram: @dementorize */ {
+        /* Want to grab a code from comments? :v */
+        /* Want to grab a code from comments? :v */ {
           __Pyx_ErrRestore(0,0,0);
           goto __pyx_L12_exception_handled;
         }
@@ -12678,9 +12673,9 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
         __Pyx_XGOTREF(__pyx_t_12);
         __Pyx_XGOTREF(__pyx_t_11);
         __Pyx_XGOTREF(__pyx_t_10);
-        /* Github: MieRebus47 */ {
+        /* Instagram: @dementorize */ {
 
-          /* Instagram: @dementorize */
+          /* Enjoy the features! */
           __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 379, __pyx_L17_error)
           __Pyx_GOTREF(__pyx_t_5);
           __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_get); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 379, __pyx_L17_error)
@@ -12794,7 +12789,7 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
             __Pyx_XDECREF_SET(__pyx_v_x, __pyx_t_5);
             __pyx_t_5 = 0;
 
-            /* Want to grab a code from comments? :v */
+            /* Instagram: @dementorize */
             __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_n_s_get); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 381, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_6);
             __pyx_t_7 = NULL;
@@ -12815,7 +12810,7 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
             __Pyx_XDECREF_SET(__pyx_v_pid, __pyx_t_5);
             __pyx_t_5 = 0;
 
-            /* Github: MieRebus47 */
+            /* Want to grab a code from comments? :v */
             __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 382, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_5);
             __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_get); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 382, __pyx_L17_error)
@@ -12848,13 +12843,13 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
             __Pyx_XDECREF_SET(__pyx_v_rs, __pyx_t_7);
             __pyx_t_7 = 0;
 
-            /* Facebook: Rizemary.xyz */
+            /* Github: MieRebus47 */
             __pyx_t_7 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 383, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_7);
             __Pyx_XDECREF_SET(__pyx_v_data, ((PyObject*)__pyx_t_7));
             __pyx_t_7 = 0;
 
-            /* Facebook: Rizemary.xyz */
+            /* Enjoy the features! */
             __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_parser); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 384, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_5);
             __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_rs, __pyx_n_s_text); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 384, __pyx_L17_error)
@@ -12878,7 +12873,7 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
             __Pyx_XDECREF_SET(__pyx_v_ras, __pyx_t_7);
             __pyx_t_7 = 0;
 
-            /* Want to grab a code from comments? :v */
+            /* Enjoy the features! */
             __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_ras, __pyx_n_s_find); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 385, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_5);
             __pyx_t_6 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 385, __pyx_L17_error)
@@ -12938,7 +12933,7 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
             __Pyx_XDECREF_SET(__pyx_v_form, __pyx_t_7);
             __pyx_t_7 = 0;
 
-            /* Github: MieRebus47 */
+            /* Want to grab a code from comments? :v */
             __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_form, __pyx_n_s_findAll); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 386, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_5);
             __pyx_t_15 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 386, __pyx_L17_error)
@@ -13075,7 +13070,7 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
             }
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-            /* Facebook: Rizemary.xyz */
+            /* Enjoy the features! */
             __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_host); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 387, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_5);
             __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_form, __pyx_n_s_get); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 387, __pyx_L17_error)
@@ -13102,7 +13097,7 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
             __Pyx_XDECREF_SET(__pyx_v_ur, __pyx_t_8);
             __pyx_t_8 = 0;
 
-            /* Facebook: Rizemary.xyz */
+            /* Instagram: @dementorize */
             __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 388, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_8);
             __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_post); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 388, __pyx_L17_error)
@@ -13124,7 +13119,7 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
             __Pyx_XDECREF_SET(__pyx_v_ad, __pyx_t_15);
             __pyx_t_15 = 0;
 
-            /* Facebook: Rizemary.xyz */
+            /* Enjoy the features! */
             __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_ad, __pyx_n_s_url); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 389, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_15);
             __pyx_t_9 = (__Pyx_PySequence_ContainsTF(__pyx_n_s_rdr, __pyx_t_15, Py_NE)); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 389, __pyx_L17_error)
@@ -13132,22 +13127,22 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
             __pyx_t_20 = (__pyx_t_9 != 0);
             if (__pyx_t_20) {
 
-              /* Enjoy the features! */
+              /* Want to grab a code from comments? :v */
               __Pyx_INCREF(__pyx_n_s_FAILED);
               __Pyx_XDECREF_SET(__pyx_v_status, __pyx_n_s_FAILED);
 
-              /* Want to grab a code from comments? :v */
+              /* Enjoy the features! */
               goto __pyx_L27;
             }
 
-            /* Github: MieRebus47 */
+            /* Instagram: @dementorize */
             /* Facebook: Rizemary.xyz */ {
               __Pyx_INCREF(__pyx_n_s_REMOVED);
               __Pyx_XDECREF_SET(__pyx_v_status, __pyx_n_s_REMOVED);
             }
             __pyx_L27:;
 
-            /* Github: MieRebus47 */
+            /* Want to grab a code from comments? :v */
             __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_prints); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 393, __pyx_L17_error)
             __Pyx_GOTREF(__pyx_t_5);
             __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Panel); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 393, __pyx_L17_error)
@@ -13215,11 +13210,11 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
             __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
 
-            /* Github: MieRebus47 */
+            /* Facebook: Rizemary.xyz */
           }
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-          /* Facebook: Rizemary.xyz */
+          /* Want to grab a code from comments? :v */
           __Pyx_GetModuleGlobalName(__pyx_t_15, __pyx_n_s_info); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 394, __pyx_L17_error)
           __Pyx_GOTREF(__pyx_t_15);
           __pyx_t_5 = NULL;
@@ -13254,7 +13249,7 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-        /* Github: MieRebus47 */
+        /* Enjoy the features! */
         __pyx_t_17 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
         if (__pyx_t_17) {
           __Pyx_AddTraceback("faith.main.post_remove", __pyx_clineno, __pyx_lineno, __pyx_filename);
@@ -13292,7 +13287,7 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
         goto __pyx_L19_except_error;
         __pyx_L19_except_error:;
 
-        /* Facebook: Rizemary.xyz */
+        /* Want to grab a code from comments? :v */
         __Pyx_XGIVEREF(__pyx_t_12);
         __Pyx_XGIVEREF(__pyx_t_11);
         __Pyx_XGIVEREF(__pyx_t_10);
@@ -13306,7 +13301,7 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
         __pyx_L22_try_end:;
       }
 
-      /* Want to grab a code from comments? :v */
+      /* Instagram: @dementorize */
     }
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -13321,15 +13316,15 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* Enjoy the features! */
-    /* Github: MieRebus47 */ {
+    /* Facebook: Rizemary.xyz */
+    /* Instagram: @dementorize */ {
       __Pyx_AddTraceback("faith.main.post_remove", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_15, &__pyx_t_4) < 0) __PYX_ERR(0, 397, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_GOTREF(__pyx_t_15);
       __Pyx_GOTREF(__pyx_t_4);
 
-      /* Want to grab a code from comments? :v */
+      /* Enjoy the features! */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_warn); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 398, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_21 = NULL;
@@ -13374,9 +13369,9 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
     __pyx_L8_try_end:;
   }
 
-  /* Facebook: Rizemary.xyz */
+  /* Instagram: @dementorize */
 
-  /* Enjoy the features! */
+  /* Facebook: Rizemary.xyz */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -13407,10 +13402,10 @@ static PyObject *__pyx_pf_5faith_4main_28post_remove(CYTHON_UNUSED PyObject *__p
   return __pyx_r;
 }
 
-/* Instagram: @dementorize */
+/* Facebook: Rizemary.xyz */
 
-/* Want to grab a code from comments? :v */
-static PyObject *__pyx_pw_5faith_4main_31unblocker(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Enjoy the features! */
+/* Enjoy the features! */
+static PyObject *__pyx_pw_5faith_4main_31unblocker(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Facebook: Rizemary.xyz */
 static PyMethodDef __pyx_mdef_5faith_4main_31unblocker = {"unblocker", (PyCFunction)__pyx_pw_5faith_4main_31unblocker, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_31unblocker(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
@@ -13418,15 +13413,15 @@ static PyObject *__pyx_pw_5faith_4main_31unblocker(PyObject *__pyx_self, PyObjec
   __Pyx_RefNannySetupContext("unblocker (wrapper)", 0);
   __pyx_r = __pyx_pf_5faith_4main_30unblocker(__pyx_self, ((PyObject *)__pyx_v_self));
 
-  /* Want to grab a code from comments? :v */
+  /* Facebook: Rizemary.xyz */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* Want to grab a code from comments? :v */
+/* Facebook: Rizemary.xyz */
 
-/* Instagram: @dementorize */
-static PyObject *__pyx_pw_5faith_4main_9unblocker_lambda8(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
+static PyObject *__pyx_pw_5faith_4main_9unblocker_lambda8(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Enjoy the features! */
 static PyMethodDef __pyx_mdef_5faith_4main_9unblocker_lambda8 = {"lambda8", (PyCFunction)__pyx_pw_5faith_4main_9unblocker_lambda8, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_9unblocker_lambda8(PyObject *__pyx_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = 0;
@@ -13434,7 +13429,7 @@ static PyObject *__pyx_pw_5faith_4main_9unblocker_lambda8(PyObject *__pyx_self, 
   __Pyx_RefNannySetupContext("lambda8 (wrapper)", 0);
   __pyx_r = __pyx_lambda_funcdef_lambda8(__pyx_self, ((PyObject *)__pyx_v_x));
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -13467,7 +13462,7 @@ static PyObject *__pyx_lambda_funcdef_lambda8(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Instagram: @dementorize */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
@@ -13479,7 +13474,7 @@ static PyObject *__pyx_lambda_funcdef_lambda8(CYTHON_UNUSED PyObject *__pyx_self
   return __pyx_r;
 }
 
-/* Want to grab a code from comments? :v */
+/* Enjoy the features! */
 
 static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_user = NULL;
@@ -13527,7 +13522,7 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("unblocker", 0);
 
-  /* Want to grab a code from comments? :v */
+  /* Instagram: @dementorize */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -13535,9 +13530,9 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
     __Pyx_XGOTREF(__pyx_t_1);
     __Pyx_XGOTREF(__pyx_t_2);
     __Pyx_XGOTREF(__pyx_t_3);
-    /* Instagram: @dementorize */ {
+    /* Enjoy the features! */ {
 
-      /* Want to grab a code from comments? :v */
+      /* Instagram: @dementorize */
       __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 403, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_get); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 403, __pyx_L3_error)
@@ -13580,24 +13575,24 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
       __pyx_v_user = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* Instagram: @dementorize */
+      /* Want to grab a code from comments? :v */
       __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 404, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_v_ay = ((PyObject*)__pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* Instagram: @dementorize */
+      /* Facebook: Rizemary.xyz */
       __pyx_t_4 = __Pyx_PyObject_Dict_GetItem(__pyx_v_user, __pyx_n_s_data_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 405, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_v_a = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* Github: MieRebus47 */
+      /* Facebook: Rizemary.xyz */
       __pyx_t_9 = PyObject_Length(__pyx_v_a); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 406, __pyx_L3_error)
       __pyx_t_10 = ((__pyx_t_9 == 0) != 0);
       if (__pyx_t_10) {
 
-        /* Want to grab a code from comments? :v */
+        /* Github: MieRebus47 */
         __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_warn); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 407, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_7 = NULL;
@@ -13622,10 +13617,10 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
         __pyx_r = Py_None; __Pyx_INCREF(Py_None);
         goto __pyx_L7_try_return;
 
-        /* Enjoy the features! */
+        /* Facebook: Rizemary.xyz */
       }
 
-      /* Github: MieRebus47 */
+      /* Want to grab a code from comments? :v */
       if (likely(PyList_CheckExact(__pyx_v_a)) || PyTuple_CheckExact(__pyx_v_a)) {
         __pyx_t_4 = __pyx_v_a; __Pyx_INCREF(__pyx_t_4); __pyx_t_9 = 0;
         __pyx_t_11 = NULL;
@@ -13668,7 +13663,7 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XDECREF_SET(__pyx_v_x, __pyx_t_5);
         __pyx_t_5 = 0;
 
-        /* Instagram: @dementorize */
+        /* Enjoy the features! */
         __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_n_s_get); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 410, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_7);
         __pyx_t_6 = NULL;
@@ -13689,7 +13684,7 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XDECREF_SET(__pyx_v_id, __pyx_t_5);
         __pyx_t_5 = 0;
 
-        /* Instagram: @dementorize */
+        /* Facebook: Rizemary.xyz */
         __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_n_s_get); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 411, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_7);
         __pyx_t_6 = NULL;
@@ -13710,7 +13705,7 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
         __Pyx_XDECREF_SET(__pyx_v_name, __pyx_t_5);
         __pyx_t_5 = 0;
 
-        /* Github: MieRebus47 */
+        /* Enjoy the features! */
         __pyx_t_12 = PyObject_Length(__pyx_v_name); if (unlikely(__pyx_t_12 == ((Py_ssize_t)-1))) __PYX_ERR(0, 412, __pyx_L3_error)
         __pyx_t_5 = PyInt_FromSsize_t(__pyx_t_12); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 412, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
@@ -13755,7 +13750,7 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
           __pyx_t_7 = 0;
         }
 
-        /* Want to grab a code from comments? :v */
+        /* Enjoy the features! */
         __pyx_t_7 = PyTuple_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 413, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_INCREF(__pyx_v_name);
@@ -13767,11 +13762,11 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
         __pyx_t_13 = __Pyx_PyList_Append(__pyx_v_ay, __pyx_t_7); if (unlikely(__pyx_t_13 == ((int)-1))) __PYX_ERR(0, 413, __pyx_L3_error)
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* Github: MieRebus47 */
+        /* Instagram: @dementorize */
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Instagram: @dementorize */
+      /* Facebook: Rizemary.xyz */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_info); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 414, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_8 = NULL;
@@ -13791,7 +13786,7 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* Github: MieRebus47 */
+      /* Enjoy the features! */
       __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_inquirer); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 415, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_8);
       __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_prompt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 415, __pyx_L3_error)
@@ -13852,8 +13847,8 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
       __pyx_v_siapa = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* Github: MieRebus47 */
-      { /* Want to grab a code from comments? :v */
+      /* Facebook: Rizemary.xyz */
+      { /* Instagram: @dementorize */
         __pyx_t_4 = PyDict_New(); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 416, __pyx_L15_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_5 = __pyx_v_ay; __Pyx_INCREF(__pyx_t_5); __pyx_t_9 = 0;
@@ -13930,12 +13925,12 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
       __pyx_v_nw = ((PyObject*)__pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* Enjoy the features! */
+      /* Github: MieRebus47 */
       __pyx_t_9 = PyObject_Length(__pyx_v_siapa); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 417, __pyx_L3_error)
       __pyx_t_10 = ((__pyx_t_9 != 0) != 0);
       if (__pyx_t_10) {
 
-        /* Github: MieRebus47 */
+        /* Enjoy the features! */
         if (likely(PyList_CheckExact(__pyx_v_siapa)) || PyTuple_CheckExact(__pyx_v_siapa)) {
           __pyx_t_4 = __pyx_v_siapa; __Pyx_INCREF(__pyx_t_4); __pyx_t_9 = 0;
           __pyx_t_11 = NULL;
@@ -13978,13 +13973,13 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
           __Pyx_XDECREF_SET(__pyx_v_fbid, __pyx_t_5);
           __pyx_t_5 = 0;
 
-          /* Instagram: @dementorize */
+          /* Facebook: Rizemary.xyz */
           __pyx_t_5 = __Pyx_PyDict_GetItem(__pyx_v_nw, __pyx_v_fbid); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 419, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_5);
           __Pyx_XDECREF_SET(__pyx_v_name, __pyx_t_5);
           __pyx_t_5 = 0;
 
-          /* Facebook: Rizemary.xyz */
+          /* Want to grab a code from comments? :v */
           __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 420, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_5);
           __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_get); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 420, __pyx_L3_error)
@@ -14007,7 +14002,7 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
           __Pyx_XDECREF_SET(__pyx_v_du, __pyx_t_5);
           __pyx_t_5 = 0;
 
-          /* Instagram: @dementorize */
+          /* Enjoy the features! */
           __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_parser); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 421, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_14);
           __pyx_t_7 = NULL;
@@ -14028,7 +14023,7 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
           __Pyx_XDECREF_SET(__pyx_v_da, __pyx_t_5);
           __pyx_t_5 = 0;
 
-          /* Enjoy the features! */
+          /* Want to grab a code from comments? :v */
           __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_v_da, __pyx_n_s_find); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 422, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_14);
           __pyx_t_7 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 422, __pyx_L3_error)
@@ -14234,7 +14229,7 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
           }
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-          /* Facebook: Rizemary.xyz */
+          /* Enjoy the features! */
           __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 425, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_5);
           __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_post); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 425, __pyx_L3_error)
@@ -14291,14 +14286,14 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
             goto __pyx_L26;
           }
 
-          /* Want to grab a code from comments? :v */
-          /* Instagram: @dementorize */ {
+          /* Facebook: Rizemary.xyz */
+          /* Facebook: Rizemary.xyz */ {
             __Pyx_INCREF(__pyx_n_s_FAILED);
             __Pyx_XDECREF_SET(__pyx_v_st, __pyx_n_s_FAILED);
           }
           __pyx_L26:;
 
-          /* Facebook: Rizemary.xyz */
+          /* Want to grab a code from comments? :v */
           __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_prints); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 428, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_6);
           __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_Panel); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 428, __pyx_L3_error)
@@ -14374,16 +14369,16 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-          /* Facebook: Rizemary.xyz */
+          /* Instagram: @dementorize */
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* Instagram: @dementorize */
+        /* Want to grab a code from comments? :v */
         goto __pyx_L21;
       }
 
-      /* Facebook: Rizemary.xyz */
-      /* Github: MieRebus47 */ {
+      /* Enjoy the features! */
+      /* Enjoy the features! */ {
         __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_warn); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 430, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_6 = NULL;
@@ -14405,7 +14400,7 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
       }
       __pyx_L21:;
 
-      /* Enjoy the features! */
+      /* Instagram: @dementorize */
     }
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -14420,8 +14415,8 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* Want to grab a code from comments? :v */
-    /* Instagram: @dementorize */ {
+    /* Github: MieRebus47 */
+    /* Facebook: Rizemary.xyz */ {
       __Pyx_AddTraceback("faith.main.unblocker", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_4, &__pyx_t_5, &__pyx_t_6) < 0) __PYX_ERR(0, 431, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_4);
@@ -14515,8 +14510,8 @@ static PyObject *__pyx_pf_5faith_4main_30unblocker(CYTHON_UNUSED PyObject *__pyx
 
 /* Want to grab a code from comments? :v */
 
-/* Want to grab a code from comments? :v */
-static PyObject *__pyx_pw_5faith_4main_33thanks(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Github: MieRebus47 */
+/* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pw_5faith_4main_33thanks(PyObject *__pyx_self, PyObject *__pyx_v_self); /* Enjoy the features! */
 static PyMethodDef __pyx_mdef_5faith_4main_33thanks = {"thanks", (PyCFunction)__pyx_pw_5faith_4main_33thanks, METH_O, 0};
 static PyObject *__pyx_pw_5faith_4main_33thanks(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
@@ -14560,14 +14555,14 @@ static PyObject *__pyx_pf_5faith_4main_32thanks(CYTHON_UNUSED PyObject *__pyx_se
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Github: MieRebus47 */
   __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_builtin_exit); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 436, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
 
-  /* Want to grab a code from comments? :v */
+  /* Instagram: @dementorize */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -14582,10 +14577,10 @@ static PyObject *__pyx_pf_5faith_4main_32thanks(CYTHON_UNUSED PyObject *__pyx_se
   return __pyx_r;
 }
 
-/* Want to grab a code from comments? :v */
+/* Facebook: Rizemary.xyz */
 
-/* Instagram: @dementorize */
-static PyObject *__pyx_pw_5faith_5React_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Instagram: @dementorize */
+/* Facebook: Rizemary.xyz */
+static PyObject *__pyx_pw_5faith_5React_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Facebook: Rizemary.xyz */
 static PyMethodDef __pyx_mdef_5faith_5React_1__init__ = {"__init__", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_5faith_5React_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_5faith_5React_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
@@ -14644,7 +14639,7 @@ static PyObject *__pyx_pw_5faith_5React_1__init__(PyObject *__pyx_self, PyObject
   __pyx_L4_argument_unpacking_done:;
   __pyx_r = __pyx_pf_5faith_5React___init__(__pyx_self, __pyx_v_self, __pyx_v_sess);
 
-  /* Github: MieRebus47 */
+  /* Instagram: @dementorize */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -14660,12 +14655,12 @@ static PyObject *__pyx_pf_5faith_5React___init__(CYTHON_UNUSED PyObject *__pyx_s
   /* Want to grab a code from comments? :v */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_sess, __pyx_v_sess) < 0) __PYX_ERR(0, 440, __pyx_L1_error)
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_url, __pyx_kp_s_https_mbasic_facebook_com) < 0) __PYX_ERR(0, 441, __pyx_L1_error)
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -14677,9 +14672,9 @@ static PyObject *__pyx_pf_5faith_5React___init__(CYTHON_UNUSED PyObject *__pyx_s
   return __pyx_r;
 }
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 
-/* Want to grab a code from comments? :v */
+/* Facebook: Rizemary.xyz */
 static PyObject *__pyx_pw_5faith_5React_3get(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_5React_3get = {"get", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_5faith_5React_3get, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_5faith_5React_3get(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
@@ -14739,15 +14734,15 @@ static PyObject *__pyx_pw_5faith_5React_3get(PyObject *__pyx_self, PyObject *__p
   __pyx_L4_argument_unpacking_done:;
   __pyx_r = __pyx_pf_5faith_5React_2get(__pyx_self, __pyx_v_self, __pyx_v_data);
 
-  /* Enjoy the features! */
+  /* Github: MieRebus47 */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* Facebook: Rizemary.xyz */
+/* Instagram: @dementorize */
 
-/* Want to grab a code from comments? :v */
-static PyObject *__pyx_pw_5faith_5React_3get_lambda9(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Facebook: Rizemary.xyz */
+/* Instagram: @dementorize */
+static PyObject *__pyx_pw_5faith_5React_3get_lambda9(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_5React_3get_lambda9 = {"lambda9", (PyCFunction)__pyx_pw_5faith_5React_3get_lambda9, METH_O, 0};
 static PyObject *__pyx_pw_5faith_5React_3get_lambda9(PyObject *__pyx_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = 0;
@@ -14755,7 +14750,7 @@ static PyObject *__pyx_pw_5faith_5React_3get_lambda9(PyObject *__pyx_self, PyObj
   __Pyx_RefNannySetupContext("lambda9 (wrapper)", 0);
   __pyx_r = __pyx_lambda_funcdef_lambda9(__pyx_self, ((PyObject *)__pyx_v_x));
 
-  /* Facebook: Rizemary.xyz */
+  /* Instagram: @dementorize */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -14788,7 +14783,7 @@ static PyObject *__pyx_lambda_funcdef_lambda9(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* Github: MieRebus47 */
+  /* Want to grab a code from comments? :v */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
@@ -14800,7 +14795,7 @@ static PyObject *__pyx_lambda_funcdef_lambda9(CYTHON_UNUSED PyObject *__pyx_self
   return __pyx_r;
 }
 
-/* Want to grab a code from comments? :v */
+/* Facebook: Rizemary.xyz */
 
 static PyObject *__pyx_pf_5faith_5React_2get(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_data) {
   PyObject *__pyx_v_postlink = NULL;
@@ -14820,7 +14815,7 @@ static PyObject *__pyx_pf_5faith_5React_2get(CYTHON_UNUSED PyObject *__pyx_self,
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get", 0);
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_n_s_findAll); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 444, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 444, __pyx_L1_error)
@@ -14879,7 +14874,7 @@ static PyObject *__pyx_pf_5faith_5React_2get(CYTHON_UNUSED PyObject *__pyx_self,
   __pyx_v_postlink = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Facebook: Rizemary.xyz */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 445, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -14942,7 +14937,7 @@ static PyObject *__pyx_pf_5faith_5React_2get(CYTHON_UNUSED PyObject *__pyx_self,
 
   /* Enjoy the features! */
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
@@ -14959,9 +14954,9 @@ static PyObject *__pyx_pf_5faith_5React_2get(CYTHON_UNUSED PyObject *__pyx_self,
   return __pyx_r;
 }
 
-/* Instagram: @dementorize */
+/* Github: MieRebus47 */
 
-/* Facebook: Rizemary.xyz */
+/* Want to grab a code from comments? :v */
 static PyObject *__pyx_pw_5faith_5React_5dump(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Want to grab a code from comments? :v */
 static PyMethodDef __pyx_mdef_5faith_5React_5dump = {"dump", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_5faith_5React_5dump, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_5faith_5React_5dump(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
@@ -15021,14 +15016,14 @@ static PyObject *__pyx_pw_5faith_5React_5dump(PyObject *__pyx_self, PyObject *__
   __pyx_L4_argument_unpacking_done:;
   __pyx_r = __pyx_pf_5faith_5React_4dump(__pyx_self, __pyx_v_self, __pyx_v_url);
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* Want to grab a code from comments? :v */
+/* Github: MieRebus47 */
 
-/* Instagram: @dementorize */
+/* Github: MieRebus47 */
 static PyObject *__pyx_pw_5faith_5React_4dump_lambda10(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Facebook: Rizemary.xyz */
 static PyMethodDef __pyx_mdef_5faith_5React_4dump_lambda10 = {"lambda10", (PyCFunction)__pyx_pw_5faith_5React_4dump_lambda10, METH_O, 0};
 static PyObject *__pyx_pw_5faith_5React_4dump_lambda10(PyObject *__pyx_self, PyObject *__pyx_v_x) {
@@ -15127,21 +15122,21 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
   }
   __Pyx_INCREF(__pyx_v_url);
 
-  /* Want to grab a code from comments? :v */
+  /* Github: MieRebus47 */
   __pyx_t_1 = (__Pyx_PySequence_ContainsTF(__pyx_n_s_group, __pyx_v_url, Py_EQ)); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 448, __pyx_L1_error)
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* Instagram: @dementorize */
+    /* Enjoy the features! */
     __Pyx_INCREF(__pyx_n_s_multi_permalink);
     __Pyx_GIVEREF(__pyx_n_s_multi_permalink);
     __pyx_cur_scope->__pyx_v_sepa = __pyx_n_s_multi_permalink;
 
-    /* Github: MieRebus47 */
+    /* Enjoy the features! */
     goto __pyx_L3;
   }
 
-  /* Enjoy the features! */
+  /* Facebook: Rizemary.xyz */
   __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_kp_s_home_php_2, __pyx_v_url, Py_EQ)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 450, __pyx_L1_error)
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
@@ -15151,25 +15146,25 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
     __Pyx_GIVEREF(__pyx_kp_s_stories_php_aftercursor);
     __pyx_cur_scope->__pyx_v_sepa = __pyx_kp_s_stories_php_aftercursor;
 
-    /* Facebook: Rizemary.xyz */
+    /* Enjoy the features! */
     goto __pyx_L3;
   }
 
-  /* Github: MieRebus47 */
-  /* Enjoy the features! */ {
+  /* Instagram: @dementorize */
+  /* Facebook: Rizemary.xyz */ {
     __Pyx_INCREF(__pyx_kp_s_profile_timeline_stream_cursor);
     __Pyx_GIVEREF(__pyx_kp_s_profile_timeline_stream_cursor);
     __pyx_cur_scope->__pyx_v_sepa = __pyx_kp_s_profile_timeline_stream_cursor;
   }
   __pyx_L3:;
 
-  /* Want to grab a code from comments? :v */
+  /* Instagram: @dementorize */
   __pyx_t_3 = PyList_New(0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 454, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_v_y = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Instagram: @dementorize */
   while (1) {
     __pyx_t_4 = PyObject_Length(__pyx_v_y); if (unlikely(__pyx_t_4 == ((Py_ssize_t)-1))) __PYX_ERR(0, 455, __pyx_L1_error)
     __pyx_t_3 = PyInt_FromSsize_t(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 455, __pyx_L1_error)
@@ -15190,7 +15185,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
       goto __pyx_L5_break;
     }
 
-    /* Instagram: @dementorize */
+    /* Want to grab a code from comments? :v */
     {
       __Pyx_PyThreadState_declare
       __Pyx_PyThreadState_assign
@@ -15198,9 +15193,9 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
       __Pyx_XGOTREF(__pyx_t_7);
       __Pyx_XGOTREF(__pyx_t_8);
       __Pyx_XGOTREF(__pyx_t_9);
-      /* Enjoy the features! */ {
+      /* Want to grab a code from comments? :v */ {
 
-        /* Want to grab a code from comments? :v */
+        /* Instagram: @dementorize */
         __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 458, __pyx_L7_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_get); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 458, __pyx_L7_error)
@@ -15270,10 +15265,10 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
           __Pyx_Raise(__pyx_builtin_IOError, 0, 0, 0);
           __PYX_ERR(0, 460, __pyx_L7_error)
 
-          /* Want to grab a code from comments? :v */
+          /* Enjoy the features! */
         }
 
-        /* Instagram: @dementorize */
+        /* Enjoy the features! */
         __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_parser); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 461, __pyx_L7_error)
         __Pyx_GOTREF(__pyx_t_6);
         __pyx_t_5 = NULL;
@@ -15294,7 +15289,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
         __Pyx_DECREF_SET(__pyx_v_data, __pyx_t_3);
         __pyx_t_3 = 0;
 
-        /* Enjoy the features! */
+        /* Instagram: @dementorize */
         {
           __Pyx_PyThreadState_declare
           __Pyx_PyThreadState_assign
@@ -15372,7 +15367,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
             __Pyx_DECREF_SET(__pyx_v_url, __pyx_t_6);
             __pyx_t_6 = 0;
 
-            /* Want to grab a code from comments? :v */
+            /* Facebook: Rizemary.xyz */
           }
           __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
           __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
@@ -15386,7 +15381,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-          /* Enjoy the features! */
+          /* Instagram: @dementorize */
           /* Github: MieRebus47 */ {
             __Pyx_AddTraceback("faith.React.dump", __pyx_clineno, __pyx_lineno, __pyx_filename);
             if (__Pyx_GetException(&__pyx_t_6, &__pyx_t_5, &__pyx_t_3) < 0) __PYX_ERR(0, 464, __pyx_L21_except_error)
@@ -15394,7 +15389,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
             __Pyx_GOTREF(__pyx_t_5);
             __Pyx_GOTREF(__pyx_t_3);
 
-            /* Want to grab a code from comments? :v */
+            /* Github: MieRebus47 */
             __Pyx_INCREF(Py_None);
             __Pyx_DECREF_SET(__pyx_v_url, Py_None);
             __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -15404,7 +15399,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
           }
           __pyx_L21_except_error:;
 
-          /* Instagram: @dementorize */
+          /* Facebook: Rizemary.xyz */
           __Pyx_XGIVEREF(__pyx_t_11);
           __Pyx_XGIVEREF(__pyx_t_12);
           __Pyx_XGIVEREF(__pyx_t_13);
@@ -15418,7 +15413,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
           __pyx_L26_try_end:;
         }
 
-        /* Want to grab a code from comments? :v */
+        /* Enjoy the features! */
         __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_get); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 466, __pyx_L7_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_6 = NULL;
@@ -15442,7 +15437,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
         __Pyx_DECREF_SET(__pyx_v_y, __pyx_t_5);
         __pyx_t_5 = 0;
 
-        /* Enjoy the features! */
+        /* Want to grab a code from comments? :v */
       }
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -15465,7 +15460,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_GOTREF(__pyx_t_6);
 
-        /* Want to grab a code from comments? :v */
+        /* Github: MieRebus47 */
         __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_warn); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 468, __pyx_L9_except_error)
         __Pyx_GOTREF(__pyx_t_14);
         __pyx_t_15 = NULL;
@@ -15516,7 +15511,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_GOTREF(__pyx_t_6);
 
-        /* Enjoy the features! */
+        /* Want to grab a code from comments? :v */
         __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_warn); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 471, __pyx_L9_except_error)
         __Pyx_GOTREF(__pyx_t_14);
         __pyx_t_15 = NULL;
@@ -15536,7 +15531,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
         __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-        /* Facebook: Rizemary.xyz */
+        /* Instagram: @dementorize */
         __pyx_t_17 = __Pyx_PyObject_CallNoArg(__pyx_builtin_exit); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 472, __pyx_L9_except_error)
         __Pyx_GOTREF(__pyx_t_17);
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
@@ -15557,7 +15552,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
         __Pyx_INCREF(__pyx_t_3);
         __pyx_v_x = __pyx_t_3;
 
-        /* Want to grab a code from comments? :v */
+        /* Facebook: Rizemary.xyz */
         goto __pyx_L33_except_break;
         __pyx_L33_except_break:;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -15568,7 +15563,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
       goto __pyx_L9_except_error;
       __pyx_L9_except_error:;
 
-      /* Want to grab a code from comments? :v */
+      /* Facebook: Rizemary.xyz */
       __Pyx_XGIVEREF(__pyx_t_7);
       __Pyx_XGIVEREF(__pyx_t_8);
       __Pyx_XGIVEREF(__pyx_t_9);
@@ -15590,7 +15585,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
   }
   __pyx_L5_break:;
 
-  /* Want to grab a code from comments? :v */
+  /* Github: MieRebus47 */
   __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_lm); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 475, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_3 = __Pyx_PyObject_GetSlice(__pyx_v_y, 0, 0, NULL, &__pyx_t_5, NULL, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 475, __pyx_L1_error)
@@ -15599,15 +15594,15 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
   __Pyx_DECREF_SET(__pyx_v_y, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* Enjoy the features! */
+  /* Facebook: Rizemary.xyz */
   __Pyx_XDECREF(__pyx_r);
   __Pyx_INCREF(__pyx_v_y);
   __pyx_r = __pyx_v_y;
   goto __pyx_L0;
 
-  /* Github: MieRebus47 */
+  /* Instagram: @dementorize */
 
-  /* Facebook: Rizemary.xyz */
+  /* Enjoy the features! */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5);
@@ -15631,7 +15626,7 @@ static PyObject *__pyx_pf_5faith_5React_4dump(CYTHON_UNUSED PyObject *__pyx_self
 /* Github: MieRebus47 */
 
 /* Facebook: Rizemary.xyz */
-static PyObject *__pyx_pw_5faith_5React_7group(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Want to grab a code from comments? :v */
+static PyObject *__pyx_pw_5faith_5React_7group(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Enjoy the features! */
 static PyMethodDef __pyx_mdef_5faith_5React_7group = {"group", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_5faith_5React_7group, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_5faith_5React_7group(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
@@ -15718,10 +15713,10 @@ static PyObject *__pyx_pf_5faith_5React_6group(CYTHON_UNUSED PyObject *__pyx_sel
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("group", 0);
 
-  /* Github: MieRebus47 */
+  /* Instagram: @dementorize */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_lm, __pyx_v_limit) < 0) __PYX_ERR(0, 479, __pyx_L1_error)
 
-  /* Github: MieRebus47 */
+  /* Instagram: @dementorize */
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_url); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 480, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 480, __pyx_L1_error)
@@ -15738,7 +15733,7 @@ static PyObject *__pyx_pf_5faith_5React_6group(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_v_url = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_dump); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -15761,9 +15756,9 @@ static PyObject *__pyx_pf_5faith_5React_6group(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* Instagram: @dementorize */
-
   /* Facebook: Rizemary.xyz */
+
+  /* Enjoy the features! */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
@@ -15777,9 +15772,9 @@ static PyObject *__pyx_pf_5faith_5React_6group(CYTHON_UNUSED PyObject *__pyx_sel
   return __pyx_r;
 }
 
-/* Instagram: @dementorize */
+/* Facebook: Rizemary.xyz */
 
-/* Enjoy the features! */
+/* Facebook: Rizemary.xyz */
 static PyObject *__pyx_pw_5faith_5React_9home(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Instagram: @dementorize */
 static PyMethodDef __pyx_mdef_5faith_5React_9home = {"home", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_5faith_5React_9home, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_5faith_5React_9home(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
@@ -15850,7 +15845,7 @@ static PyObject *__pyx_pw_5faith_5React_9home(PyObject *__pyx_self, PyObject *__
   __pyx_L4_argument_unpacking_done:;
   __pyx_r = __pyx_pf_5faith_5React_8home(__pyx_self, __pyx_v_self, __pyx_v_id, __pyx_v_limit);
 
-  /* Instagram: @dementorize */
+  /* Want to grab a code from comments? :v */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -15867,7 +15862,7 @@ static PyObject *__pyx_pf_5faith_5React_8home(CYTHON_UNUSED PyObject *__pyx_self
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("home", 0);
 
-  /* Enjoy the features! */
+  /* Facebook: Rizemary.xyz */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_lm, __pyx_v_limit) < 0) __PYX_ERR(0, 484, __pyx_L1_error)
 
   /* Enjoy the features! */
@@ -15887,7 +15882,7 @@ static PyObject *__pyx_pf_5faith_5React_8home(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_v_url = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Github: MieRebus47 */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_dump); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 486, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -15910,7 +15905,7 @@ static PyObject *__pyx_pf_5faith_5React_8home(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Enjoy the features! */
 
   /* Github: MieRebus47 */
   __pyx_L1_error:;
@@ -15926,10 +15921,10 @@ static PyObject *__pyx_pf_5faith_5React_8home(CYTHON_UNUSED PyObject *__pyx_self
   return __pyx_r;
 }
 
-/* Instagram: @dementorize */
+/* Enjoy the features! */
 
-/* Want to grab a code from comments? :v */
-static PyObject *__pyx_pw_5faith_5React_11friend(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Enjoy the features! */
+/* Enjoy the features! */
+static PyObject *__pyx_pw_5faith_5React_11friend(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_5React_11friend = {"friend", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_5faith_5React_11friend, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_5faith_5React_11friend(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
@@ -16016,10 +16011,10 @@ static PyObject *__pyx_pf_5faith_5React_10friend(CYTHON_UNUSED PyObject *__pyx_s
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("friend", 0);
 
-  /* Github: MieRebus47 */
+  /* Facebook: Rizemary.xyz */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_lm, __pyx_v_limit) < 0) __PYX_ERR(0, 489, __pyx_L1_error)
 
-  /* Instagram: @dementorize */
+  /* Enjoy the features! */
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_url); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 490, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 490, __pyx_L1_error)
@@ -16036,7 +16031,7 @@ static PyObject *__pyx_pf_5faith_5React_10friend(CYTHON_UNUSED PyObject *__pyx_s
   __pyx_v_url = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Github: MieRebus47 */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_dump); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 491, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -16061,7 +16056,7 @@ static PyObject *__pyx_pf_5faith_5React_10friend(CYTHON_UNUSED PyObject *__pyx_s
 
   /* Enjoy the features! */
 
-  /* Facebook: Rizemary.xyz */
+  /* Instagram: @dementorize */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
@@ -16077,8 +16072,8 @@ static PyObject *__pyx_pf_5faith_5React_10friend(CYTHON_UNUSED PyObject *__pyx_s
 
 /* Want to grab a code from comments? :v */
 
-/* Facebook: Rizemary.xyz */
-static PyObject *__pyx_pw_5faith_5React_13reacting(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Want to grab a code from comments? :v */
+/* Enjoy the features! */
+static PyObject *__pyx_pw_5faith_5React_13reacting(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /* Facebook: Rizemary.xyz */
 static PyMethodDef __pyx_mdef_5faith_5React_13reacting = {"reacting", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_5faith_5React_13reacting, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_5faith_5React_13reacting(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
@@ -16163,15 +16158,15 @@ static PyObject *__pyx_pw_5faith_5React_13reacting(PyObject *__pyx_self, PyObjec
   __pyx_L4_argument_unpacking_done:;
   __pyx_r = __pyx_pf_5faith_5React_12reacting(__pyx_self, __pyx_v_self, __pyx_v_url, __pyx_v_type, __pyx_v_output);
 
-  /* Facebook: Rizemary.xyz */
+  /* Want to grab a code from comments? :v */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* Want to grab a code from comments? :v */
+/* Facebook: Rizemary.xyz */
 
-/* Github: MieRebus47 */
-static PyObject *__pyx_pw_5faith_5React_8reacting_lambda11(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Instagram: @dementorize */
+/* Instagram: @dementorize */
+static PyObject *__pyx_pw_5faith_5React_8reacting_lambda11(PyObject *__pyx_self, PyObject *__pyx_v_x); /* Github: MieRebus47 */
 static PyMethodDef __pyx_mdef_5faith_5React_8reacting_lambda11 = {"lambda11", (PyCFunction)__pyx_pw_5faith_5React_8reacting_lambda11, METH_O, 0};
 static PyObject *__pyx_pw_5faith_5React_8reacting_lambda11(PyObject *__pyx_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = 0;
@@ -16179,7 +16174,7 @@ static PyObject *__pyx_pw_5faith_5React_8reacting_lambda11(PyObject *__pyx_self,
   __Pyx_RefNannySetupContext("lambda11 (wrapper)", 0);
   __pyx_r = __pyx_lambda_funcdef_lambda11(__pyx_self, ((PyObject *)__pyx_v_x));
 
-  /* Enjoy the features! */
+  /* Github: MieRebus47 */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
@@ -16220,7 +16215,7 @@ static PyObject *__pyx_lambda_funcdef_lambda11(PyObject *__pyx_self, PyObject *_
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
@@ -16232,7 +16227,7 @@ static PyObject *__pyx_lambda_funcdef_lambda11(PyObject *__pyx_self, PyObject *_
   return __pyx_r;
 }
 
-/* Facebook: Rizemary.xyz */
+/* Instagram: @dementorize */
 
 static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_url, PyObject *__pyx_v_type, PyObject *__pyx_v_output) {
   struct __pyx_obj_5faith___pyx_scope_struct_1_reacting *__pyx_cur_scope;
@@ -16274,7 +16269,7 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_type);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_type);
 
-  /* Github: MieRebus47 */
+  /* Want to grab a code from comments? :v */
   __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_output, __pyx_n_s_auth, Py_EQ)); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 494, __pyx_L1_error)
   if (__pyx_t_1) {
     __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 494, __pyx_L1_error)
@@ -16293,7 +16288,7 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
     goto __pyx_L3;
   }
 
-  /* Enjoy the features! */
+  /* Want to grab a code from comments? :v */
   /* Facebook: Rizemary.xyz */ {
     __pyx_t_2 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 495, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
@@ -16302,7 +16297,7 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
   }
   __pyx_L3:;
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_random); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 496, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_choice); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 496, __pyx_L1_error)
@@ -16325,7 +16320,7 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
   __Pyx_GIVEREF(__pyx_t_6);
   __pyx_t_6 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Instagram: @dementorize */
   __pyx_t_6 = __Pyx_PyDict_NewPresized(7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 497, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   if (PyDict_SetItem(__pyx_t_6, __pyx_kp_s_1, __pyx_n_s_LIKE) < 0) __PYX_ERR(0, 497, __pyx_L1_error)
@@ -16362,7 +16357,7 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_az = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* Enjoy the features! */
+  /* Facebook: Rizemary.xyz */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_parser); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 499, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_az, __pyx_n_s_text); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 499, __pyx_L1_error)
@@ -16386,7 +16381,7 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_dt = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -16394,9 +16389,9 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
     __Pyx_XGOTREF(__pyx_t_7);
     __Pyx_XGOTREF(__pyx_t_8);
     __Pyx_XGOTREF(__pyx_t_9);
-    /* Github: MieRebus47 */ {
+    /* Want to grab a code from comments? :v */ {
 
-      /* Facebook: Rizemary.xyz */
+      /* Instagram: @dementorize */
       __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_dt, __pyx_n_s_find); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 501, __pyx_L4_error)
       __Pyx_GOTREF(__pyx_t_2);
       __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 501, __pyx_L4_error)
@@ -16458,7 +16453,7 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
       __pyx_v_run = __pyx_t_2;
       __pyx_t_2 = 0;
 
-      /* Facebook: Rizemary.xyz */
+      /* Instagram: @dementorize */
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_sess); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 502, __pyx_L4_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_get); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 502, __pyx_L4_error)
@@ -16487,11 +16482,11 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* Facebook: Rizemary.xyz */
+      /* Instagram: @dementorize */
       __Pyx_INCREF(__pyx_kp_s_white_green_white_Success);
       __pyx_v_sub = __pyx_kp_s_white_green_white_Success;
 
-      /* Facebook: Rizemary.xyz */
+      /* Instagram: @dementorize */
     }
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -16504,7 +16499,7 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* Want to grab a code from comments? :v */
+    /* Instagram: @dementorize */
     /* Want to grab a code from comments? :v */ {
       __Pyx_AddTraceback("faith.React.reacting", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_2, &__pyx_t_11, &__pyx_t_5) < 0) __PYX_ERR(0, 504, __pyx_L6_except_error)
@@ -16512,7 +16507,7 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_GOTREF(__pyx_t_5);
 
-      /* Facebook: Rizemary.xyz */
+      /* Instagram: @dementorize */
       __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_output); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 505, __pyx_L6_except_error)
       if (__pyx_t_1) {
         __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_warn); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 505, __pyx_L6_except_error)
@@ -16535,7 +16530,7 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
 
-      /* Enjoy the features! */
+      /* Facebook: Rizemary.xyz */
       __Pyx_INCREF(__pyx_kp_s_white_red_white_Failed);
       __Pyx_XDECREF_SET(__pyx_v_sub, __pyx_kp_s_white_red_white_Failed);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -16559,11 +16554,11 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
     __pyx_L9_try_end:;
   }
 
-  /* Facebook: Rizemary.xyz */
+  /* Enjoy the features! */
   __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_output); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 507, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* Instagram: @dementorize */
+    /* Github: MieRebus47 */
     __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_n_s_paramdict); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 508, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_url, __pyx_n_s_split); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 508, __pyx_L1_error)
@@ -16608,7 +16603,7 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
     __pyx_v_urldata = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* Want to grab a code from comments? :v */
+    /* Enjoy the features! */
     __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_n_s_prints); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 509, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Panel); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 509, __pyx_L1_error)
@@ -16679,12 +16674,12 @@ static PyObject *__pyx_pf_5faith_5React_12reacting(CYTHON_UNUSED PyObject *__pyx
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* Facebook: Rizemary.xyz */
+    /* Want to grab a code from comments? :v */
   }
 
-  /* Facebook: Rizemary.xyz */
+  /* Enjoy the features! */
 
-  /* Instagram: @dementorize */
+  /* Enjoy the features! */
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -16758,70 +16753,70 @@ static int __pyx_tp_clear_5faith___pyx_scope_struct__dump(PyObject *o) {
 
 static PyTypeObject __pyx_type_5faith___pyx_scope_struct__dump = {
   PyVarObject_HEAD_INIT(0, 0)
-  "faith.__pyx_scope_struct__dump", /* Facebook: Rizemary.xyz */
-  sizeof(struct __pyx_obj_5faith___pyx_scope_struct__dump), /* Enjoy the features! */
-  0, /* Enjoy the features! */
+  "faith.__pyx_scope_struct__dump", /* Enjoy the features! */
+  sizeof(struct __pyx_obj_5faith___pyx_scope_struct__dump), /* Github: MieRebus47 */
+  0, /* Facebook: Rizemary.xyz */
   __pyx_tp_dealloc_5faith___pyx_scope_struct__dump, /* Github: MieRebus47 */
   #if PY_VERSION_HEX < 0x030800b4
-  0, /* Instagram: @dementorize */
+  0, /* Facebook: Rizemary.xyz */
   #endif
   #if PY_VERSION_HEX >= 0x030800b4
-  0, /* Instagram: @dementorize */
-  #endif
   0, /* Want to grab a code from comments? :v */
-  0, /* Facebook: Rizemary.xyz */
-  #if PY_MAJOR_VERSION < 3
+  #endif
+  0, /* Enjoy the features! */
   0, /* Instagram: @dementorize */
+  #if PY_MAJOR_VERSION < 3
+  0, /* Facebook: Rizemary.xyz */
   #endif
   #if PY_MAJOR_VERSION >= 3
-  0, /* Enjoy the features! */
+  0, /* Instagram: @dementorize */
   #endif
-  0, /* Want to grab a code from comments? :v */
+  0, /* Enjoy the features! */
   0, /* Want to grab a code from comments? :v */
   0, /* Facebook: Rizemary.xyz */
-  0, /* Want to grab a code from comments? :v */
-  0, /* Github: MieRebus47 */
-  0, /* Facebook: Rizemary.xyz */
-  0, /* Want to grab a code from comments? :v */
   0, /* Want to grab a code from comments? :v */
   0, /* Github: MieRebus47 */
   0, /* Enjoy the features! */
+  0, /* Instagram: @dementorize */
+  0, /* Github: MieRebus47 */
+  0, /* Facebook: Rizemary.xyz */
+  0, /* Facebook: Rizemary.xyz */
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_HAVE_GC, /* Want to grab a code from comments? :v */
   0, /* Github: MieRebus47 */
   __pyx_tp_traverse_5faith___pyx_scope_struct__dump, /* Instagram: @dementorize */
-  __pyx_tp_clear_5faith___pyx_scope_struct__dump, /* Github: MieRebus47 */
-  0, /* Want to grab a code from comments? :v */
-  0, /* Facebook: Rizemary.xyz */
-  0, /* Enjoy the features! */
-  0, /* Github: MieRebus47 */
-  0, /* Facebook: Rizemary.xyz */
-  0, /* Enjoy the features! */
-  0, /* Facebook: Rizemary.xyz */
-  0, /* Enjoy the features! */
+  __pyx_tp_clear_5faith___pyx_scope_struct__dump, /* Enjoy the features! */
+  0, /* Instagram: @dementorize */
   0, /* Instagram: @dementorize */
   0, /* Enjoy the features! */
   0, /* Enjoy the features! */
-  0, /* Facebook: Rizemary.xyz */
-  0, /* Facebook: Rizemary.xyz */
-  0, /* Enjoy the features! */
-  __pyx_tp_new_5faith___pyx_scope_struct__dump, /* Github: MieRebus47 */
+  0, /* Instagram: @dementorize */
   0, /* Github: MieRebus47 */
   0, /* Instagram: @dementorize */
-  0, /* Facebook: Rizemary.xyz */
-  0, /* Want to grab a code from comments? :v */
+  0, /* Github: MieRebus47 */
+  0, /* Github: MieRebus47 */
   0, /* Want to grab a code from comments? :v */
   0, /* Enjoy the features! */
-  0, /* Facebook: Rizemary.xyz */
   0, /* Enjoy the features! */
+  0, /* Want to grab a code from comments? :v */
+  0, /* Github: MieRebus47 */
+  __pyx_tp_new_5faith___pyx_scope_struct__dump, /* Facebook: Rizemary.xyz */
+  0, /* Facebook: Rizemary.xyz */
+  0, /* Want to grab a code from comments? :v */
+  0, /* Github: MieRebus47 */
+  0, /* Instagram: @dementorize */
+  0, /* Github: MieRebus47 */
+  0, /* Want to grab a code from comments? :v */
+  0, /* Facebook: Rizemary.xyz */
+  0, /* Facebook: Rizemary.xyz */
   0, /* Instagram: @dementorize */
   #if PY_VERSION_HEX >= 0x030400a1
-  0, /* Github: MieRebus47 */
-  #endif
-  #if PY_VERSION_HEX >= 0x030800b1 && (!CYTHON_COMPILING_IN_PYPY || PYPY_VERSION_NUM >= 0x07030800)
   0, /* Facebook: Rizemary.xyz */
   #endif
+  #if PY_VERSION_HEX >= 0x030800b1 && (!CYTHON_COMPILING_IN_PYPY || PYPY_VERSION_NUM >= 0x07030800)
+  0, /* Github: MieRebus47 */
+  #endif
   #if PY_VERSION_HEX >= 0x030800b4 && PY_VERSION_HEX < 0x03090000
-  0, /* Want to grab a code from comments? :v */
+  0, /* Facebook: Rizemary.xyz */
   #endif
   #if CYTHON_COMPILING_IN_PYPY && PY_VERSION_HEX >= 0x03090000
   0, /* Want to grab a code from comments? :v */
@@ -16876,73 +16871,73 @@ static int __pyx_tp_clear_5faith___pyx_scope_struct_1_reacting(PyObject *o) {
 
 static PyTypeObject __pyx_type_5faith___pyx_scope_struct_1_reacting = {
   PyVarObject_HEAD_INIT(0, 0)
-  "faith.__pyx_scope_struct_1_reacting", /* Facebook: Rizemary.xyz */
-  sizeof(struct __pyx_obj_5faith___pyx_scope_struct_1_reacting), /* Facebook: Rizemary.xyz */
-  0, /* Facebook: Rizemary.xyz */
-  __pyx_tp_dealloc_5faith___pyx_scope_struct_1_reacting, /* Enjoy the features! */
+  "faith.__pyx_scope_struct_1_reacting", /* Github: MieRebus47 */
+  sizeof(struct __pyx_obj_5faith___pyx_scope_struct_1_reacting), /* Github: MieRebus47 */
+  0, /* Want to grab a code from comments? :v */
+  __pyx_tp_dealloc_5faith___pyx_scope_struct_1_reacting, /* Want to grab a code from comments? :v */
   #if PY_VERSION_HEX < 0x030800b4
-  0, /* Enjoy the features! */
+  0, /* Want to grab a code from comments? :v */
   #endif
   #if PY_VERSION_HEX >= 0x030800b4
-  0, /* Github: MieRebus47 */
-  #endif
   0, /* Want to grab a code from comments? :v */
-  0, /* Enjoy the features! */
-  #if PY_MAJOR_VERSION < 3
+  #endif
   0, /* Github: MieRebus47 */
+  0, /* Want to grab a code from comments? :v */
+  #if PY_MAJOR_VERSION < 3
+  0, /* Facebook: Rizemary.xyz */
   #endif
   #if PY_MAJOR_VERSION >= 3
-  0, /* Github: MieRebus47 */
+  0, /* Want to grab a code from comments? :v */
   #endif
-  0, /* Enjoy the features! */
-  0, /* Facebook: Rizemary.xyz */
-  0, /* Want to grab a code from comments? :v */
-  0, /* Github: MieRebus47 */
-  0, /* Github: MieRebus47 */
-  0, /* Facebook: Rizemary.xyz */
-  0, /* Github: MieRebus47 */
-  0, /* Github: MieRebus47 */
-  0, /* Want to grab a code from comments? :v */
-  0, /* Github: MieRebus47 */
-  Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_HAVE_GC, /* Enjoy the features! */
   0, /* Instagram: @dementorize */
-  __pyx_tp_traverse_5faith___pyx_scope_struct_1_reacting, /* Want to grab a code from comments? :v */
-  __pyx_tp_clear_5faith___pyx_scope_struct_1_reacting, /* Instagram: @dementorize */
-  0, /* Want to grab a code from comments? :v */
-  0, /* Want to grab a code from comments? :v */
+  0, /* Instagram: @dementorize */
+  0, /* Enjoy the features! */
+  0, /* Enjoy the features! */
+  0, /* Github: MieRebus47 */
   0, /* Enjoy the features! */
   0, /* Instagram: @dementorize */
   0, /* Github: MieRebus47 */
-  0, /* Github: MieRebus47 */
+  0, /* Instagram: @dementorize */
+  0, /* Want to grab a code from comments? :v */
+  Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_HAVE_GC, /* Instagram: @dementorize */
+  0, /* Enjoy the features! */
+  __pyx_tp_traverse_5faith___pyx_scope_struct_1_reacting, /* Facebook: Rizemary.xyz */
+  __pyx_tp_clear_5faith___pyx_scope_struct_1_reacting, /* Want to grab a code from comments? :v */
+  0, /* Instagram: @dementorize */
+  0, /* Enjoy the features! */
+  0, /* Instagram: @dementorize */
   0, /* Github: MieRebus47 */
   0, /* Facebook: Rizemary.xyz */
-  0, /* Instagram: @dementorize */
-  0, /* Want to grab a code from comments? :v */
-  0, /* Want to grab a code from comments? :v */
-  0, /* Enjoy the features! */
-  0, /* Want to grab a code from comments? :v */
-  0, /* Instagram: @dementorize */
-  __pyx_tp_new_5faith___pyx_scope_struct_1_reacting, /* Instagram: @dementorize */
-  0, /* Github: MieRebus47 */
-  0, /* Want to grab a code from comments? :v */
-  0, /* Enjoy the features! */
-  0, /* Want to grab a code from comments? :v */
-  0, /* Instagram: @dementorize */
-  0, /* Want to grab a code from comments? :v */
-  0, /* Want to grab a code from comments? :v */
   0, /* Github: MieRebus47 */
   0, /* Instagram: @dementorize */
+  0, /* Enjoy the features! */
+  0, /* Enjoy the features! */
+  0, /* Enjoy the features! */
+  0, /* Github: MieRebus47 */
+  0, /* Enjoy the features! */
+  0, /* Instagram: @dementorize */
+  0, /* Github: MieRebus47 */
+  __pyx_tp_new_5faith___pyx_scope_struct_1_reacting, /* Want to grab a code from comments? :v */
+  0, /* Instagram: @dementorize */
+  0, /* Instagram: @dementorize */
+  0, /* Instagram: @dementorize */
+  0, /* Want to grab a code from comments? :v */
+  0, /* Want to grab a code from comments? :v */
+  0, /* Instagram: @dementorize */
+  0, /* Enjoy the features! */
+  0, /* Instagram: @dementorize */
+  0, /* Github: MieRebus47 */
   #if PY_VERSION_HEX >= 0x030400a1
-  0, /* Enjoy the features! */
+  0, /* Facebook: Rizemary.xyz */
   #endif
   #if PY_VERSION_HEX >= 0x030800b1 && (!CYTHON_COMPILING_IN_PYPY || PYPY_VERSION_NUM >= 0x07030800)
-  0, /* Want to grab a code from comments? :v */
-  #endif
-  #if PY_VERSION_HEX >= 0x030800b4 && PY_VERSION_HEX < 0x03090000
   0, /* Instagram: @dementorize */
   #endif
+  #if PY_VERSION_HEX >= 0x030800b4 && PY_VERSION_HEX < 0x03090000
+  0, /* Github: MieRebus47 */
+  #endif
   #if CYTHON_COMPILING_IN_PYPY && PY_VERSION_HEX >= 0x03090000
-  0, /* Enjoy the features! */
+  0, /* Facebook: Rizemary.xyz */
   #endif
 };
 
@@ -16952,8 +16947,8 @@ static PyMethodDef __pyx_methods[] = {
 
 #if PY_MAJOR_VERSION >= 3
 #if CYTHON_PEP489_MULTI_PHASE_INIT
-static PyObject* __pyx_pymod_create(PyObject *spec, PyModuleDef *def); /* Github: MieRebus47 */
-static int __pyx_pymod_exec_faith(PyObject* module); /* Github: MieRebus47 */
+static PyObject* __pyx_pymod_create(PyObject *spec, PyModuleDef *def); /* Instagram: @dementorize */
+static int __pyx_pymod_exec_faith(PyObject* module); /* Instagram: @dementorize */
 static PyModuleDef_Slot __pyx_moduledef_slots[] = {
   {Py_mod_create, (void*)__pyx_pymod_create},
   {Py_mod_exec, (void*)__pyx_pymod_exec_faith},
@@ -16966,19 +16961,19 @@ static struct PyModuleDef __pyx_moduledef = {
     "faith",
     0, /* Enjoy the features! */
   #if CYTHON_PEP489_MULTI_PHASE_INIT
-    0, /* Instagram: @dementorize */
+    0, /* Want to grab a code from comments? :v */
   #else
-    -1, /* Want to grab a code from comments? :v */
+    -1, /* Instagram: @dementorize */
   #endif
-    __pyx_methods /* Github: MieRebus47 */,
+    __pyx_methods /* Enjoy the features! */,
   #if CYTHON_PEP489_MULTI_PHASE_INIT
-    __pyx_moduledef_slots, /* Want to grab a code from comments? :v */
+    __pyx_moduledef_slots, /* Instagram: @dementorize */
   #else
-    NULL, /* Github: MieRebus47 */
+    NULL, /* Enjoy the features! */
   #endif
-    NULL, /* Instagram: @dementorize */
     NULL, /* Want to grab a code from comments? :v */
-    NULL /* Facebook: Rizemary.xyz */
+    NULL, /* Enjoy the features! */
+    NULL /* Github: MieRebus47 */
 };
 #endif
 #ifndef CYTHON_SMALL_CODE
@@ -16996,9 +16991,10 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_0_2, __pyx_k_0_2, sizeof(__pyx_k_0_2), 0, 0, 1, 0},
   {&__pyx_kp_s_0_9_span_td_tr, __pyx_k_0_9_span_td_tr, sizeof(__pyx_k_0_9_span_td_tr), 0, 0, 1, 0},
   {&__pyx_kp_s_1, __pyx_k_1, sizeof(__pyx_k_1), 0, 0, 1, 0},
-  {&__pyx_kp_s_100002939712957, __pyx_k_100002939712957, sizeof(__pyx_k_100002939712957), 0, 0, 1, 0},
+  {&__pyx_kp_s_100022002246471, __pyx_k_100022002246471, sizeof(__pyx_k_100022002246471), 0, 0, 1, 0},
   {&__pyx_kp_s_100069501754755, __pyx_k_100069501754755, sizeof(__pyx_k_100069501754755), 0, 0, 1, 0},
   {&__pyx_kp_s_1208988419751489, __pyx_k_1208988419751489, sizeof(__pyx_k_1208988419751489), 0, 0, 1, 0},
+  {&__pyx_kp_s_1265279744100753, __pyx_k_1265279744100753, sizeof(__pyx_k_1265279744100753), 0, 0, 1, 0},
   {&__pyx_kp_s_1477043292367183, __pyx_k_1477043292367183, sizeof(__pyx_k_1477043292367183), 0, 0, 1, 0},
   {&__pyx_kp_s_16, __pyx_k_16, sizeof(__pyx_k_16), 0, 0, 1, 0},
   {&__pyx_kp_s_1_2, __pyx_k_1_2, sizeof(__pyx_k_1_2), 0, 0, 1, 0},
@@ -17006,9 +17002,8 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_2, __pyx_k_2, sizeof(__pyx_k_2), 0, 0, 1, 0},
   {&__pyx_kp_s_3, __pyx_k_3, sizeof(__pyx_k_3), 0, 0, 1, 0},
   {&__pyx_kp_s_4, __pyx_k_4, sizeof(__pyx_k_4), 0, 0, 1, 0},
-  {&__pyx_kp_s_4175930435848239, __pyx_k_4175930435848239, sizeof(__pyx_k_4175930435848239), 0, 0, 1, 0},
   {&__pyx_kp_s_502827232059270, __pyx_k_502827232059270, sizeof(__pyx_k_502827232059270), 0, 0, 1, 0},
-  {&__pyx_kp_s_5102020899905850, __pyx_k_5102020899905850, sizeof(__pyx_k_5102020899905850), 0, 0, 1, 0},
+  {&__pyx_kp_s_6137515709619568, __pyx_k_6137515709619568, sizeof(__pyx_k_6137515709619568), 0, 0, 1, 0},
   {&__pyx_kp_s_7, __pyx_k_7, sizeof(__pyx_k_7), 0, 0, 1, 0},
   {&__pyx_kp_s_8, __pyx_k_8, sizeof(__pyx_k_8), 0, 0, 1, 0},
   {&__pyx_kp_s_99999, __pyx_k_99999, sizeof(__pyx_k_99999), 0, 0, 1, 0},
@@ -17565,17 +17560,17 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice_);
   __Pyx_GIVEREF(__pyx_slice_);
 
-  /* Enjoy the features! */
+  /* Want to grab a code from comments? :v */
   __pyx_tuple__7 = PyTuple_Pack(2, __pyx_kp_s_data_cookies, __pyx_n_s_r); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 81, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* Want to grab a code from comments? :v */
+  /* Facebook: Rizemary.xyz */
   __pyx_tuple__8 = PyTuple_Pack(2, __pyx_kp_s_data_token, __pyx_n_s_r); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(0, 83, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
   __pyx_tuple__9 = PyTuple_Pack(2, __pyx_kp_s_data_cookies, __pyx_n_s_w); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(0, 113, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
@@ -17588,17 +17583,17 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__11);
   __Pyx_GIVEREF(__pyx_tuple__11);
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
   __pyx_tuple__12 = PyTuple_Pack(1, __pyx_kp_s_https_business_facebook_com_busi); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(0, 159, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__12);
   __Pyx_GIVEREF(__pyx_tuple__12);
 
-  /* Instagram: @dementorize */
+  /* Facebook: Rizemary.xyz */
   __pyx_tuple__13 = PyTuple_Pack(2, __pyx_kp_s_data_token, __pyx_n_s_w); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(0, 164, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __pyx_tuple__14 = PyTuple_Pack(1, __pyx_kp_s_https_graph_facebook_com_me); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(0, 173, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
@@ -17608,22 +17603,22 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __pyx_tuple__18 = PyTuple_Pack(1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(0, 189, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__18);
   __Pyx_GIVEREF(__pyx_tuple__18);
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   __pyx_tuple__19 = PyTuple_Pack(1, __pyx_kp_s_https_fbdownloader_live_analyze); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(0, 203, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __pyx_tuple__20 = PyTuple_Pack(1, __pyx_n_s_b); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(0, 225, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__20);
   __Pyx_GIVEREF(__pyx_tuple__20);
 
-  /* Instagram: @dementorize */
+  /* Facebook: Rizemary.xyz */
   __pyx_tuple__21 = PyTuple_Pack(1, __pyx_n_s_rt); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(0, 235, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__21);
   __Pyx_GIVEREF(__pyx_tuple__21);
@@ -17654,7 +17649,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__29);
   __Pyx_GIVEREF(__pyx_tuple__29);
 
-  /* Want to grab a code from comments? :v */
+  /* Github: MieRebus47 */
   __pyx_tuple__30 = PyTuple_Pack(1, __pyx_kp_s_https_graph_facebook_com_v13_0_m); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(0, 313, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__30);
   __Pyx_GIVEREF(__pyx_tuple__30);
@@ -17664,7 +17659,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__31);
   __Pyx_GIVEREF(__pyx_tuple__31);
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __pyx_tuple__33 = PyTuple_Pack(2, __pyx_int_1, __pyx_int_3); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(0, 344, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__33);
   __Pyx_GIVEREF(__pyx_tuple__33);
@@ -17680,7 +17675,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__36);
   __Pyx_GIVEREF(__pyx_tuple__36);
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __pyx_tuple__37 = PyTuple_Pack(1, __pyx_kp_s_https_graph_facebook_com_graphql); if (unlikely(!__pyx_tuple__37)) __PYX_ERR(0, 363, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__37);
   __Pyx_GIVEREF(__pyx_tuple__37);
@@ -17693,32 +17688,32 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__42);
   __Pyx_GIVEREF(__pyx_tuple__42);
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __pyx_tuple__43 = PyTuple_Pack(1, __pyx_kp_s_https_graph_facebook_com_me_bloc); if (unlikely(!__pyx_tuple__43)) __PYX_ERR(0, 403, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__43);
   __Pyx_GIVEREF(__pyx_tuple__43);
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __pyx_tuple__44 = PyTuple_Pack(1, __pyx_n_s_s); if (unlikely(!__pyx_tuple__44)) __PYX_ERR(0, 415, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__44);
   __Pyx_GIVEREF(__pyx_tuple__44);
 
-  /* Facebook: Rizemary.xyz */
+  /* Enjoy the features! */
   __pyx_tuple__45 = PyTuple_Pack(1, __pyx_kp_s_https_mbasic_facebook_com_privac); if (unlikely(!__pyx_tuple__45)) __PYX_ERR(0, 420, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__45);
   __Pyx_GIVEREF(__pyx_tuple__45);
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   __pyx_slice__46 = PySlice_New(Py_None, __pyx_int_neg_1, Py_None); if (unlikely(!__pyx_slice__46)) __PYX_ERR(0, 424, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_slice__46);
   __Pyx_GIVEREF(__pyx_slice__46);
 
-  /* Enjoy the features! */
+  /* Want to grab a code from comments? :v */
   __pyx_tuple__47 = PyTuple_Pack(6, __pyx_int_5, __pyx_int_10, __pyx_int_20, __pyx_int_5, __pyx_int_20, __pyx_int_40); if (unlikely(!__pyx_tuple__47)) __PYX_ERR(0, 494, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__47);
   __Pyx_GIVEREF(__pyx_tuple__47);
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __pyx_slice__48 = PySlice_New(__pyx_int_2, Py_None, Py_None); if (unlikely(!__pyx_slice__48)) __PYX_ERR(0, 508, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_slice__48);
   __Pyx_GIVEREF(__pyx_slice__48);
@@ -17728,19 +17723,19 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__49);
   __Pyx_GIVEREF(__pyx_tuple__49);
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   __pyx_tuple__51 = PyTuple_Pack(4, __pyx_n_s_tim, __pyx_n_s_z, __pyx_n_s_text, __pyx_n_s_te); if (unlikely(!__pyx_tuple__51)) __PYX_ERR(0, 42, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__51);
   __Pyx_GIVEREF(__pyx_tuple__51);
   __pyx_codeobj__52 = (PyObject*)__Pyx_PyCode_New(1, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__51, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_sleep, 42, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__52)) __PYX_ERR(0, 42, __pyx_L1_error)
 
-  /* Want to grab a code from comments? :v */
+  /* Facebook: Rizemary.xyz */
   __pyx_tuple__53 = PyTuple_Pack(5, __pyx_n_s_strink, __pyx_n_s_z, __pyx_n_s_a, __pyx_n_s_k, __pyx_n_s_v); if (unlikely(!__pyx_tuple__53)) __PYX_ERR(0, 51, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__53);
   __Pyx_GIVEREF(__pyx_tuple__53);
   __pyx_codeobj__54 = (PyObject*)__Pyx_PyCode_New(1, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__53, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_paramdict, 51, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__54)) __PYX_ERR(0, 51, __pyx_L1_error)
 
-  /* Instagram: @dementorize */
+  /* Want to grab a code from comments? :v */
   __pyx_codeobj__55 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_banner, 60, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__55)) __PYX_ERR(0, 60, __pyx_L1_error)
 
   /* Want to grab a code from comments? :v */
@@ -17749,61 +17744,61 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__56);
   __pyx_codeobj__57 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__56, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_init, 71, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__57)) __PYX_ERR(0, 71, __pyx_L1_error)
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __pyx_tuple__58 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__58)) __PYX_ERR(0, 77, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__58);
   __Pyx_GIVEREF(__pyx_tuple__58);
   __pyx_codeobj__59 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__58, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_run, 77, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__59)) __PYX_ERR(0, 77, __pyx_L1_error)
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
   __pyx_tuple__60 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_w, __pyx_n_s_wc, __pyx_n_s_rm, __pyx_n_s_su); if (unlikely(!__pyx_tuple__60)) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__60);
   __Pyx_GIVEREF(__pyx_tuple__60);
   __pyx_codeobj__61 = (PyObject*)__Pyx_PyCode_New(1, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__60, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_cek, 95, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__61)) __PYX_ERR(0, 95, __pyx_L1_error)
 
-  /* Enjoy the features! */
+  /* Facebook: Rizemary.xyz */
   __pyx_tuple__62 = PyTuple_Pack(8, __pyx_n_s_self, __pyx_n_s_func, __pyx_n_s_post, __pyx_n_s_x, __pyx_n_s_a, __pyx_n_s_dt, __pyx_n_s_ur, __pyx_n_s_id); if (unlikely(!__pyx_tuple__62)) __PYX_ERR(0, 136, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__62);
   __Pyx_GIVEREF(__pyx_tuple__62);
   __pyx_codeobj__63 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__62, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_supporter, 136, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__63)) __PYX_ERR(0, 136, __pyx_L1_error)
 
-  /* Github: MieRebus47 */
+  /* Facebook: Rizemary.xyz */
   __pyx_tuple__64 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_y, __pyx_n_s_tk, __pyx_n_s_wt); if (unlikely(!__pyx_tuple__64)) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__64);
   __Pyx_GIVEREF(__pyx_tuple__64);
   __pyx_codeobj__65 = (PyObject*)__Pyx_PyCode_New(1, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__64, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_gen_token, 156, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__65)) __PYX_ERR(0, 156, __pyx_L1_error)
 
-  /* Github: MieRebus47 */
+  /* Instagram: @dementorize */
   __pyx_tuple__66 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_mika); if (unlikely(!__pyx_tuple__66)) __PYX_ERR(0, 171, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__66);
   __Pyx_GIVEREF(__pyx_tuple__66);
   __pyx_codeobj__67 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__66, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_me, 171, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__67)) __PYX_ERR(0, 171, __pyx_L1_error)
 
-  /* Want to grab a code from comments? :v */
+  /* Facebook: Rizemary.xyz */
   __pyx_tuple__68 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_anoun, __pyx_n_s_ingfo, __pyx_n_s_men, __pyx_n_s_func); if (unlikely(!__pyx_tuple__68)) __PYX_ERR(0, 178, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__68);
   __Pyx_GIVEREF(__pyx_tuple__68);
   __pyx_codeobj__69 = (PyObject*)__Pyx_PyCode_New(1, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__68, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_menu, 178, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__69)) __PYX_ERR(0, 178, __pyx_L1_error)
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
   __pyx_tuple__70 = PyTuple_Pack(9, __pyx_n_s_self, __pyx_n_s_link, __pyx_n_s_a, __pyx_n_s_req, __pyx_n_s_revo, __pyx_n_s_quality, __pyx_n_s_url, __pyx_n_s_x, __pyx_n_s_resp); if (unlikely(!__pyx_tuple__70)) __PYX_ERR(0, 198, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__70);
   __Pyx_GIVEREF(__pyx_tuple__70);
   __pyx_codeobj__71 = (PyObject*)__Pyx_PyCode_New(1, 0, 9, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__70, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_downloader, 198, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__71)) __PYX_ERR(0, 198, __pyx_L1_error)
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   __pyx_tuple__72 = PyTuple_Pack(12, __pyx_n_s_self, __pyx_n_s_func, __pyx_n_s_men, __pyx_n_s_id, __pyx_n_s_bot, __pyx_n_s_field, __pyx_n_s_a, __pyx_n_s_rea, __pyx_n_s_limit, __pyx_n_s_tpp, __pyx_n_s_post, __pyx_n_s_po); if (unlikely(!__pyx_tuple__72)) __PYX_ERR(0, 220, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__72);
   __Pyx_GIVEREF(__pyx_tuple__72);
   __pyx_codeobj__73 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__72, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_bot_react, 220, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__73)) __PYX_ERR(0, 220, __pyx_L1_error)
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
   __pyx_tuple__74 = PyTuple_Pack(13, __pyx_n_s_self, __pyx_n_s_limit, __pyx_n_s_fl, __pyx_n_s_x, __pyx_n_s_fl_id, __pyx_n_s_name, __pyx_n_s_rs, __pyx_n_s_data_2, __pyx_n_s_ras, __pyx_n_s_form, __pyx_n_s_ur, __pyx_n_s_ad, __pyx_n_s_status); if (unlikely(!__pyx_tuple__74)) __PYX_ERR(0, 259, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__74);
   __Pyx_GIVEREF(__pyx_tuple__74);
   __pyx_codeobj__75 = (PyObject*)__Pyx_PyCode_New(1, 0, 13, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__74, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_fl_remove, 259, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__75)) __PYX_ERR(0, 259, __pyx_L1_error)
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
   __pyx_tuple__76 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_rm); if (unlikely(!__pyx_tuple__76)) __PYX_ERR(0, 288, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__76);
   __Pyx_GIVEREF(__pyx_tuple__76);
@@ -17821,13 +17816,13 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__80);
   __pyx_codeobj__81 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__80, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_group_takeover, 326, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__81)) __PYX_ERR(0, 326, __pyx_L1_error)
 
-  /* Want to grab a code from comments? :v */
+  /* Github: MieRebus47 */
   __pyx_tuple__82 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_uuid, __pyx_n_s_tu, __pyx_n_s_data_2, __pyx_n_s_xs, __pyx_n_s_ch); if (unlikely(!__pyx_tuple__82)) __PYX_ERR(0, 355, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__82);
   __Pyx_GIVEREF(__pyx_tuple__82);
   __pyx_codeobj__83 = (PyObject*)__Pyx_PyCode_New(1, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__82, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_pp_guard, 355, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__83)) __PYX_ERR(0, 355, __pyx_L1_error)
 
-  /* Enjoy the features! */
+  /* Facebook: Rizemary.xyz */
   __pyx_tuple__84 = PyTuple_Pack(13, __pyx_n_s_self, __pyx_n_s_limit, __pyx_n_s_fl, __pyx_n_s_x, __pyx_n_s_pid, __pyx_n_s_rs, __pyx_n_s_data_2, __pyx_n_s_ras, __pyx_n_s_form, __pyx_n_s_ur, __pyx_n_s_ad, __pyx_n_s_status, __pyx_n_s_d); if (unlikely(!__pyx_tuple__84)) __PYX_ERR(0, 373, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__84);
   __Pyx_GIVEREF(__pyx_tuple__84);
@@ -17857,31 +17852,31 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__92);
   __pyx_codeobj__93 = (PyObject*)__Pyx_PyCode_New(2, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__92, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_get, 443, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__93)) __PYX_ERR(0, 443, __pyx_L1_error)
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __pyx_tuple__94 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_url, __pyx_n_s_sepa, __pyx_n_s_y, __pyx_n_s_data_2, __pyx_n_s_x); if (unlikely(!__pyx_tuple__94)) __PYX_ERR(0, 447, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__94);
   __Pyx_GIVEREF(__pyx_tuple__94);
   __pyx_codeobj__95 = (PyObject*)__Pyx_PyCode_New(2, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__94, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_dump, 447, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__95)) __PYX_ERR(0, 447, __pyx_L1_error)
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __pyx_tuple__96 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_id, __pyx_n_s_limit, __pyx_n_s_url); if (unlikely(!__pyx_tuple__96)) __PYX_ERR(0, 478, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__96);
   __Pyx_GIVEREF(__pyx_tuple__96);
   __pyx_codeobj__97 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__96, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_group, 478, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__97)) __PYX_ERR(0, 478, __pyx_L1_error)
 
-  /* Facebook: Rizemary.xyz */
+  /* Instagram: @dementorize */
   __pyx_tuple__98 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_id, __pyx_n_s_limit, __pyx_n_s_url); if (unlikely(!__pyx_tuple__98)) __PYX_ERR(0, 483, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__98);
   __Pyx_GIVEREF(__pyx_tuple__98);
   __pyx_codeobj__99 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__98, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_home, 483, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__99)) __PYX_ERR(0, 483, __pyx_L1_error)
 
-  /* Github: MieRebus47 */
+  /* Facebook: Rizemary.xyz */
   __pyx_tuple__100 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_id, __pyx_n_s_limit, __pyx_n_s_url); if (unlikely(!__pyx_tuple__100)) __PYX_ERR(0, 488, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__100);
   __Pyx_GIVEREF(__pyx_tuple__100);
   __pyx_codeobj__101 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__100, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_run_py, __pyx_n_s_friend, 488, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__101)) __PYX_ERR(0, 488, __pyx_L1_error)
 
-  /* Want to grab a code from comments? :v */
+  /* Instagram: @dementorize */
   __pyx_tuple__102 = PyTuple_Pack(11, __pyx_n_s_self, __pyx_n_s_url, __pyx_n_s_type, __pyx_n_s_output, __pyx_n_s_tkw, __pyx_n_s_rt, __pyx_n_s_az, __pyx_n_s_dt, __pyx_n_s_run, __pyx_n_s_sub, __pyx_n_s_urldata); if (unlikely(!__pyx_tuple__102)) __PYX_ERR(0, 493, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__102);
   __Pyx_GIVEREF(__pyx_tuple__102);
@@ -17890,7 +17885,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__104);
   __Pyx_GIVEREF(__pyx_tuple__104);
 
-  /* Facebook: Rizemary.xyz */
+  /* Want to grab a code from comments? :v */
   __pyx_tuple__105 = PyTuple_Pack(1, __pyx_n_s_data_2); if (unlikely(!__pyx_tuple__105)) __PYX_ERR(0, 513, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__105);
   __Pyx_GIVEREF(__pyx_tuple__105);
@@ -17922,17 +17917,17 @@ static CYTHON_SMALL_CODE int __Pyx_InitGlobals(void) {
 }
 
 static CYTHON_SMALL_CODE int __Pyx_modinit_global_init_code(void); /* Github: MieRebus47 */
-static CYTHON_SMALL_CODE int __Pyx_modinit_variable_export_code(void); /* Github: MieRebus47 */
-static CYTHON_SMALL_CODE int __Pyx_modinit_function_export_code(void); /* Facebook: Rizemary.xyz */
-static CYTHON_SMALL_CODE int __Pyx_modinit_type_init_code(void); /* Facebook: Rizemary.xyz */
+static CYTHON_SMALL_CODE int __Pyx_modinit_variable_export_code(void); /* Facebook: Rizemary.xyz */
+static CYTHON_SMALL_CODE int __Pyx_modinit_function_export_code(void); /* Instagram: @dementorize */
+static CYTHON_SMALL_CODE int __Pyx_modinit_type_init_code(void); /* Instagram: @dementorize */
 static CYTHON_SMALL_CODE int __Pyx_modinit_type_import_code(void); /* Instagram: @dementorize */
-static CYTHON_SMALL_CODE int __Pyx_modinit_variable_import_code(void); /* Want to grab a code from comments? :v */
-static CYTHON_SMALL_CODE int __Pyx_modinit_function_import_code(void); /* Want to grab a code from comments? :v */
+static CYTHON_SMALL_CODE int __Pyx_modinit_variable_import_code(void); /* Enjoy the features! */
+static CYTHON_SMALL_CODE int __Pyx_modinit_function_import_code(void); /* Facebook: Rizemary.xyz */
 
 static int __Pyx_modinit_global_init_code(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_modinit_global_init_code", 0);
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __Pyx_RefNannyFinishContext();
   return 0;
 }
@@ -17940,7 +17935,7 @@ static int __Pyx_modinit_global_init_code(void) {
 static int __Pyx_modinit_variable_export_code(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_modinit_variable_export_code", 0);
-  /* Instagram: @dementorize */
+  /* Facebook: Rizemary.xyz */
   __Pyx_RefNannyFinishContext();
   return 0;
 }
@@ -17948,7 +17943,7 @@ static int __Pyx_modinit_variable_export_code(void) {
 static int __Pyx_modinit_function_export_code(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_modinit_function_export_code", 0);
-  /* Github: MieRebus47 */
+  /* Instagram: @dementorize */
   __Pyx_RefNannyFinishContext();
   return 0;
 }
@@ -17994,7 +17989,7 @@ static int __Pyx_modinit_type_import_code(void) {
 static int __Pyx_modinit_variable_import_code(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_modinit_variable_import_code", 0);
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __Pyx_RefNannyFinishContext();
   return 0;
 }
@@ -18026,10 +18021,10 @@ static int __Pyx_modinit_function_import_code(void) {
 
 
 #if PY_MAJOR_VERSION < 3
-__Pyx_PyMODINIT_FUNC initfaith(void) CYTHON_SMALL_CODE; /* Facebook: Rizemary.xyz */
+__Pyx_PyMODINIT_FUNC initfaith(void) CYTHON_SMALL_CODE; /* Want to grab a code from comments? :v */
 __Pyx_PyMODINIT_FUNC initfaith(void)
 #else
-__Pyx_PyMODINIT_FUNC PyInit_faith(void) CYTHON_SMALL_CODE; /* Facebook: Rizemary.xyz */
+__Pyx_PyMODINIT_FUNC PyInit_faith(void) CYTHON_SMALL_CODE; /* Instagram: @dementorize */
 __Pyx_PyMODINIT_FUNC PyInit_faith(void)
 #if CYTHON_PEP489_MULTI_PHASE_INIT
 {
@@ -18160,7 +18155,7 @@ if (!__Pyx_RefNanny) {
   #ifdef __Pyx_StopAsyncIteration_USED
   if (__pyx_StopAsyncIteration_init() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  /* Github: MieRebus47 */
+  /* Facebook: Rizemary.xyz */
   /* Instagram: @dementorize */
   #if defined(WITH_THREAD) && PY_VERSION_HEX < 0x030700F0 && defined(__PYX_FORCE_INIT_THREADS) && __PYX_FORCE_INIT_THREADS
   PyEval_InitThreads();
@@ -18184,7 +18179,7 @@ if (!__Pyx_RefNanny) {
   __pyx_cython_runtime = PyImport_AddModule((char *) "cython_runtime"); if (unlikely(!__pyx_cython_runtime)) __PYX_ERR(0, 1, __pyx_L1_error)
   Py_INCREF(__pyx_cython_runtime);
   if (PyObject_SetAttrString(__pyx_m, "__builtins__", __pyx_b) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
-  /* Facebook: Rizemary.xyz */
+  /* Instagram: @dementorize */
   if (__Pyx_InitGlobals() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -18200,11 +18195,11 @@ if (!__Pyx_RefNanny) {
     }
   }
   #endif
-  /* Github: MieRebus47 */
-  if (__Pyx_InitCachedBuiltins() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
-  /* Github: MieRebus47 */
-  if (__Pyx_InitCachedConstants() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   /* Facebook: Rizemary.xyz */
+  if (__Pyx_InitCachedBuiltins() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  /* Enjoy the features! */
+  if (__Pyx_InitCachedConstants() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  /* Instagram: @dementorize */
   (void)__Pyx_modinit_global_init_code();
   (void)__Pyx_modinit_variable_export_code();
   (void)__Pyx_modinit_function_export_code();
@@ -18212,51 +18207,51 @@ if (!__Pyx_RefNanny) {
   (void)__Pyx_modinit_type_import_code();
   (void)__Pyx_modinit_variable_import_code();
   (void)__Pyx_modinit_function_import_code();
-  /* Github: MieRebus47 */
+  /* Want to grab a code from comments? :v */
   #if defined(__Pyx_Generator_USED) || defined(__Pyx_Coroutine_USED)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* Instagram: @dementorize */
+  /* Want to grab a code from comments? :v */
   if (__Pyx_PrintOne(0, __pyx_kp_s_1_35m_2_FB_Tools_RIZEMARY) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_os, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_os, __pyx_t_1) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Instagram: @dementorize */
+  /* Enjoy the features! */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_re, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_re, __pyx_t_1) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_json, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_json, __pyx_t_1) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Enjoy the features! */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_time, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_time, __pyx_t_1) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Instagram: @dementorize */
+  /* Enjoy the features! */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_random, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_random, __pyx_t_1) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Github: MieRebus47 */
+  /* Want to grab a code from comments? :v */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_string, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 7, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_string, __pyx_t_1) < 0) __PYX_ERR(0, 7, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_sys, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sys, __pyx_t_1) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
@@ -18268,40 +18263,40 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_subprocess, __pyx_t_1) < 0) __PYX_ERR(0, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Want to grab a code from comments? :v */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_hashlib, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 10, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_hashlib, __pyx_t_1) < 0) __PYX_ERR(0, 10, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Want to grab a code from comments? :v */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_datetime, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 11, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_datetime, __pyx_t_1) < 0) __PYX_ERR(0, 11, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_codecs, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_codecs, __pyx_t_1) < 0) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_base64, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 13, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_base64, __pyx_t_1) < 0) __PYX_ERR(0, 13, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Enjoy the features! */
+  /* Facebook: Rizemary.xyz */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_threading, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_threading, __pyx_t_1) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* Enjoy the features! */
+  /* Want to grab a code from comments? :v */
   while (1) {
 
-    /* Instagram: @dementorize */
+    /* Want to grab a code from comments? :v */
     {
       __Pyx_PyThreadState_declare
       __Pyx_PyThreadState_assign
@@ -18309,9 +18304,9 @@ if (!__Pyx_RefNanny) {
       __Pyx_XGOTREF(__pyx_t_2);
       __Pyx_XGOTREF(__pyx_t_3);
       __Pyx_XGOTREF(__pyx_t_4);
-      /* Enjoy the features! */ {
+      /* Github: MieRebus47 */ {
 
-        /* Want to grab a code from comments? :v */
+        /* Instagram: @dementorize */
         __pyx_t_1 = __Pyx_Import(__pyx_n_s_requests, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 18, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_1);
         if (PyDict_SetItem(__pyx_d, __pyx_n_s_requests, __pyx_t_1) < 0) __PYX_ERR(0, 18, __pyx_L4_error)
@@ -18323,13 +18318,13 @@ if (!__Pyx_RefNanny) {
         if (PyDict_SetItem(__pyx_d, __pyx_n_s_inquirer, __pyx_t_1) < 0) __PYX_ERR(0, 19, __pyx_L4_error)
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* Instagram: @dementorize */
+        /* Github: MieRebus47 */
         __pyx_t_1 = __Pyx_Import(__pyx_n_s_bs4, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 20, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_1);
         if (PyDict_SetItem(__pyx_d, __pyx_n_s_bs4, __pyx_t_1) < 0) __PYX_ERR(0, 20, __pyx_L4_error)
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* Instagram: @dementorize */
+        /* Enjoy the features! */
         __pyx_t_1 = __Pyx_Import(__pyx_n_s_rich, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 21, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_1);
         if (PyDict_SetItem(__pyx_d, __pyx_n_s_rich, __pyx_t_1) < 0) __PYX_ERR(0, 21, __pyx_L4_error)
@@ -18350,7 +18345,7 @@ if (!__Pyx_RefNanny) {
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* Instagram: @dementorize */
+        /* Want to grab a code from comments? :v */
         __pyx_t_5 = PyList_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 23, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_INCREF(__pyx_n_s_Color);
@@ -18365,7 +18360,7 @@ if (!__Pyx_RefNanny) {
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* Github: MieRebus47 */
+        /* Want to grab a code from comments? :v */
         __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 24, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_INCREF(__pyx_n_s_Table);
@@ -18410,7 +18405,7 @@ if (!__Pyx_RefNanny) {
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* Want to grab a code from comments? :v */
+        /* Github: MieRebus47 */
         __pyx_t_5 = PyList_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 27, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_INCREF(__pyx_n_s_Panel);
@@ -18425,7 +18420,7 @@ if (!__Pyx_RefNanny) {
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* Instagram: @dementorize */
+        /* Want to grab a code from comments? :v */
         __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_INCREF(__pyx_n_s_Markdown);
@@ -18440,7 +18435,7 @@ if (!__Pyx_RefNanny) {
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* Instagram: @dementorize */
+        /* Facebook: Rizemary.xyz */
         __pyx_t_5 = PyList_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 29, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_INCREF(__pyx_n_s_Columns);
@@ -18455,7 +18450,7 @@ if (!__Pyx_RefNanny) {
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* Enjoy the features! */
+        /* Instagram: @dementorize */
         __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 30, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_INCREF(__pyx_n_s_Text);
@@ -18470,7 +18465,7 @@ if (!__Pyx_RefNanny) {
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* Instagram: @dementorize */
+        /* Enjoy the features! */
         __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_rich); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 31, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_1 = __Pyx_GetAttr(__pyx_t_5, __pyx_n_s_print); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L4_error)
@@ -18479,22 +18474,22 @@ if (!__Pyx_RefNanny) {
         if (PyDict_SetItem(__pyx_d, __pyx_n_s_prints, __pyx_t_1) < 0) __PYX_ERR(0, 31, __pyx_L4_error)
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* Want to grab a code from comments? :v */
+        /* Facebook: Rizemary.xyz */
         __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_6lambda, 0, __pyx_n_s_lambda, NULL, __pyx_n_s_faith, __pyx_d, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 32, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_1);
         if (PyDict_SetItem(__pyx_d, __pyx_n_s_parser, __pyx_t_1) < 0) __PYX_ERR(0, 32, __pyx_L4_error)
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* Want to grab a code from comments? :v */
+        /* Facebook: Rizemary.xyz */
         goto __pyx_L9_try_break;
 
-        /* Facebook: Rizemary.xyz */
+        /* Enjoy the features! */
       }
       __pyx_L4_error:;
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* Want to grab a code from comments? :v */
+      /* Instagram: @dementorize */
       /* Github: MieRebus47 */ {
         __Pyx_AddTraceback("faith", __pyx_clineno, __pyx_lineno, __pyx_filename);
         if (__Pyx_GetException(&__pyx_t_1, &__pyx_t_5, &__pyx_t_6) < 0) __PYX_ERR(0, 34, __pyx_L6_except_error)
@@ -18502,7 +18497,7 @@ if (!__Pyx_RefNanny) {
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_GOTREF(__pyx_t_6);
 
-        /* Enjoy the features! */
+        /* Facebook: Rizemary.xyz */
         __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_os); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 35, __pyx_L6_except_error)
         __Pyx_GOTREF(__pyx_t_8);
         __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_path); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 35, __pyx_L6_except_error)
@@ -18557,8 +18552,8 @@ if (!__Pyx_RefNanny) {
           goto __pyx_L14;
         }
 
-        /* Enjoy the features! */
-        /* Enjoy the features! */ {
+        /* Facebook: Rizemary.xyz */
+        /* Instagram: @dementorize */ {
           __pyx_t_9 = __Pyx_PyObject_Call(__pyx_builtin_open, __pyx_tuple__49, NULL); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 37, __pyx_L6_except_error)
           __Pyx_GOTREF(__pyx_t_9);
           __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_n_s_write); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 37, __pyx_L6_except_error)
@@ -18610,7 +18605,7 @@ if (!__Pyx_RefNanny) {
       }
       __pyx_L6_except_error:;
 
-      /* Facebook: Rizemary.xyz */
+      /* Github: MieRebus47 */
       __Pyx_XGIVEREF(__pyx_t_2);
       __Pyx_XGIVEREF(__pyx_t_3);
       __Pyx_XGIVEREF(__pyx_t_4);
@@ -18631,7 +18626,7 @@ if (!__Pyx_RefNanny) {
   }
   __pyx_L3_break:;
 
-  /* Enjoy the features! */
+  /* Want to grab a code from comments? :v */
   __pyx_t_6 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_7lambda1, 0, __pyx_n_s_lambda, NULL, __pyx_n_s_faith, __pyx_d, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 38, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   if (!__Pyx_CyFunction_InitDefaults(__pyx_t_6, sizeof(__pyx_defaults), 1)) __PYX_ERR(0, 38, __pyx_L1_error)
@@ -18657,31 +18652,31 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_info, __pyx_t_6) < 0) __PYX_ERR(0, 39, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Want to grab a code from comments? :v */
   __pyx_t_6 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_9lambda3, 0, __pyx_n_s_lambda, NULL, __pyx_n_s_faith, __pyx_d, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 40, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_clear, __pyx_t_6) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* Instagram: @dementorize */
+  /* Facebook: Rizemary.xyz */
   __pyx_t_6 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_1sleep, 0, __pyx_n_s_sleep, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 42, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sleep, __pyx_t_6) < 0) __PYX_ERR(0, 42, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
   __pyx_t_6 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_3paramdict, 0, __pyx_n_s_paramdict, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__54)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 51, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_paramdict, __pyx_t_6) < 0) __PYX_ERR(0, 51, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* Instagram: @dementorize */
+  /* Enjoy the features! */
   __pyx_t_6 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_5banner, 0, __pyx_n_s_banner, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__55)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 60, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_banner, __pyx_t_6) < 0) __PYX_ERR(0, 60, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* Github: MieRebus47 */
+  /* Instagram: @dementorize */
   __pyx_t_6 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_main_2, __pyx_n_s_main_2, (PyObject *) NULL, __pyx_n_s_faith, (PyObject *) NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 70, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
 
@@ -18691,37 +18686,37 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_init, __pyx_t_5) < 0) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_4main_3run, 0, __pyx_n_s_main_run, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__59)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 77, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_run, __pyx_t_5) < 0) __PYX_ERR(0, 77, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Instagram: @dementorize */
+  /* Enjoy the features! */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_4main_5cek, 0, __pyx_n_s_main_cek, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__61)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_cek, __pyx_t_5) < 0) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Enjoy the features! */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_4main_7_supporter, 0, __pyx_n_s_main__supporter, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__63)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 136, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_supporter, __pyx_t_5) < 0) __PYX_ERR(0, 136, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Github: MieRebus47 */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_4main_9gen_token, 0, __pyx_n_s_main_gen_token, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__65)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_gen_token, __pyx_t_5) < 0) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Github: MieRebus47 */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_4main_11me, 0, __pyx_n_s_main_me, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__67)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 171, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_me, __pyx_t_5) < 0) __PYX_ERR(0, 171, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_4main_13menu, 0, __pyx_n_s_main_menu, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__69)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 178, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_menu, __pyx_t_5) < 0) __PYX_ERR(0, 178, __pyx_L1_error)
@@ -18733,7 +18728,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_downloader, __pyx_t_5) < 0) __PYX_ERR(0, 198, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Facebook: Rizemary.xyz */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_4main_17bot_react, 0, __pyx_n_s_main_bot_react, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__73)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 220, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_bot_react, __pyx_t_5) < 0) __PYX_ERR(0, 220, __pyx_L1_error)
@@ -18745,31 +18740,31 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_fl_remove, __pyx_t_5) < 0) __PYX_ERR(0, 259, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Instagram: @dementorize */
+  /* Facebook: Rizemary.xyz */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_4main_21rcookies, 0, __pyx_n_s_main_rcookies, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__77)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 288, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_rcookies, __pyx_t_5) < 0) __PYX_ERR(0, 288, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Enjoy the features! */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_4main_23share, 0, __pyx_n_s_main_share, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__79)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 299, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_share, __pyx_t_5) < 0) __PYX_ERR(0, 299, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Instagram: @dementorize */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_4main_25group_takeover, 0, __pyx_n_s_main_group_takeover, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__81)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 326, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_group_takeover, __pyx_t_5) < 0) __PYX_ERR(0, 326, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Enjoy the features! */
+  /* Facebook: Rizemary.xyz */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_4main_27pp_guard, 0, __pyx_n_s_main_pp_guard, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__83)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 355, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_pp_guard, __pyx_t_5) < 0) __PYX_ERR(0, 355, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_4main_29post_remove, 0, __pyx_n_s_main_post_remove, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__85)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 373, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_post_remove, __pyx_t_5) < 0) __PYX_ERR(0, 373, __pyx_L1_error)
@@ -18781,7 +18776,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_unblocker, __pyx_t_5) < 0) __PYX_ERR(0, 401, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_4main_33thanks, 0, __pyx_n_s_main_thanks, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__89)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 434, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_thanks, __pyx_t_5) < 0) __PYX_ERR(0, 434, __pyx_L1_error)
@@ -18794,61 +18789,61 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* Github: MieRebus47 */
+  /* Want to grab a code from comments? :v */
   __pyx_t_6 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_React, __pyx_n_s_React, (PyObject *) NULL, __pyx_n_s_faith, (PyObject *) NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 438, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
 
-  /* Instagram: @dementorize */
+  /* Github: MieRebus47 */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_5React_1__init__, 0, __pyx_n_s_React___init, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__91)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 439, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_init, __pyx_t_5) < 0) __PYX_ERR(0, 439, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Instagram: @dementorize */
+  /* Facebook: Rizemary.xyz */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_5React_3get, 0, __pyx_n_s_React_get, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__93)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 443, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_get, __pyx_t_5) < 0) __PYX_ERR(0, 443, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Enjoy the features! */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_5React_5dump, 0, __pyx_n_s_React_dump, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__95)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 447, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_dump, __pyx_t_5) < 0) __PYX_ERR(0, 447, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Github: MieRebus47 */
+  /* Facebook: Rizemary.xyz */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_5React_7group, 0, __pyx_n_s_React_group, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__97)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 478, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_group, __pyx_t_5) < 0) __PYX_ERR(0, 478, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_5React_9home, 0, __pyx_n_s_React_home, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__99)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 483, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_home, __pyx_t_5) < 0) __PYX_ERR(0, 483, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Enjoy the features! */
+  /* Facebook: Rizemary.xyz */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_5React_11friend, 0, __pyx_n_s_React_friend, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__101)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 488, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_friend, __pyx_t_5) < 0) __PYX_ERR(0, 488, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_5faith_5React_13reacting, 0, __pyx_n_s_React_reacting, NULL, __pyx_n_s_faith, __pyx_d, ((PyObject *)__pyx_codeobj__103)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 493, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_5, __pyx_tuple__104);
   if (__Pyx_SetNameInClass(__pyx_t_6, __pyx_n_s_reacting, __pyx_t_5) < 0) __PYX_ERR(0, 493, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Enjoy the features! */
+  /* Instagram: @dementorize */
   __pyx_t_5 = __Pyx_Py3ClassCreate(((PyObject*)&__Pyx_DefaultClassType), __pyx_n_s_React, __pyx_empty_tuple, __pyx_t_6, NULL, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 438, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_React, __pyx_t_5) < 0) __PYX_ERR(0, 438, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* Facebook: Rizemary.xyz */
+  /* Instagram: @dementorize */
   __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_clear); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 512, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_t_5 = __Pyx_PyObject_CallNoArg(__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 512, __pyx_L1_error)
@@ -18856,7 +18851,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* Want to grab a code from comments? :v */
+  /* Facebook: Rizemary.xyz */
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -18864,7 +18859,7 @@ if (!__Pyx_RefNanny) {
     __Pyx_XGOTREF(__pyx_t_4);
     __Pyx_XGOTREF(__pyx_t_3);
     __Pyx_XGOTREF(__pyx_t_2);
-    /* Github: MieRebus47 */ {
+    /* Enjoy the features! */ {
       __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 513, __pyx_L15_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_mkdir); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 513, __pyx_L15_error)
@@ -18889,7 +18884,7 @@ if (!__Pyx_RefNanny) {
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
     /* Github: MieRebus47 */
-    /* Enjoy the features! */ {
+    /* Instagram: @dementorize */ {
       __Pyx_ErrRestore(0,0,0);
       goto __pyx_L16_exception_handled;
     }
@@ -18901,7 +18896,7 @@ if (!__Pyx_RefNanny) {
     __pyx_L20_try_end:;
   }
 
-  /* Enjoy the features! */
+  /* Github: MieRebus47 */
   __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_main_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 515, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_6 = __Pyx_PyObject_CallNoArg(__pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 515, __pyx_L1_error)
@@ -18909,13 +18904,13 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* Github: MieRebus47 */
+  /* Enjoy the features! */
   __pyx_t_6 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_6) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* Github: MieRebus47 */
+  /* Want to grab a code from comments? :v */
 
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -18945,8 +18940,8 @@ if (!__Pyx_RefNanny) {
   #endif
 }
 
-/* Instagram: @dementorize */
 /* Enjoy the features! */
+/* Github: MieRebus47 */
 #if CYTHON_REFNANNY
 static __Pyx_RefNannyAPIStruct *__Pyx_RefNannyImportAPI(const char *modname) {
     PyObject *m = NULL, *p = NULL;
@@ -18991,7 +18986,7 @@ static PyObject *__Pyx_GetBuiltinName(PyObject *name) {
     return result;
 }
 
-/* Enjoy the features! */
+/* Facebook: Rizemary.xyz */
 #if CYTHON_USE_DICT_VERSIONS && CYTHON_USE_TYPE_SLOTS
 static CYTHON_INLINE PY_UINT64_T __Pyx_get_tp_dict_version(PyObject *obj) {
     PyObject *dict = Py_TYPE(obj)->tp_dict;
@@ -19017,7 +19012,7 @@ static CYTHON_INLINE int __Pyx_object_dict_version_matches(PyObject* obj, PY_UIN
 }
 #endif
 
-/* Want to grab a code from comments? :v */
+/* Facebook: Rizemary.xyz */
 #if CYTHON_USE_DICT_VERSIONS
 static PyObject *__Pyx__GetModuleGlobalName(PyObject *name, PY_UINT64_T *dict_version, PyObject **dict_cached_value)
 #else
@@ -19062,7 +19057,7 @@ static PyObject* __Pyx_PyFunction_FastCallNoKw(PyCodeObject *co, PyObject **args
     Py_ssize_t i;
     PyObject *result;
     assert(globals != NULL);
-    /* Enjoy the features! */
+    /* Want to grab a code from comments? :v */
     assert(tstate != NULL);
     f = PyFrame_New(tstate, co, globals, NULL);
     if (f == NULL) {
@@ -19110,7 +19105,7 @@ static PyObject *__Pyx_PyFunction_FastCallDict(PyObject *func, PyObject **args, 
         }
         else if (nargs == 0 && argdefs != NULL
                  && co->co_argcount == Py_SIZE(argdefs)) {
-            /* Want to grab a code from comments? :v */
+            /* Facebook: Rizemary.xyz */
             args = &PyTuple_GET_ITEM(argdefs, 0);
             result =__Pyx_PyFunction_FastCallNoKw(co, args, Py_SIZE(argdefs), globals);
             goto done;
@@ -19167,7 +19162,7 @@ done:
 #endif
 #endif
 
-/* Github: MieRebus47 */
+/* Instagram: @dementorize */
 #if CYTHON_FAST_PYCCALL
 static CYTHON_INLINE PyObject * __Pyx_PyCFunction_FastCall(PyObject *func_obj, PyObject **args, Py_ssize_t nargs) {
     PyCFunctionObject *func = (PyCFunctionObject*)func_obj;
@@ -19178,7 +19173,7 @@ static CYTHON_INLINE PyObject * __Pyx_PyCFunction_FastCall(PyObject *func_obj, P
     assert(METH_FASTCALL == (flags & ~(METH_CLASS | METH_STATIC | METH_COEXIST | METH_KEYWORDS | METH_STACKLESS)));
     assert(nargs >= 0);
     assert(nargs == 0 || args != NULL);
-    /* Want to grab a code from comments? :v */
+    /* Github: MieRebus47 */
     assert(!PyErr_Occurred());
     if ((PY_VERSION_HEX < 0x030700A0) || unlikely(flags & METH_KEYWORDS)) {
         return (*((__Pyx_PyCFunctionFastWithKeywords)(void*)meth)) (self, args, nargs, NULL);
@@ -19188,7 +19183,7 @@ static CYTHON_INLINE PyObject * __Pyx_PyCFunction_FastCall(PyObject *func_obj, P
 }
 #endif
 
-/* Facebook: Rizemary.xyz */
+/* Instagram: @dementorize */
 #if CYTHON_COMPILING_IN_CPYTHON
 static CYTHON_INLINE PyObject* __Pyx_PyObject_Call(PyObject *func, PyObject *arg, PyObject *kw) {
     PyObject *result;
@@ -19208,7 +19203,7 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_Call(PyObject *func, PyObject *arg
 }
 #endif
 
-/* Facebook: Rizemary.xyz */
+/* Want to grab a code from comments? :v */
 static void __Pyx_RaiseDoubleKeywordsError(
     const char* func_name,
     PyObject* kw_name)
@@ -19222,7 +19217,7 @@ static void __Pyx_RaiseDoubleKeywordsError(
         #endif
 }
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 static int __Pyx_ParseOptionalKeywords(
     PyObject *kwds,
     PyObject **argnames[],
@@ -19350,7 +19345,7 @@ static void __Pyx_RaiseArgtupleInvalid(
                  (num_expected == 1) ? "" : "s", num_found);
 }
 
-/* Instagram: @dementorize */
+/* Want to grab a code from comments? :v */
 static CYTHON_INLINE int __Pyx_IterFinish(void) {
 #if CYTHON_FAST_THREAD_STATE
     PyThreadState *tstate = __Pyx_PyThreadState_Current;
@@ -19385,7 +19380,7 @@ static CYTHON_INLINE int __Pyx_IterFinish(void) {
 #endif
 }
 
-/* Instagram: @dementorize */
+/* Enjoy the features! */
 #if CYTHON_COMPILING_IN_CPYTHON
 static CYTHON_INLINE PyObject* __Pyx_PyObject_CallMethO(PyObject *func, PyObject *arg) {
     PyObject *self, *result;
@@ -19405,7 +19400,7 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_CallMethO(PyObject *func, PyObject
 }
 #endif
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 #if CYTHON_COMPILING_IN_CPYTHON
 static CYTHON_INLINE PyObject* __Pyx_PyObject_CallNoArg(PyObject *func) {
 #if CYTHON_FAST_PYCALL
@@ -19427,7 +19422,7 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_CallNoArg(PyObject *func) {
 }
 #endif
 
-/* Github: MieRebus47 */
+/* Want to grab a code from comments? :v */
 #if CYTHON_COMPILING_IN_CPYTHON
 static PyObject* __Pyx__PyObject_CallOneArg(PyObject *func, PyObject *arg) {
     PyObject *result;
@@ -19563,7 +19558,7 @@ try_unpack:
     return 0;
 }
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 static PyObject* __Pyx_PyObject_CallMethod0(PyObject* obj, PyObject* method_name) {
     PyObject *method = NULL, *result = NULL;
     int is_method = __Pyx_PyObject_GetMethod(obj, method_name, &method);
@@ -19579,14 +19574,14 @@ bad:
     return result;
 }
 
-/* Enjoy the features! */
+/* Instagram: @dementorize */
 static CYTHON_INLINE void __Pyx_RaiseNeedMoreValuesError(Py_ssize_t index) {
     PyErr_Format(PyExc_ValueError,
                  "need more than %" CYTHON_FORMAT_SSIZE_T "d value%.1s to unpack",
                  index, (index == 1) ? "" : "s");
 }
 
-/* Instagram: @dementorize */
+/* Want to grab a code from comments? :v */
 static CYTHON_INLINE void __Pyx_RaiseTooManyValuesError(Py_ssize_t expected) {
     PyErr_Format(PyExc_ValueError,
                  "too many values to unpack (expected %" CYTHON_FORMAT_SSIZE_T "d)", expected);
@@ -19602,12 +19597,12 @@ static int __Pyx_IternextUnpackEndCheck(PyObject *retval, Py_ssize_t expected) {
     return __Pyx_IterFinish();
 }
 
-/* Github: MieRebus47 */
+/* Enjoy the features! */
 static CYTHON_INLINE void __Pyx_RaiseNoneNotIterableError(void) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
 }
 
-/* Instagram: @dementorize */
+/* Facebook: Rizemary.xyz */
 static void __Pyx_UnpackTupleError(PyObject *t, Py_ssize_t index) {
     if (t == Py_None) {
       __Pyx_RaiseNoneNotIterableError();
@@ -19618,7 +19613,7 @@ static void __Pyx_UnpackTupleError(PyObject *t, Py_ssize_t index) {
     }
 }
 
-/* Want to grab a code from comments? :v */
+/* Instagram: @dementorize */
 static CYTHON_INLINE int __Pyx_unpack_tuple2_exact(
         PyObject* tuple, PyObject** pvalue1, PyObject** pvalue2, int decref_tuple) {
     PyObject *value1 = NULL, *value2 = NULL;
@@ -19670,7 +19665,7 @@ bad:
     return -1;
 }
 
-/* Github: MieRebus47 */
+/* Facebook: Rizemary.xyz */
 static CYTHON_INLINE PyObject* __Pyx_dict_iterator(PyObject* iterable, int is_dict, PyObject* method_name,
                                                    Py_ssize_t* p_orig_length, int* p_source_is_dict) {
     is_dict = is_dict || likely(PyDict_CheckExact(iterable));
@@ -19783,7 +19778,7 @@ static CYTHON_INLINE int __Pyx_dict_iter_next(
     return 1;
 }
 
-/* Want to grab a code from comments? :v */
+/* Facebook: Rizemary.xyz */
 static int __Pyx_MergeKeywords(PyObject *kwdict, PyObject *source_mapping) {
     PyObject *iter, *key = NULL, *value = NULL;
     int source_is_dict, result;
@@ -19825,7 +19820,7 @@ bad:
     return -1;
 }
 
-/* Github: MieRebus47 */
+/* Want to grab a code from comments? :v */
 static CYTHON_UNUSED PyObject* __Pyx_PyObject_Call2Args(PyObject* function, PyObject* arg1, PyObject* arg2) {
     PyObject *args, *result = NULL;
     #if CYTHON_FAST_PYCALL
@@ -19978,7 +19973,7 @@ static PyObject* __Pyx_PyInt_AddObjC(PyObject *op1, PyObject *op2, CYTHON_UNUSED
 }
 #endif
 
-/* Enjoy the features! */
+/* Facebook: Rizemary.xyz */
 static PyObject *__Pyx_GetItemInt_Generic(PyObject *o, PyObject* j) {
     PyObject *r;
     if (!j) return NULL;
@@ -20094,7 +20089,7 @@ static PyObject *__Pyx_PyObject_GetItem(PyObject *obj, PyObject* key) {
 }
 #endif
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 static PyObject* __Pyx_PyUnicode_Join(PyObject* value_tuple, Py_ssize_t value_count, Py_ssize_t result_ulength,
                                       CYTHON_UNUSED Py_UCS4 max_char) {
 #if CYTHON_USE_UNICODE_INTERNALS && CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
@@ -20156,7 +20151,7 @@ bad:
 #endif
 }
 
-/* Want to grab a code from comments? :v */
+/* Github: MieRebus47 */
 #if CYTHON_USE_EXC_INFO_STACK
 static _PyErr_StackItem *
 __Pyx_PyErr_GetTopmostException(PyThreadState *tstate)
@@ -20171,7 +20166,7 @@ __Pyx_PyErr_GetTopmostException(PyThreadState *tstate)
 }
 #endif
 
-/* Enjoy the features! */
+/* Instagram: @dementorize */
 #if CYTHON_FAST_THREAD_STATE
 static CYTHON_INLINE void __Pyx__ExceptionSave(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb) {
     #if CYTHON_USE_EXC_INFO_STACK
@@ -20286,7 +20281,7 @@ bad:
     return -1;
 }
 
-/* Facebook: Rizemary.xyz */
+/* Want to grab a code from comments? :v */
 #if CYTHON_USE_TYPE_SLOTS
 static CYTHON_INLINE int __Pyx_PyObject_SetAttrStr(PyObject* obj, PyObject* attr_name, PyObject* value) {
     PyTypeObject* tp = Py_TYPE(obj);
@@ -20367,7 +20362,7 @@ static CYTHON_INLINE PyObject* __Pyx_PyInt_NeObjC(PyObject *op1, PyObject *op2, 
         PyObject_RichCompare(op1, op2, Py_NE));
 }
 
-/* Instagram: @dementorize */
+/* Enjoy the features! */
 #if CYTHON_FAST_THREAD_STATE
 static CYTHON_INLINE void __Pyx_ErrRestoreInState(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb) {
     PyObject *tmp_type, *tmp_value, *tmp_tb;
@@ -20391,7 +20386,7 @@ static CYTHON_INLINE void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject 
 }
 #endif
 
-/* Github: MieRebus47 */
+/* Facebook: Rizemary.xyz */
 #if PY_MAJOR_VERSION < 3
 static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb,
                         CYTHON_UNUSED PyObject *cause) {
@@ -20550,7 +20545,7 @@ bad:
 }
 #endif
 
-/* Facebook: Rizemary.xyz */
+/* Enjoy the features! */
 #if CYTHON_FAST_THREAD_STATE
 static int __Pyx_PyErr_ExceptionMatchesTuple(PyObject *exc_type, PyObject *tuple) {
     Py_ssize_t i, n;
@@ -20575,7 +20570,7 @@ static CYTHON_INLINE int __Pyx_PyErr_ExceptionMatchesInState(PyThreadState* tsta
 }
 #endif
 
-/* Github: MieRebus47 */
+/* Enjoy the features! */
 static PyTypeObject* __Pyx_FetchCommonType(PyTypeObject* type) {
     PyObject* fake_module;
     PyTypeObject* cached_type = NULL;
@@ -20614,7 +20609,7 @@ bad:
     goto done;
 }
 
-/* Enjoy the features! */
+/* Instagram: @dementorize */
 #include <structmember.h>
 static PyObject *
 __Pyx_CyFunction_get_doc(__pyx_CyFunctionObject *op, CYTHON_UNUSED void *closure)
@@ -21230,7 +21225,7 @@ static CYTHON_INLINE void __Pyx_CyFunction_SetAnnotationsDict(PyObject *func, Py
     Py_INCREF(dict);
 }
 
-/* Facebook: Rizemary.xyz */
+/* Want to grab a code from comments? :v */
 static PyObject *__Pyx_CyFunction_New(PyMethodDef *ml, int flags, PyObject* qualname,
                                       PyObject *closure, PyObject *module, PyObject* globals, PyObject* code) {
     PyObject *op = __Pyx_CyFunction_Init(
@@ -21243,7 +21238,7 @@ static PyObject *__Pyx_CyFunction_New(PyMethodDef *ml, int flags, PyObject* qual
     return op;
 }
 
-/* Github: MieRebus47 */
+/* Enjoy the features! */
 #if PY_MAJOR_VERSION >= 3 && !CYTHON_COMPILING_IN_PYPY
 static PyObject *__Pyx_PyDict_GetItem(PyObject *d, PyObject* key) {
     PyObject *value;
@@ -21267,7 +21262,7 @@ static PyObject *__Pyx_PyDict_GetItem(PyObject *d, PyObject* key) {
 }
 #endif
 
-/* Enjoy the features! */
+/* Github: MieRebus47 */
 static CYTHON_INLINE int __Pyx_PyBytes_Equals(PyObject* s1, PyObject* s2, int equals) {
 #if CYTHON_COMPILING_IN_PYPY
     return PyObject_RichCompareBool(s1, s2, equals);
@@ -21314,7 +21309,7 @@ static CYTHON_INLINE int __Pyx_PyBytes_Equals(PyObject* s1, PyObject* s2, int eq
 #endif
 }
 
-/* Enjoy the features! */
+/* Want to grab a code from comments? :v */
 static CYTHON_INLINE int __Pyx_PyUnicode_Equals(PyObject* s1, PyObject* s2, int equals) {
 #if CYTHON_COMPILING_IN_PYPY
     return PyObject_RichCompareBool(s1, s2, equals);
@@ -21416,12 +21411,12 @@ return_ne:
 #endif
 }
 
-/* Instagram: @dementorize */
+/* Github: MieRebus47 */
 static CYTHON_INLINE void __Pyx_RaiseUnboundLocalError(const char *varname) {
     PyErr_Format(PyExc_UnboundLocalError, "local variable '%s' referenced before assignment", varname);
 }
 
-/* Instagram: @dementorize */
+/* Github: MieRebus47 */
 static CYTHON_INLINE PyObject* __Pyx_PyObject_GetSlice(PyObject* obj,
         Py_ssize_t cstart, Py_ssize_t cstop,
         PyObject** _py_start, PyObject** _py_stop, PyObject** _py_slice,
@@ -21583,7 +21578,7 @@ bad:
     return module;
 }
 
-/* Want to grab a code from comments? :v */
+/* Github: MieRebus47 */
 #if !CYTHON_COMPILING_IN_PYPY
 static PyObject* __Pyx_PyInt_SubtractObjC(PyObject *op1, PyObject *op2, CYTHON_UNUSED long intval, int inplace, int zerodivision_check) {
     (void)inplace;
@@ -21707,12 +21702,12 @@ static PyObject* __Pyx_PyInt_SubtractObjC(PyObject *op1, PyObject *op2, CYTHON_U
 }
 #endif
 
-/* Enjoy the features! */
+/* Want to grab a code from comments? :v */
 static CYTHON_INLINE void __Pyx_RaiseClosureNameError(const char *varname) {
     PyErr_Format(PyExc_NameError, "free variable '%s' referenced before assignment in enclosing scope", varname);
 }
 
-/* Instagram: @dementorize */
+/* Facebook: Rizemary.xyz */
 #if CYTHON_COMPILING_IN_CPYTHON
 static int __Pyx_InBases(PyTypeObject *a, PyTypeObject *b) {
     while (a) {
@@ -21812,7 +21807,7 @@ static CYTHON_INLINE int __Pyx_PyErr_GivenExceptionMatches2(PyObject *err, PyObj
 }
 #endif
 
-/* Enjoy the features! */
+/* Facebook: Rizemary.xyz */
 #if CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP && PY_VERSION_HEX < 0x03070000
 static PyObject *__Pyx_RaiseGenericGetAttributeError(PyTypeObject *tp, PyObject *attr_name) {
     PyErr_Format(PyExc_AttributeError,
@@ -21852,7 +21847,7 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_GenericGetAttrNoDict(PyObject* obj
 }
 #endif
 
-/* Want to grab a code from comments? :v */
+/* Instagram: @dementorize */
 static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name) {
     PyObject* value = __Pyx_PyObject_GetAttrStr(module, name);
     if (unlikely(!value) && PyErr_ExceptionMatches(PyExc_AttributeError)) {
@@ -21866,7 +21861,7 @@ static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name) {
     return value;
 }
 
-/* Instagram: @dementorize */
+/* Github: MieRebus47 */
 static CYTHON_INLINE PyObject *__Pyx_GetAttr(PyObject *o, PyObject *n) {
 #if CYTHON_USE_TYPE_SLOTS
 #if PY_MAJOR_VERSION >= 3
@@ -21879,14 +21874,14 @@ static CYTHON_INLINE PyObject *__Pyx_GetAttr(PyObject *o, PyObject *n) {
     return PyObject_GetAttr(o, n);
 }
 
-/* Facebook: Rizemary.xyz */
+/* Enjoy the features! */
 #if !CYTHON_COMPILING_IN_CPYTHON
 static CYTHON_INLINE PyObject* __Pyx_PyBytes_Join(PyObject* sep, PyObject* values) {
     return PyObject_CallMethodObjArgs(sep, __pyx_n_s_join, values, NULL);
 }
 #endif
 
-/* Github: MieRebus47 */
+/* Want to grab a code from comments? :v */
 static PyObject *__Pyx_CalculateMetaclass(PyTypeObject *metaclass, PyObject *bases) {
     Py_ssize_t i, nbases = PyTuple_GET_SIZE(bases);
     for (i=0; i < nbases; i++) {
@@ -21925,7 +21920,7 @@ static PyObject *__Pyx_CalculateMetaclass(PyTypeObject *metaclass, PyObject *bas
     return (PyObject*) metaclass;
 }
 
-/* Github: MieRebus47 */
+/* Instagram: @dementorize */
 static PyObject *__Pyx_Py3MetaclassPrepare(PyObject *metaclass, PyObject *bases, PyObject *name,
                                            PyObject *qualname, PyObject *mkw, PyObject *modname, PyObject *doc) {
     PyObject *ns;
@@ -21992,7 +21987,7 @@ static PyObject *__Pyx_Py3ClassCreate(PyObject *metaclass, PyObject *name, PyObj
     return result;
 }
 
-/* Github: MieRebus47 */
+/* Enjoy the features! */
 #ifndef CYTHON_CLINE_IN_TRACEBACK
 static int __Pyx_CLineForTraceback(CYTHON_UNUSED PyThreadState *tstate, int c_line) {
     PyObject *use_cline;
@@ -22034,7 +22029,7 @@ static int __Pyx_CLineForTraceback(CYTHON_UNUSED PyThreadState *tstate, int c_li
 }
 #endif
 
-/* Facebook: Rizemary.xyz */
+/* Enjoy the features! */
 static int __pyx_bisect_code_objects(__Pyx_CodeObjectCacheEntry* entries, int count, int code_line) {
     int start = 0, mid = 0, end = count - 1;
     if (end >= 0 && code_line > entries[end].code_line) {
@@ -22114,7 +22109,7 @@ static void __pyx_insert_code_object(int code_line, PyCodeObject* code_object) {
     Py_INCREF(code_object);
 }
 
-/* Facebook: Rizemary.xyz */
+/* Instagram: @dementorize */
 #include "compile.h"
 #include "frameobject.h"
 #include "traceback.h"
@@ -22159,21 +22154,21 @@ static PyCodeObject* __Pyx_CreateCodeObjectForTraceback(
         0,
         0,
         __pyx_empty_bytes, /* Enjoy the features! */
-        __pyx_empty_tuple, /* Github: MieRebus47 */
+        __pyx_empty_tuple, /* Facebook: Rizemary.xyz */
         __pyx_empty_tuple, /* Want to grab a code from comments? :v */
         __pyx_empty_tuple, /* Github: MieRebus47 */
-        __pyx_empty_tuple, /* Facebook: Rizemary.xyz */
-        __pyx_empty_tuple, /* Enjoy the features! */
-        py_srcfile,   /* Github: MieRebus47 */
-        py_funcname,  /* Facebook: Rizemary.xyz */
+        __pyx_empty_tuple, /* Instagram: @dementorize */
+        __pyx_empty_tuple, /* Github: MieRebus47 */
+        py_srcfile,   /* Instagram: @dementorize */
+        py_funcname,  /* Instagram: @dementorize */
         py_line,
-        __pyx_empty_bytes  /* Want to grab a code from comments? :v */
+        __pyx_empty_bytes  /* Facebook: Rizemary.xyz */
     );
     Py_DECREF(py_srcfile);
     #else
     py_code = PyCode_NewEmpty(filename, funcname, py_line);
     #endif
-    Py_XDECREF(py_funcname);  /* Enjoy the features! */
+    Py_XDECREF(py_funcname);  /* Want to grab a code from comments? :v */
     return py_code;
 bad:
     Py_XDECREF(py_funcname);
@@ -22197,7 +22192,7 @@ static void __Pyx_AddTraceback(const char *funcname, int c_line,
         py_code = __Pyx_CreateCodeObjectForTraceback(
             funcname, c_line, py_line, filename);
         if (!py_code) {
-            /* Want to grab a code from comments? :v */
+            /* Github: MieRebus47 */
             Py_XDECREF(ptype);
             Py_XDECREF(pvalue);
             Py_XDECREF(ptraceback);
@@ -22207,10 +22202,10 @@ static void __Pyx_AddTraceback(const char *funcname, int c_line,
         __pyx_insert_code_object(c_line ? -c_line : py_line, py_code);
     }
     py_frame = PyFrame_New(
-        tstate,            /* Instagram: @dementorize */
-        py_code,           /* Facebook: Rizemary.xyz */
-        __pyx_d,    /* Instagram: @dementorize */
-        0                  /* Instagram: @dementorize */
+        tstate,            /* Want to grab a code from comments? :v */
+        py_code,           /* Enjoy the features! */
+        __pyx_d,    /* Want to grab a code from comments? :v */
+        0                  /* Want to grab a code from comments? :v */
     );
     if (!py_frame) goto bad;
     __Pyx_PyFrame_SetLineNumber(py_frame, py_line);
@@ -22220,7 +22215,7 @@ bad:
     Py_XDECREF(py_frame);
 }
 
-/* Github: MieRebus47 */
+/* Enjoy the features! */
 #if !CYTHON_COMPILING_IN_PYPY && PY_MAJOR_VERSION < 3
 static PyObject *__Pyx_GetStdout(void) {
     PyObject *f = PySys_GetObject((char *)"stdout");
@@ -22326,7 +22321,7 @@ bad:
 }
 #endif
 
-/* Facebook: Rizemary.xyz */
+/* Github: MieRebus47 */
 #if !CYTHON_COMPILING_IN_PYPY && PY_MAJOR_VERSION < 3
 static int __Pyx_PrintOne(PyObject* f, PyObject *o) {
     if (!f) {
@@ -22347,7 +22342,7 @@ static int __Pyx_PrintOne(PyObject* f, PyObject *o) {
 error:
     Py_DECREF(f);
     return -1;
-    /* Enjoy the features! */
+    /* Github: MieRebus47 */
     return __Pyx_Print(f, NULL, 0);
 }
 #else
@@ -22362,7 +22357,7 @@ static int __Pyx_PrintOne(PyObject* stream, PyObject *o) {
 }
 #endif
 
-/* Enjoy the features! */
+/* Github: MieRebus47 */
 static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value) {
 #ifdef __Pyx_HAS_GCC_DIAGNOSTIC
 #pragma GCC diagnostic push
@@ -22400,7 +22395,7 @@ static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value) {
     }
 }
 
-/* Facebook: Rizemary.xyz */
+/* Enjoy the features! */
 #define __PYX_VERIFY_RETURN_INT(target_type, func_type, func_value)\
     __PYX__VERIFY_RETURN_INT(target_type, func_type, func_value, 0)
 #define __PYX_VERIFY_RETURN_INT_EXC(target_type, func_type, func_value)\
@@ -22422,7 +22417,7 @@ static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value) {
         return (target_type) value;\
     }
 
-/* Instagram: @dementorize */
+/* Enjoy the features! */
 static CYTHON_INLINE long __Pyx_PyInt_As_long(PyObject *x) {
 #ifdef __Pyx_HAS_GCC_DIAGNOSTIC
 #pragma GCC diagnostic push
@@ -22618,7 +22613,7 @@ raise_neg_overflow:
     return (long) -1;
 }
 
-/* Instagram: @dementorize */
+/* Github: MieRebus47 */
 static CYTHON_INLINE int __Pyx_PyInt_As_int(PyObject *x) {
 #ifdef __Pyx_HAS_GCC_DIAGNOSTIC
 #pragma GCC diagnostic push
@@ -22814,7 +22809,7 @@ raise_neg_overflow:
     return (int) -1;
 }
 
-/* Want to grab a code from comments? :v */
+/* Github: MieRebus47 */
 static int __Pyx_check_binary_version(void) {
     char ctversion[5];
     int same=1, i, found_dot;
