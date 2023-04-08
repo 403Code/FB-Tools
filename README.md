@@ -1,37 +1,37 @@
 <h1 align="center">
-  Facebook Tools V1.0
+  Facebook Tools V1.1
 </h1>
 <h4 align="center">
   Simple Facebook Tools
 </h4>
 <div align="center">
-  <a href="https://github.com/IzZy619">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/IzZy619/FB-Tools.svg"/>
+  <a href="https://github.com/MieRebus47">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/MieRebus47/FB-Tools.svg"/>
   </a>
-  <a href="https://github.com/IzZy619">
-    <img alt="Language" src="https://img.shields.io/github/languages/count/IzZy619/FB-Tools.svg"/>
+  <a href="https://github.com/MieRebus47">
+    <img alt="Language" src="https://img.shields.io/github/languages/count/MieRebus47/FB-Tools.svg"/>
   </a>
-  <a href="https://github.com/IzZy619">
-    <img alt="Top Language" src="https://img.shields.io/github/languages/top/IzZy619/FB-Tools.svg"/>
+  <a href="https://github.com/MieRebus47">
+    <img alt="Top Language" src="https://img.shields.io/github/languages/top/MieRebus47/FB-Tools.svg"/>
   </a>
-  <a href="https://github.com/IzZy619">
-    <img alt="Repo Size" src="https://img.shields.io/github/repo-size/IzZy619/FB-Tools.svg"/>
+  <a href="https://github.com/MieRebus47">
+    <img alt="Repo Size" src="https://img.shields.io/github/repo-size/MieRebus47/FB-Tools.svg"/>
   </a>
-  <a href="https://github.com/IzZy619">
-    <img alt="Stars" src="https://img.shields.io/github/stars/IzZy619/FB-Tools.svg"/>
+  <a href="https://github.com/MieRebus47">
+    <img alt="Stars" src="https://img.shields.io/github/stars/MieRebus47/FB-Tools.svg"/>
   </a>
-  <a href="https://github.com/IzZy619">
-    <img alt="Forks" src="https://img.shields.io/github/forks/IzZy619/FB-Tools.svg"/>
+  <a href="https://github.com/MieRebus47">
+    <img alt="Forks" src="https://img.shields.io/github/forks/MieRebus47/FB-Tools.svg"/>
   </a>
-  <a href="https://github.com/IzZy619">
-    <img alt="Python 3.10" src="https://img.shields.io/badge/Python-3.10-success.svg"/>
+  <a href="https://github.com/MieRebus47">
+    <img alt="Python 3.10" src="https://img.shields.io/badge/Python-3.11-success.svg"/>
   </a>
 </div>
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/IzZy619">Nanta</a>
+  Made with ❤️ by <a href="https://github.com/MieRebus47">Nanta</a>
 </p>
 <p align="center">
- <img src="https://raw.githubusercontent.com/IzZy619/IzZy619/main/Screenshot_2022-08-04-20-50-53-75.jpg" width="640" title="Menu" alt="Menu">
+ <img src="https://raw.githubusercontent.com/MieRebus47/MieRebus47/main/Screenshot_2022-08-04-20-50-53-75.jpg" width="640" title="Menu" alt="Menu">
 </p>
 
 ## Features
@@ -41,21 +41,28 @@
 * Profile Picture Guard
 * Mass Post Remover
 * Mass Unblock People
+* Bot Share (NEW)
+* FB Video Downloader (NEW)
 
 ## Version
 ### v1.0 :
 #### Changelog :
 * Add Tools
-* [5 Aug 2022] - Fix module name error
-* [6 Aug 2022] - Fix countdown
-* [17 Aug 2022] - Add Logout (clear session) & Bot Share
+* Fix module name error, fix countdown
+* Add Logout (clear session) & Bot Share
+
+### v1.1:
+#### Changelog :
+* Remove api key
+* Add Bot Share & FB Video Downloader
+* Fix some features
 
 ## Install script on Termux
 ```
 pkg update && pkg upgrade
 pkg install python git
 cd $HOME
-git clone https://github.com/IzZy619/FB-Tools
+git clone https://github.com/MieRebus47/FB-Tools
 cd $HOME/FB-Tools
 python -m pip install -r modules.txt
 python setup.py
@@ -75,8 +82,7 @@ python setup.py
 ```
 
 ## Contact
-1. Facebook [here](https://www.facebook.com/mynameisnanta).
-2. Telegram [here](https://t.me/folhe1tz666).
+- Facebook [here](https://www.facebook.com/your.nanta).
 
 ## Donation
 1. [Trakteer](https://trakteer.id/d.izzy)
