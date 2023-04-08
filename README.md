@@ -41,8 +41,8 @@
 * Profile Picture Guard
 * Mass Post Remover
 * Mass Unblock People
-* Bot Share (NEW)
-* FB Video Downloader (NEW)
+* Bot Share<div><img src="https://raw.githubusercontent.com/MieRebus47/MieRebus47/main/picture/new.gif" alt="new"/></div>
+* FB Video Downloader<div><img src="https://raw.githubusercontent.com/MieRebus47/MieRebus47/main/picture/new.gif" alt="new"/></div>
 
 ## Version
 ### v1.0 :
